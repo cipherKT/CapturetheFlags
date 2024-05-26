@@ -23,7 +23,8 @@ Now we can run it through the strings command this was the last option because g
 strings garden.jpg | grep pico
 ```
 This command will look for specific strings containing pico in it
-# Boom !!!final command got us the flag
+# Boom !!!
+final command got us the flag
 ```
 picoCTF{more_than_m33ts_the_3y3eBdBd2cc}
 ```
