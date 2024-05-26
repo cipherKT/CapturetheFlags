@@ -12,6 +12,7 @@ Since this is actually a jpg now there are two possibilities
 
 lets go with the option 1:
     try runnig it throug the exiv2 tool it check for any commnets if any 
+
     ```
     exiv2 pr garden.jpg
 
@@ -20,6 +21,8 @@ lets go with the option 1:
     It says no exif data 
 
     try runnig exiftool:
+
+
     ```
     exiftool garden.jpg
 
