@@ -15,14 +15,7 @@ nc mercury.picoctf.net 11371
 ```
 Do the same thing buy negative items and get the coins to buy the flag after running this file we get an array of numbers it seems this are ascii values convert them into text 
 ```
-python
-li = [112, 105, 99 ,111, 67, 84, 70, 123, 98, 52, 100, 95, 98, 114, 111, 103, 114, 97 ,109 ,109, 101, 114, 95 ,98 ,56 ,100 ,55 ,50, 55, 49, 102, 125]
-ans = []
-for i in li:
-        ans.append(chr(i))
-str=''.join(ans)
-str
-exit()
+python solve.py
 ```
 this will return the flag 
 
