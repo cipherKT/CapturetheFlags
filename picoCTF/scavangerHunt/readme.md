@@ -8,7 +8,7 @@ First part of the flag is given in html file(it is commented )
 Second part is in css file(it is commented)
 ![image_2](../Images/scavangerHunt_2.png)
 
-After inspecting the js file there is a comment 
+After inspecting the js file there is a comment <br>
 ![image_3](../Images/scavangerHunt_3.png)
 
 So it says that *How can I keep Google from indexing my website?* from this it can be deduced that there is something in robots.txt file 
