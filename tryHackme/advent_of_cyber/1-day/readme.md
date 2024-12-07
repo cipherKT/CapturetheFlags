@@ -5,16 +5,10 @@ Here you will get two files *song.mp3* and *somg.mp3*. Here things become suspic
 Here you will get to know that *somg.mp3* is not a song but a powershell script which looks for *crypto wallets* in system and then look for stored credentials of *chrome* and *firefox* and then sends that to *c2* server in order to gain confidential informations.<br>
 Now using this information try to answer the questions of room 
 
-1. author of song?
+1. author of song?<br>
 ans -
 - run exiftool on song.mp3 and you will get the answer 
 ```bash
 Tyler Ramsbey
 ```
 
-```
-```
-```
-````
-```
-```
