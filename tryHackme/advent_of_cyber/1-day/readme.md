@@ -6,9 +6,21 @@ Here you will get to know that *somg.mp3* is not a song but a powershell script 
 Now using this information try to answer the questions of room 
 
 1. author of song?<br>
-ans -
 - run exiftool on song.mp3 and you will get the answer 
 ```bash
 Tyler Ramsbey
+```
+2. The malicious PowerShell script sends stolen info to a C2 server. What is the URL of this C2 server? <br>
+- After running exiftool of somg.mp3 you get powershell script which is available on github you can check it and you will get the url of file in raw form and you can check the C2 servers url on it. <br> 
+
+3. Who is M.M? Maybe his Github profile page would provide clues? <br>
+- After finding the profile of Mayor Malware you can find the name on profile of the user 
+```bash
+Mayor Malware
+```
+4. What is the number of commits on the GitHub repo where the issue was raised?<br>
+- This can be easily verified by just looking at repo's home page and answer is: <br>
+```
+1
 ```
 
