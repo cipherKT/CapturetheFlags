@@ -1,0 +1,43 @@
+Clue in phishing attachment 
+THM{GlitchTestingForSpearphishing}
+
+
+command to execute
+Invoke-AtomicTest T1059.003 -ShowDetails
+
+
+Technique: Command and Scripting Interpreter: Windows Command Shell T1059.003
+Atomic Test Name: Simulate BlackByte Ransomware Print Bombing
+Atomic Test Number: 4
+Atomic Test GUID: 6b2903ac-8f36-450d-9ad5-b220e8a2dcb9
+Description: This test attempts to open a file a specified number of times in Wordpad, then prints the contents.  It is designed to mimic BlackByte ransomware's print bombing technique, where tree.dll, which contains the ransom note, is opened in Wordpad 75 ti
+mes and then printed.  See https://redcanary.com/blog/blackbyte-ransomware/.
+
+Attack Commands:
+Executor: powershell
+ElevationRequired: False
+Command:
+cmd /c "for /l %x in (1,1,#{max_to_print}) do start wordpad.exe /p #{file_to_print}" | Out-null
+Command (with inputs):
+cmd /c "for /l %x in (1,1,1) do start wordpad.exe /p C:\Tools\AtomicRedTeam\atomics\T1059.003\src\Wareville_Ransomware.txt" | Out-null
+
+Cleanup Commands:
+Command:
+stop-process -name wordpad -force -erroraction silentlycontinue
+
+Dependencies:
+Description: File to print must exist on disk at specified location (C:\Tools\AtomicRedTeam\atomics\T1059.003\src\Wareville_Ransomware.txt)
+Check Prereq Command:
+if (test-path "#{file_to_print}"){exit 0} else {exit 1}
+Check Prereq Command (with inputs):
+if (test-path "C:\Tools\AtomicRedTeam\atomics\T1059.003\src\Wareville_Ransomware.txt"){exit 0} else {exit 1}
+Get Prereq Command:
+new-item #{file_to_print} -value "This file has been created by T1059.003 Test 4" -Force | Out-Null
+Get Prereq Command (with inputs):
+new-item C:\Tools\AtomicRedTeam\atomics\T1059.003\src\Wareville_Ransomware.txt -value "This file has been created by T1059.003 Test 4" -Force | Out-Null
+
+this is the required information
+
+
+flag in simulation
+THM{R2xpdGNoIGlzIG5vdCB0aGUgZW5lbXk=}
