@@ -7,7 +7,12 @@ This was pretty easy task as it was fully guided room read the instruction caref
 connect to vpn and add the hosts in `/etc/hosts` and then browse the websites you can download the script and then run it and after adding the vpn-IP to burp proxy you will be able to get the requests and then it is cake walk form there. 
 ## here are the commands to get the scripts 
 
-
+```curl 
+curl -O https://github.com/cipherKT/CapturetheFlags/blob/main/tryHackme/advent_of_cyber/14-day/route-elf-traffic.sh
+```
+```bash
+chmod +x route-elf-traffic.sh
+```
 1. What is the name of the CA that has signed the Gift Scheduler certificate?
 ```bash
 THM
