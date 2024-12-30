@@ -1,0 +1,19 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2024-12-30 16:34 IST
+Nmap scan report for 10.10.24.10
+Host is up (0.17s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE         SERVICE
+22/tcp open|filtered ssh
+| ssh-hostkey: 
+|   2048 62:a7:03:13:39:08:5a:07:80:1a:e5:27:ee:9b:22:5d (RSA)
+|   256 89:d0:40:92:15:09:39:70:17:6e:c5:de:5b:59:ee:cb (ECDSA)
+|_  256 56:7c:d0:c4:95:2b:77:dd:53:d6:e6:73:99:24:f6:86 (ED25519)
+25/tcp open|filtered smtp
+|_smtp-commands: polosmtp.home, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=polosmtp
+| Subject Alternative Name: DNS:polosmtp
+| Not valid before: 2020-04-22T18:38:06
+|_Not valid after:  2030-04-20T18:38:06
+
+Nmap done: 1 IP address (1 host up) scanned in 30.13 seconds
