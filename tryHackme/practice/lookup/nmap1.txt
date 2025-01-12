@@ -1,0 +1,44 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-01-09 10:01 IST
+NSE: Loaded 157 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 10:01
+Completed NSE at 10:01, 0.00s elapsed
+Initiating NSE at 10:01
+Completed NSE at 10:01, 0.00s elapsed
+Initiating NSE at 10:01
+Completed NSE at 10:01, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 10:01
+Completed Parallel DNS resolution of 1 host. at 10:01, 0.00s elapsed
+Initiating Connect Scan at 10:01
+Scanning 10.10.245.34 [1000 ports]
+Connect Scan Timing: About 15.50% done; ETC: 10:05 (0:02:49 remaining)
+Connect Scan Timing: About 30.10% done; ETC: 10:05 (0:02:22 remaining)
+Connect Scan Timing: About 45.10% done; ETC: 10:05 (0:01:51 remaining)
+Stats: 0:01:32 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 45.50% done; ETC: 10:05 (0:01:50 remaining)
+Connect Scan Timing: About 61.00% done; ETC: 10:05 (0:01:18 remaining)
+Connect Scan Timing: About 76.00% done; ETC: 10:05 (0:00:48 remaining)
+Completed Connect Scan at 10:05, 201.32s elapsed (1000 total ports)
+Initiating Service scan at 10:05
+NSE: Script scanning 10.10.245.34.
+Initiating NSE at 10:05
+Completed NSE at 10:05, 5.01s elapsed
+Initiating NSE at 10:05
+Completed NSE at 10:05, 0.00s elapsed
+Initiating NSE at 10:05
+Completed NSE at 10:05, 0.00s elapsed
+Nmap scan report for 10.10.245.34
+Host is up.
+All 1000 scanned ports on 10.10.245.34 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+NSE: Script Post-scanning.
+Initiating NSE at 10:05
+Completed NSE at 10:05, 0.00s elapsed
+Initiating NSE at 10:05
+Completed NSE at 10:05, 0.00s elapsed
+Initiating NSE at 10:05
+Completed NSE at 10:05, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 206.51 seconds
