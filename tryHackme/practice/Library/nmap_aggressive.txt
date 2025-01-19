@@ -1,0 +1,70 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-01-19 12:05 IST
+NSE: Loaded 157 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 12:05
+Completed NSE at 12:05, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 12:05
+Completed NSE at 12:05, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 12:05
+Completed NSE at 12:05, 0.00s elapsed
+Initiating Ping Scan at 12:05
+Scanning 10.10.121.186 [2 ports]
+Completed Ping Scan at 12:05, 0.15s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 12:05
+Completed Parallel DNS resolution of 1 host. at 12:05, 0.00s elapsed
+Initiating Connect Scan at 12:05
+Scanning 10.10.121.186 (10.10.121.186) [2 ports]
+Discovered open port 22/tcp on 10.10.121.186
+Discovered open port 80/tcp on 10.10.121.186
+Completed Connect Scan at 12:05, 0.20s elapsed (2 total ports)
+Initiating Service scan at 12:05
+Scanning 2 services on 10.10.121.186 (10.10.121.186)
+Completed Service scan at 12:05, 6.41s elapsed (2 services on 1 host)
+NSE: Script scanning 10.10.121.186.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 12:05
+Completed NSE at 12:05, 5.62s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 12:05
+Completed NSE at 12:05, 0.82s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 12:05
+Completed NSE at 12:05, 0.00s elapsed
+Nmap scan report for 10.10.121.186 (10.10.121.186)
+Host is up, received conn-refused (0.16s latency).
+Scanned at 2025-01-19 12:05:38 IST for 13s
+
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 c4:2f:c3:47:67:06:32:04:ef:92:91:8e:05:87:d5:dc (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/X/Zd2/Rc7PrxR+K9bGX9i7Imk3JlU274UsMqM6X03THehc6XUvg0URMryl9IldYLjQvD0fadIg1jB8rCxqzRiJi35nw7ICUXnpZryDS/guLb94Sb9IrLWBTNNdUWV7bTb4gMaGHdyQAmKY62FgL2aKUFMn8SpxJu0WiVIQgcKkv15s17rNqVD39kG8x/bfdftcjn/YtEP09Sy4z1FqXF9FT1xWKaVr3Pd5rCAU4rpOzVpS+qTj77NWaXNDlcg3aCRaILD+4lquq8kVAA+VcXR9IwXOTKJRzRCMfYwd3M6QC45LlRa17xvhI++vBtCcGwxuD9JZsXu0Cd/5fdisrl
+|   256 68:92:13:ec:94:79:dc:bb:77:02:da:99:bf:b6:9d:b0 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI8Oi4FyiWylek0a1n1TD1/TBOi2uXVPfqoSo1C56D1rJlv4g2g6SDJjW29bhodoVO6W8VdWNQGiyJ5QW2XirHI=
+|   256 43:e8:24:fc:d8:b8:d3:aa:c2:48:08:97:51:dc:5b:7d (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOPQQrT4KT/PF+8i33LGgs0c83MQL1m863niSGsBDfCN
+80/tcp open  http    syn-ack Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: Welcome to  Blog - Library Machine
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+| http-robots.txt: 1 disallowed entry 
+|_/
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 12:05
+Completed NSE at 12:05, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 12:05
+Completed NSE at 12:05, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 12:05
+Completed NSE at 12:05, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 13.38 seconds
