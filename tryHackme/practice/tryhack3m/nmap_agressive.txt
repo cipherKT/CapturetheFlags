@@ -1,0 +1,38 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-02-03 19:42 IST
+Nmap scan report for 10.10.65.135 (10.10.65.135)
+Host is up (0.16s latency).
+
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 7c:2b:04:e7:23:6a:6d:24:f4:84:f7:98:3f:40:16:2c (RSA)
+|   256 f4:21:0b:d3:1d:f6:8d:26:5b:f0:98:0b:95:69:33:5c (ECDSA)
+|_  256 07:f8:1a:25:7b:0d:34:d1:c5:01:31:c6:9c:e8:dc:12 (ED25519)
+80/tcp   open  http     Python http.server 3.5 - 3.10
+|_http-server-header: WebSockify Python/3.8.10
+443/tcp  open  ssl/http Apache httpd
+|_http-server-header: Apache
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| ssl-cert: Subject: organizationName=Internet Widgits Pty Ltd/stateOrProvinceName=Some-State/countryName=US
+| Not valid before: 2024-04-02T11:59:14
+|_Not valid after:  2025-04-02T11:59:14
+3306/tcp open  mysql    MySQL (unauthorized)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 4.X
+OS CPE: cpe:/o:linux:linux_kernel:4.15
+OS details: Linux 4.15
+Network Distance: 5 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 3306/tcp)
+HOP RTT       ADDRESS
+1   25.03 ms  10.17.0.1 (10.17.0.1)
+2   ... 4
+5   171.81 ms 10.10.65.135 (10.10.65.135)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 31.51 seconds

