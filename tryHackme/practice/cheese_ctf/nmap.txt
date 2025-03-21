@@ -1,0 +1,2408 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-02 11:04 IST
+NSE: Loaded 47 scripts for scanning.
+Initiating Ping Scan at 11:04
+Scanning 10.10.229.54 [4 ports]
+Completed Ping Scan at 11:04, 0.71s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 11:04
+Completed Parallel DNS resolution of 1 host. at 11:04, 0.01s elapsed
+Initiating SYN Stealth Scan at 11:04
+Scanning 10.10.229.54 (10.10.229.54) [1000 ports]
+Discovered open port 25/tcp on 10.10.229.54
+Discovered open port 113/tcp on 10.10.229.54
+Discovered open port 995/tcp on 10.10.229.54
+Discovered open port 53/tcp on 10.10.229.54
+Discovered open port 8888/tcp on 10.10.229.54
+Discovered open port 443/tcp on 10.10.229.54
+Discovered open port 256/tcp on 10.10.229.54
+Discovered open port 80/tcp on 10.10.229.54
+Discovered open port 587/tcp on 10.10.229.54
+Discovered open port 139/tcp on 10.10.229.54
+Discovered open port 22/tcp on 10.10.229.54
+Discovered open port 143/tcp on 10.10.229.54
+Discovered open port 8080/tcp on 10.10.229.54
+Discovered open port 445/tcp on 10.10.229.54
+Discovered open port 993/tcp on 10.10.229.54
+Discovered open port 10629/tcp on 10.10.229.54
+Discovered open port 720/tcp on 10.10.229.54
+Discovered open port 465/tcp on 10.10.229.54
+Discovered open port 1718/tcp on 10.10.229.54
+Discovered open port 1030/tcp on 10.10.229.54
+Discovered open port 6692/tcp on 10.10.229.54
+Discovered open port 1720/tcp on 10.10.229.54
+Discovered open port 9290/tcp on 10.10.229.54
+Discovered open port 222/tcp on 10.10.229.54
+Discovered open port 3324/tcp on 10.10.229.54
+Discovered open port 21/tcp on 10.10.229.54
+Discovered open port 9010/tcp on 10.10.229.54
+Discovered open port 1025/tcp on 10.10.229.54
+Discovered open port 3306/tcp on 10.10.229.54
+Discovered open port 8192/tcp on 10.10.229.54
+Discovered open port 554/tcp on 10.10.229.54
+Discovered open port 1087/tcp on 10.10.229.54
+Discovered open port 6567/tcp on 10.10.229.54
+Discovered open port 211/tcp on 10.10.229.54
+Discovered open port 3301/tcp on 10.10.229.54
+Discovered open port 10628/tcp on 10.10.229.54
+Discovered open port 55056/tcp on 10.10.229.54
+Discovered open port 3971/tcp on 10.10.229.54
+Discovered open port 7921/tcp on 10.10.229.54
+Discovered open port 1175/tcp on 10.10.229.54
+Discovered open port 32782/tcp on 10.10.229.54
+Discovered open port 50800/tcp on 10.10.229.54
+Discovered open port 6025/tcp on 10.10.229.54
+Discovered open port 44443/tcp on 10.10.229.54
+Discovered open port 32783/tcp on 10.10.229.54
+Discovered open port 306/tcp on 10.10.229.54
+Discovered open port 1010/tcp on 10.10.229.54
+Discovered open port 56737/tcp on 10.10.229.54
+Discovered open port 21571/tcp on 10.10.229.54
+Discovered open port 6123/tcp on 10.10.229.54
+Discovered open port 8300/tcp on 10.10.229.54
+Discovered open port 1097/tcp on 10.10.229.54
+Discovered open port 49165/tcp on 10.10.229.54
+Discovered open port 6101/tcp on 10.10.229.54
+Discovered open port 1086/tcp on 10.10.229.54
+Discovered open port 3546/tcp on 10.10.229.54
+Discovered open port 8254/tcp on 10.10.229.54
+Discovered open port 5902/tcp on 10.10.229.54
+Discovered open port 1112/tcp on 10.10.229.54
+Discovered open port 1666/tcp on 10.10.229.54
+Discovered open port 1583/tcp on 10.10.229.54
+Discovered open port 1122/tcp on 10.10.229.54
+Discovered open port 801/tcp on 10.10.229.54
+Discovered open port 2910/tcp on 10.10.229.54
+Discovered open port 1058/tcp on 10.10.229.54
+Discovered open port 2038/tcp on 10.10.229.54
+Discovered open port 109/tcp on 10.10.229.54
+Discovered open port 5859/tcp on 10.10.229.54
+Discovered open port 1152/tcp on 10.10.229.54
+Discovered open port 9040/tcp on 10.10.229.54
+Discovered open port 1034/tcp on 10.10.229.54
+Discovered open port 6000/tcp on 10.10.229.54
+Discovered open port 199/tcp on 10.10.229.54
+Discovered open port 5718/tcp on 10.10.229.54
+Discovered open port 2602/tcp on 10.10.229.54
+Discovered open port 16992/tcp on 10.10.229.54
+Discovered open port 2557/tcp on 10.10.229.54
+Discovered open port 16018/tcp on 10.10.229.54
+Discovered open port 9000/tcp on 10.10.229.54
+Discovered open port 5190/tcp on 10.10.229.54
+Discovered open port 119/tcp on 10.10.229.54
+Discovered open port 50500/tcp on 10.10.229.54
+Discovered open port 5678/tcp on 10.10.229.54
+Discovered open port 20222/tcp on 10.10.229.54
+Discovered open port 416/tcp on 10.10.229.54
+Discovered open port 15000/tcp on 10.10.229.54
+Discovered open port 7435/tcp on 10.10.229.54
+Discovered open port 9200/tcp on 10.10.229.54
+Discovered open port 2046/tcp on 10.10.229.54
+Discovered open port 9207/tcp on 10.10.229.54
+Discovered open port 1065/tcp on 10.10.229.54
+Discovered open port 3809/tcp on 10.10.229.54
+Discovered open port 5357/tcp on 10.10.229.54
+Discovered open port 2126/tcp on 10.10.229.54
+Discovered open port 4445/tcp on 10.10.229.54
+Discovered open port 3000/tcp on 10.10.229.54
+Discovered open port 146/tcp on 10.10.229.54
+Discovered open port 1900/tcp on 10.10.229.54
+Discovered open port 5963/tcp on 10.10.229.54
+Discovered open port 1801/tcp on 10.10.229.54
+Discovered open port 1076/tcp on 10.10.229.54
+Discovered open port 49152/tcp on 10.10.229.54
+Discovered open port 3268/tcp on 10.10.229.54
+Discovered open port 1352/tcp on 10.10.229.54
+Discovered open port 9001/tcp on 10.10.229.54
+Discovered open port 9929/tcp on 10.10.229.54
+Discovered open port 42510/tcp on 10.10.229.54
+Discovered open port 55055/tcp on 10.10.229.54
+Discovered open port 4998/tcp on 10.10.229.54
+Discovered open port 8007/tcp on 10.10.229.54
+Discovered open port 3995/tcp on 10.10.229.54
+Discovered open port 144/tcp on 10.10.229.54
+Discovered open port 2001/tcp on 10.10.229.54
+Discovered open port 11967/tcp on 10.10.229.54
+Discovered open port 6/tcp on 10.10.229.54
+Discovered open port 1300/tcp on 10.10.229.54
+Discovered open port 135/tcp on 10.10.229.54
+Discovered open port 212/tcp on 10.10.229.54
+Discovered open port 1164/tcp on 10.10.229.54
+Discovered open port 2200/tcp on 10.10.229.54
+Discovered open port 2042/tcp on 10.10.229.54
+Discovered open port 10010/tcp on 10.10.229.54
+Discovered open port 15742/tcp on 10.10.229.54
+Discovered open port 765/tcp on 10.10.229.54
+Discovered open port 161/tcp on 10.10.229.54
+Discovered open port 23/tcp on 10.10.229.54
+Increasing send delay for 10.10.229.54 from 0 to 5 due to max_successful_tryno increase to 4
+Discovered open port 1042/tcp on 10.10.229.54
+Discovered open port 765/tcp on 10.10.229.54
+Discovered open port 5862/tcp on 10.10.229.54
+Discovered open port 6881/tcp on 10.10.229.54
+Discovered open port 1009/tcp on 10.10.229.54
+Discovered open port 161/tcp on 10.10.229.54
+Discovered open port 1124/tcp on 10.10.229.54
+Discovered open port 3372/tcp on 10.10.229.54
+Discovered open port 110/tcp on 10.10.229.54
+Increasing send delay for 10.10.229.54 from 5 to 10 due to max_successful_tryno increase to 5
+Discovered open port 5225/tcp on 10.10.229.54
+Discovered open port 111/tcp on 10.10.229.54
+Increasing send delay for 10.10.229.54 from 10 to 20 due to max_successful_tryno increase to 6
+Discovered open port 3389/tcp on 10.10.229.54
+Increasing send delay for 10.10.229.54 from 20 to 40 due to max_successful_tryno increase to 7
+Discovered open port 1723/tcp on 10.10.229.54
+Discovered open port 5900/tcp on 10.10.229.54
+Increasing send delay for 10.10.229.54 from 40 to 80 due to max_successful_tryno increase to 8
+Discovered open port 2179/tcp on 10.10.229.54
+Discovered open port 2179/tcp on 10.10.229.54
+Discovered open port 55555/tcp on 10.10.229.54
+Discovered open port 2065/tcp on 10.10.229.54
+Discovered open port 1524/tcp on 10.10.229.54
+Discovered open port 6003/tcp on 10.10.229.54
+Discovered open port 2394/tcp on 10.10.229.54
+Discovered open port 6003/tcp on 10.10.229.54
+Discovered open port 2394/tcp on 10.10.229.54
+Discovered open port 1914/tcp on 10.10.229.54
+Discovered open port 1217/tcp on 10.10.229.54
+Discovered open port 51493/tcp on 10.10.229.54
+Discovered open port 52673/tcp on 10.10.229.54
+Discovered open port 1600/tcp on 10.10.229.54
+Discovered open port 3986/tcp on 10.10.229.54
+Discovered open port 9595/tcp on 10.10.229.54
+Discovered open port 1165/tcp on 10.10.229.54
+Discovered open port 19283/tcp on 10.10.229.54
+Discovered open port 1169/tcp on 10.10.229.54
+Discovered open port 1310/tcp on 10.10.229.54
+Discovered open port 1061/tcp on 10.10.229.54
+Discovered open port 3945/tcp on 10.10.229.54
+Discovered open port 1863/tcp on 10.10.229.54
+Discovered open port 17877/tcp on 10.10.229.54
+Discovered open port 83/tcp on 10.10.229.54
+Discovered open port 668/tcp on 10.10.229.54
+Discovered open port 6566/tcp on 10.10.229.54
+Discovered open port 1096/tcp on 10.10.229.54
+Discovered open port 2034/tcp on 10.10.229.54
+Discovered open port 10621/tcp on 10.10.229.54
+Discovered open port 24800/tcp on 10.10.229.54
+Discovered open port 1322/tcp on 10.10.229.54
+Discovered open port 1072/tcp on 10.10.229.54
+Discovered open port 14441/tcp on 10.10.229.54
+Discovered open port 1100/tcp on 10.10.229.54
+Discovered open port 2717/tcp on 10.10.229.54
+Discovered open port 1163/tcp on 10.10.229.54
+Discovered open port 2007/tcp on 10.10.229.54
+Discovered open port 2000/tcp on 10.10.229.54
+Discovered open port 7800/tcp on 10.10.229.54
+Discovered open port 16993/tcp on 10.10.229.54
+Discovered open port 5666/tcp on 10.10.229.54
+Discovered open port 1434/tcp on 10.10.229.54
+Discovered open port 13/tcp on 10.10.229.54
+Discovered open port 5555/tcp on 10.10.229.54
+Discovered open port 3001/tcp on 10.10.229.54
+Discovered open port 13/tcp on 10.10.229.54
+Discovered open port 1046/tcp on 10.10.229.54
+Discovered open port 5009/tcp on 10.10.229.54
+Discovered open port 1046/tcp on 10.10.229.54
+Discovered open port 1117/tcp on 10.10.229.54
+Discovered open port 264/tcp on 10.10.229.54
+Discovered open port 2047/tcp on 10.10.229.54
+Discovered open port 2049/tcp on 10.10.229.54
+Discovered open port 8400/tcp on 10.10.229.54
+Discovered open port 49156/tcp on 10.10.229.54
+Discovered open port 1038/tcp on 10.10.229.54
+Discovered open port 85/tcp on 10.10.229.54
+Discovered open port 1094/tcp on 10.10.229.54
+Discovered open port 7676/tcp on 10.10.229.54
+Discovered open port 2020/tcp on 10.10.229.54
+Discovered open port 16080/tcp on 10.10.229.54
+Discovered open port 4449/tcp on 10.10.229.54
+Discovered open port 61900/tcp on 10.10.229.54
+Discovered open port 8800/tcp on 10.10.229.54
+Discovered open port 32778/tcp on 10.10.229.54
+Discovered open port 8180/tcp on 10.10.229.54
+Discovered open port 45100/tcp on 10.10.229.54
+Discovered open port 1812/tcp on 10.10.229.54
+Discovered open port 9503/tcp on 10.10.229.54
+Discovered open port 1433/tcp on 10.10.229.54
+Discovered open port 10180/tcp on 10.10.229.54
+Discovered open port 7496/tcp on 10.10.229.54
+Discovered open port 800/tcp on 10.10.229.54
+Discovered open port 2323/tcp on 10.10.229.54
+Discovered open port 2869/tcp on 10.10.229.54
+Discovered open port 42/tcp on 10.10.229.54
+Discovered open port 52848/tcp on 10.10.229.54
+Discovered open port 58080/tcp on 10.10.229.54
+Discovered open port 5822/tcp on 10.10.229.54
+Discovered open port 22939/tcp on 10.10.229.54
+Discovered open port 9011/tcp on 10.10.229.54
+Discovered open port 50006/tcp on 10.10.229.54
+Discovered open port 1062/tcp on 10.10.229.54
+Discovered open port 81/tcp on 10.10.229.54
+Discovered open port 1022/tcp on 10.10.229.54
+Discovered open port 1050/tcp on 10.10.229.54
+Discovered open port 8654/tcp on 10.10.229.54
+Discovered open port 10617/tcp on 10.10.229.54
+Discovered open port 9220/tcp on 10.10.229.54
+Discovered open port 9009/tcp on 10.10.229.54
+Discovered open port 513/tcp on 10.10.229.54
+Discovered open port 902/tcp on 10.10.229.54
+Discovered open port 1187/tcp on 10.10.229.54
+Discovered open port 1000/tcp on 10.10.229.54
+Discovered open port 16016/tcp on 10.10.229.54
+Discovered open port 1935/tcp on 10.10.229.54
+Discovered open port 11110/tcp on 10.10.229.54
+Discovered open port 16016/tcp on 10.10.229.54
+Discovered open port 8200/tcp on 10.10.229.54
+Discovered open port 3367/tcp on 10.10.229.54
+Discovered open port 541/tcp on 10.10.229.54
+Discovered open port 8193/tcp on 10.10.229.54
+Discovered open port 34573/tcp on 10.10.229.54
+Discovered open port 340/tcp on 10.10.229.54
+Discovered open port 4343/tcp on 10.10.229.54
+Discovered open port 1107/tcp on 10.10.229.54
+Discovered open port 50000/tcp on 10.10.229.54
+Discovered open port 6007/tcp on 10.10.229.54
+Discovered open port 12345/tcp on 10.10.229.54
+Discovered open port 4446/tcp on 10.10.229.54
+Discovered open port 2967/tcp on 10.10.229.54
+Discovered open port 6005/tcp on 10.10.229.54
+Discovered open port 1131/tcp on 10.10.229.54
+Discovered open port 444/tcp on 10.10.229.54
+Discovered open port 1138/tcp on 10.10.229.54
+Discovered open port 2035/tcp on 10.10.229.54
+Discovered open port 1055/tcp on 10.10.229.54
+Discovered open port 2260/tcp on 10.10.229.54
+Discovered open port 8000/tcp on 10.10.229.54
+Discovered open port 5962/tcp on 10.10.229.54
+Discovered open port 1023/tcp on 10.10.229.54
+Discovered open port 20031/tcp on 10.10.229.54
+Discovered open port 8181/tcp on 10.10.229.54
+Discovered open port 3905/tcp on 10.10.229.54
+Discovered open port 1417/tcp on 10.10.229.54
+Discovered open port 9575/tcp on 10.10.229.54
+Discovered open port 43/tcp on 10.10.229.54
+Discovered open port 4444/tcp on 10.10.229.54
+Discovered open port 6346/tcp on 10.10.229.54
+Discovered open port 1455/tcp on 10.10.229.54
+Discovered open port 2702/tcp on 10.10.229.54
+Discovered open port 9101/tcp on 10.10.229.54
+Discovered open port 648/tcp on 10.10.229.54
+Discovered open port 62078/tcp on 10.10.229.54
+Discovered open port 1149/tcp on 10.10.229.54
+Discovered open port 464/tcp on 10.10.229.54
+Discovered open port 49176/tcp on 10.10.229.54
+Discovered open port 15002/tcp on 10.10.229.54
+Discovered open port 3826/tcp on 10.10.229.54
+Discovered open port 19315/tcp on 10.10.229.54
+Discovered open port 5911/tcp on 10.10.229.54
+Discovered open port 3814/tcp on 10.10.229.54
+Discovered open port 33/tcp on 10.10.229.54
+Discovered open port 3351/tcp on 10.10.229.54
+Discovered open port 1521/tcp on 10.10.229.54
+Discovered open port 1123/tcp on 10.10.229.54
+Discovered open port 1875/tcp on 10.10.229.54
+Discovered open port 3801/tcp on 10.10.229.54
+Discovered open port 1875/tcp on 10.10.229.54
+Discovered open port 5510/tcp on 10.10.229.54
+Discovered open port 6667/tcp on 10.10.229.54
+Discovered open port 3077/tcp on 10.10.229.54
+Discovered open port 1070/tcp on 10.10.229.54
+Discovered open port 700/tcp on 10.10.229.54
+Discovered open port 3077/tcp on 10.10.229.54
+Discovered open port 100/tcp on 10.10.229.54
+Discovered open port 32771/tcp on 10.10.229.54
+Discovered open port 4/tcp on 10.10.229.54
+Discovered open port 7402/tcp on 10.10.229.54
+Discovered open port 4279/tcp on 10.10.229.54
+Discovered open port 2500/tcp on 10.10.229.54
+Discovered open port 2604/tcp on 10.10.229.54
+Discovered open port 5910/tcp on 10.10.229.54
+Discovered open port 5550/tcp on 10.10.229.54
+Discovered open port 4125/tcp on 10.10.229.54
+Discovered open port 2998/tcp on 10.10.229.54
+Discovered open port 1461/tcp on 10.10.229.54
+Discovered open port 12265/tcp on 10.10.229.54
+Discovered open port 13782/tcp on 10.10.229.54
+Discovered open port 1027/tcp on 10.10.229.54
+Discovered open port 1064/tcp on 10.10.229.54
+Discovered open port 9593/tcp on 10.10.229.54
+Discovered open port 49153/tcp on 10.10.229.54
+Discovered open port 5001/tcp on 10.10.229.54
+Discovered open port 2161/tcp on 10.10.229.54
+Discovered open port 2718/tcp on 10.10.229.54
+Discovered open port 5051/tcp on 10.10.229.54
+Discovered open port 1132/tcp on 10.10.229.54
+Discovered open port 3052/tcp on 10.10.229.54
+Discovered open port 4002/tcp on 10.10.229.54
+Discovered open port 6792/tcp on 10.10.229.54
+Discovered open port 2160/tcp on 10.10.229.54
+Discovered open port 49157/tcp on 10.10.229.54
+Discovered open port 1039/tcp on 10.10.229.54
+Discovered open port 3880/tcp on 10.10.229.54
+Discovered open port 7741/tcp on 10.10.229.54
+Discovered open port 1099/tcp on 10.10.229.54
+Discovered open port 52822/tcp on 10.10.229.54
+Discovered open port 4321/tcp on 10.10.229.54
+Discovered open port 4321/tcp on 10.10.229.54
+Discovered open port 4321/tcp on 10.10.229.54
+Discovered open port 4321/tcp on 10.10.229.54
+Discovered open port 1074/tcp on 10.10.229.54
+Discovered open port 4321/tcp on 10.10.229.54
+Discovered open port 8222/tcp on 10.10.229.54
+Discovered open port 4321/tcp on 10.10.229.54
+Discovered open port 4321/tcp on 10.10.229.54
+Discovered open port 8222/tcp on 10.10.229.54
+Discovered open port 49999/tcp on 10.10.229.54
+Discovered open port 7920/tcp on 10.10.229.54
+Discovered open port 9071/tcp on 10.10.229.54
+SYN Stealth Scan Timing: About 33.25% done; ETC: 11:05 (0:01:02 remaining)
+Discovered open port 1085/tcp on 10.10.229.54
+Discovered open port 32775/tcp on 10.10.229.54
+Discovered open port 8002/tcp on 10.10.229.54
+Discovered open port 3168/tcp on 10.10.229.54
+Discovered open port 8402/tcp on 10.10.229.54
+Discovered open port 9050/tcp on 10.10.229.54
+Discovered open port 9877/tcp on 10.10.229.54
+Discovered open port 7004/tcp on 10.10.229.54
+Discovered open port 30/tcp on 10.10.229.54
+Discovered open port 990/tcp on 10.10.229.54
+Discovered open port 1001/tcp on 10.10.229.54
+Discovered open port 2100/tcp on 10.10.229.54
+Discovered open port 5100/tcp on 10.10.229.54
+Discovered open port 3017/tcp on 10.10.229.54
+Discovered open port 49/tcp on 10.10.229.54
+Discovered open port 783/tcp on 10.10.229.54
+Discovered open port 6100/tcp on 10.10.229.54
+Discovered open port 3920/tcp on 10.10.229.54
+Discovered open port 3737/tcp on 10.10.229.54
+Discovered open port 99/tcp on 10.10.229.54
+Discovered open port 2968/tcp on 10.10.229.54
+Discovered open port 722/tcp on 10.10.229.54
+Discovered open port 5810/tcp on 10.10.229.54
+Discovered open port 1259/tcp on 10.10.229.54
+Discovered open port 6668/tcp on 10.10.229.54
+Discovered open port 1641/tcp on 10.10.229.54
+Discovered open port 6006/tcp on 10.10.229.54
+Discovered open port 2048/tcp on 10.10.229.54
+Discovered open port 555/tcp on 10.10.229.54
+Discovered open port 9485/tcp on 10.10.229.54
+Discovered open port 787/tcp on 10.10.229.54
+Discovered open port 481/tcp on 10.10.229.54
+Discovered open port 10025/tcp on 10.10.229.54
+Discovered open port 8291/tcp on 10.10.229.54
+Discovered open port 512/tcp on 10.10.229.54
+Discovered open port 15004/tcp on 10.10.229.54
+Discovered open port 2710/tcp on 10.10.229.54
+Discovered open port 280/tcp on 10.10.229.54
+Discovered open port 1026/tcp on 10.10.229.54
+Discovered open port 3128/tcp on 10.10.229.54
+Discovered open port 2605/tcp on 10.10.229.54
+Discovered open port 10778/tcp on 10.10.229.54
+Discovered open port 1972/tcp on 10.10.229.54
+Discovered open port 5432/tcp on 10.10.229.54
+Discovered open port 3322/tcp on 10.10.229.54
+Discovered open port 1077/tcp on 10.10.229.54
+Discovered open port 7100/tcp on 10.10.229.54
+Discovered open port 50003/tcp on 10.10.229.54
+Discovered open port 1066/tcp on 10.10.229.54
+Discovered open port 2366/tcp on 10.10.229.54
+Discovered open port 1037/tcp on 10.10.229.54
+Discovered open port 5986/tcp on 10.10.229.54
+Discovered open port 3031/tcp on 10.10.229.54
+Discovered open port 19101/tcp on 10.10.229.54
+Discovered open port 9876/tcp on 10.10.229.54
+Discovered open port 8500/tcp on 10.10.229.54
+Discovered open port 1075/tcp on 10.10.229.54
+Discovered open port 8081/tcp on 10.10.229.54
+Discovered open port 2043/tcp on 10.10.229.54
+Discovered open port 8085/tcp on 10.10.229.54
+Discovered open port 514/tcp on 10.10.229.54
+Discovered open port 2105/tcp on 10.10.229.54
+Discovered open port 1073/tcp on 10.10.229.54
+Discovered open port 1057/tcp on 10.10.229.54
+Discovered open port 1971/tcp on 10.10.229.54
+Discovered open port 1084/tcp on 10.10.229.54
+Discovered open port 1054/tcp on 10.10.229.54
+Discovered open port 57797/tcp on 10.10.229.54
+Discovered open port 5080/tcp on 10.10.229.54
+Discovered open port 8086/tcp on 10.10.229.54
+Discovered open port 3869/tcp on 10.10.229.54
+Discovered open port 631/tcp on 10.10.229.54
+Discovered open port 5985/tcp on 10.10.229.54
+Discovered open port 631/tcp on 10.10.229.54
+Discovered open port 5811/tcp on 10.10.229.54
+Discovered open port 5985/tcp on 10.10.229.54
+Discovered open port 2045/tcp on 10.10.229.54
+Discovered open port 9080/tcp on 10.10.229.54
+Discovered open port 8082/tcp on 10.10.229.54
+Discovered open port 2045/tcp on 10.10.229.54
+Discovered open port 9080/tcp on 10.10.229.54
+Discovered open port 8082/tcp on 10.10.229.54
+Discovered open port 1311/tcp on 10.10.229.54
+Discovered open port 777/tcp on 10.10.229.54
+Discovered open port 911/tcp on 10.10.229.54
+Discovered open port 41511/tcp on 10.10.229.54
+Discovered open port 2010/tcp on 10.10.229.54
+Discovered open port 259/tcp on 10.10.229.54
+Discovered open port 32776/tcp on 10.10.229.54
+Discovered open port 625/tcp on 10.10.229.54
+Discovered open port 406/tcp on 10.10.229.54
+Discovered open port 2638/tcp on 10.10.229.54
+Discovered open port 10004/tcp on 10.10.229.54
+Discovered open port 6502/tcp on 10.10.229.54
+Discovered open port 82/tcp on 10.10.229.54
+Discovered open port 2002/tcp on 10.10.229.54
+Discovered open port 25734/tcp on 10.10.229.54
+Discovered open port 1106/tcp on 10.10.229.54
+Discovered open port 1974/tcp on 10.10.229.54
+Discovered open port 5120/tcp on 10.10.229.54
+Discovered open port 691/tcp on 10.10.229.54
+Discovered open port 57294/tcp on 10.10.229.54
+Discovered open port 3527/tcp on 10.10.229.54
+Discovered open port 1032/tcp on 10.10.229.54
+Discovered open port 4111/tcp on 10.10.229.54
+Discovered open port 1687/tcp on 10.10.229.54
+Discovered open port 10626/tcp on 10.10.229.54
+Discovered open port 1011/tcp on 10.10.229.54
+Discovered open port 458/tcp on 10.10.229.54
+Discovered open port 3333/tcp on 10.10.229.54
+Discovered open port 1067/tcp on 10.10.229.54
+Discovered open port 683/tcp on 10.10.229.54
+Discovered open port 1130/tcp on 10.10.229.54
+Discovered open port 20828/tcp on 10.10.229.54
+Discovered open port 1244/tcp on 10.10.229.54
+Discovered open port 9618/tcp on 10.10.229.54
+Discovered open port 24/tcp on 10.10.229.54
+Discovered open port 2121/tcp on 10.10.229.54
+Discovered open port 31038/tcp on 10.10.229.54
+Discovered open port 15660/tcp on 10.10.229.54
+Discovered open port 2121/tcp on 10.10.229.54
+Discovered open port 4004/tcp on 10.10.229.54
+Discovered open port 49161/tcp on 10.10.229.54
+Discovered open port 4004/tcp on 10.10.229.54
+Discovered open port 5566/tcp on 10.10.229.54
+Discovered open port 515/tcp on 10.10.229.54
+Discovered open port 5566/tcp on 10.10.229.54
+Discovered open port 2107/tcp on 10.10.229.54
+Discovered open port 3998/tcp on 10.10.229.54
+Discovered open port 2251/tcp on 10.10.229.54
+Discovered open port 1999/tcp on 10.10.229.54
+Discovered open port 5904/tcp on 10.10.229.54
+Discovered open port 1041/tcp on 10.10.229.54
+Discovered open port 1102/tcp on 10.10.229.54
+Discovered open port 5033/tcp on 10.10.229.54
+Discovered open port 2033/tcp on 10.10.229.54
+Discovered open port 1594/tcp on 10.10.229.54
+Discovered open port 49175/tcp on 10.10.229.54
+Discovered open port 888/tcp on 10.10.229.54
+Discovered open port 32777/tcp on 10.10.229.54
+Discovered open port 1036/tcp on 10.10.229.54
+Discovered open port 1063/tcp on 10.10.229.54
+Discovered open port 8600/tcp on 10.10.229.54
+Discovered open port 4242/tcp on 10.10.229.54
+Discovered open port 987/tcp on 10.10.229.54
+Discovered open port 3551/tcp on 10.10.229.54
+Discovered open port 2041/tcp on 10.10.229.54
+Discovered open port 40911/tcp on 10.10.229.54
+Discovered open port 6129/tcp on 10.10.229.54
+Discovered open port 2040/tcp on 10.10.229.54
+Discovered open port 1090/tcp on 10.10.229.54
+Discovered open port 1031/tcp on 10.10.229.54
+Discovered open port 311/tcp on 10.10.229.54
+Discovered open port 60443/tcp on 10.10.229.54
+Discovered open port 5226/tcp on 10.10.229.54
+Discovered open port 1174/tcp on 10.10.229.54
+Discovered open port 616/tcp on 10.10.229.54
+Discovered open port 5730/tcp on 10.10.229.54
+Discovered open port 6547/tcp on 10.10.229.54
+Discovered open port 1089/tcp on 10.10.229.54
+Discovered open port 6901/tcp on 10.10.229.54
+Discovered open port 84/tcp on 10.10.229.54
+Discovered open port 1947/tcp on 10.10.229.54
+Discovered open port 16113/tcp on 10.10.229.54
+Discovered open port 6646/tcp on 10.10.229.54
+Discovered open port 5102/tcp on 10.10.229.54
+Discovered open port 7025/tcp on 10.10.229.54
+Discovered open port 44442/tcp on 10.10.229.54
+Discovered open port 5102/tcp on 10.10.229.54
+Discovered open port 54045/tcp on 10.10.229.54
+Discovered open port 1839/tcp on 10.10.229.54
+Discovered open port 54045/tcp on 10.10.229.54
+Discovered open port 4224/tcp on 10.10.229.54
+Discovered open port 1056/tcp on 10.10.229.54
+Discovered open port 981/tcp on 10.10.229.54
+Discovered open port 6543/tcp on 10.10.229.54
+Discovered open port 9081/tcp on 10.10.229.54
+Discovered open port 19780/tcp on 10.10.229.54
+Discovered open port 524/tcp on 10.10.229.54
+Discovered open port 4899/tcp on 10.10.229.54
+Discovered open port 1078/tcp on 10.10.229.54
+Discovered open port 8443/tcp on 10.10.229.54
+Discovered open port 8045/tcp on 10.10.229.54
+Discovered open port 1048/tcp on 10.10.229.54
+Discovered open port 6779/tcp on 10.10.229.54
+Discovered open port 7999/tcp on 10.10.229.54
+Discovered open port 4550/tcp on 10.10.229.54
+Discovered open port 8009/tcp on 10.10.229.54
+Discovered open port 5950/tcp on 10.10.229.54
+Discovered open port 2099/tcp on 10.10.229.54
+Discovered open port 32785/tcp on 10.10.229.54
+Discovered open port 2401/tcp on 10.10.229.54
+Discovered open port 9103/tcp on 10.10.229.54
+Discovered open port 1093/tcp on 10.10.229.54
+Discovered open port 179/tcp on 10.10.229.54
+Discovered open port 50001/tcp on 10.10.229.54
+Discovered open port 5901/tcp on 10.10.229.54
+Discovered open port 4006/tcp on 10.10.229.54
+Discovered open port 6666/tcp on 10.10.229.54
+Discovered open port 4000/tcp on 10.10.229.54
+Discovered open port 5200/tcp on 10.10.229.54
+Discovered open port 3/tcp on 10.10.229.54
+Discovered open port 6580/tcp on 10.10.229.54
+Discovered open port 32/tcp on 10.10.229.54
+Discovered open port 14000/tcp on 10.10.229.54
+Discovered open port 9968/tcp on 10.10.229.54
+Discovered open port 8994/tcp on 10.10.229.54
+Discovered open port 6689/tcp on 10.10.229.54
+Discovered open port 9999/tcp on 10.10.229.54
+Discovered open port 2222/tcp on 10.10.229.54
+Discovered open port 548/tcp on 10.10.229.54
+Discovered open port 1080/tcp on 10.10.229.54
+Discovered open port 2222/tcp on 10.10.229.54
+Discovered open port 5030/tcp on 10.10.229.54
+Discovered open port 1198/tcp on 10.10.229.54
+Discovered open port 5030/tcp on 10.10.229.54
+Discovered open port 9502/tcp on 10.10.229.54
+Discovered open port 30000/tcp on 10.10.229.54
+Discovered open port 4001/tcp on 10.10.229.54
+Discovered open port 33354/tcp on 10.10.229.54
+Discovered open port 5060/tcp on 10.10.229.54
+Discovered open port 9003/tcp on 10.10.229.54
+Discovered open port 3003/tcp on 10.10.229.54
+Discovered open port 5214/tcp on 10.10.229.54
+Discovered open port 4126/tcp on 10.10.229.54
+Discovered open port 34571/tcp on 10.10.229.54
+Discovered open port 5002/tcp on 10.10.229.54
+Discovered open port 23502/tcp on 10.10.229.54
+Discovered open port 5999/tcp on 10.10.229.54
+Discovered open port 1151/tcp on 10.10.229.54
+Discovered open port 2525/tcp on 10.10.229.54
+Discovered open port 617/tcp on 10.10.229.54
+Discovered open port 2068/tcp on 10.10.229.54
+Discovered open port 26214/tcp on 10.10.229.54
+Discovered open port 6788/tcp on 10.10.229.54
+Discovered open port 646/tcp on 10.10.229.54
+Discovered open port 898/tcp on 10.10.229.54
+Discovered open port 8021/tcp on 10.10.229.54
+Discovered open port 1216/tcp on 10.10.229.54
+Discovered open port 9091/tcp on 10.10.229.54
+Discovered open port 3325/tcp on 10.10.229.54
+Discovered open port 31337/tcp on 10.10.229.54
+Discovered open port 8651/tcp on 10.10.229.54
+Discovered open port 1864/tcp on 10.10.229.54
+Discovered open port 255/tcp on 10.10.229.54
+Discovered open port 500/tcp on 10.10.229.54
+Discovered open port 8333/tcp on 10.10.229.54
+Discovered open port 1166/tcp on 10.10.229.54
+Discovered open port 3476/tcp on 10.10.229.54
+Discovered open port 9090/tcp on 10.10.229.54
+Discovered open port 9900/tcp on 10.10.229.54
+Discovered open port 563/tcp on 10.10.229.54
+Discovered open port 3370/tcp on 10.10.229.54
+Discovered open port 8083/tcp on 10.10.229.54
+Discovered open port 3914/tcp on 10.10.229.54
+Discovered open port 1185/tcp on 10.10.229.54
+Discovered open port 52869/tcp on 10.10.229.54
+Discovered open port 593/tcp on 10.10.229.54
+Discovered open port 1029/tcp on 10.10.229.54
+Discovered open port 425/tcp on 10.10.229.54
+Discovered open port 6112/tcp on 10.10.229.54
+Discovered open port 407/tcp on 10.10.229.54
+Discovered open port 9944/tcp on 10.10.229.54
+Discovered open port 1104/tcp on 10.10.229.54
+Discovered open port 808/tcp on 10.10.229.54
+Discovered open port 32772/tcp on 10.10.229.54
+Discovered open port 1091/tcp on 10.10.229.54
+Discovered open port 8088/tcp on 10.10.229.54
+Discovered open port 8001/tcp on 10.10.229.54
+Discovered open port 1147/tcp on 10.10.229.54
+Discovered open port 7201/tcp on 10.10.229.54
+Discovered open port 7070/tcp on 10.10.229.54
+Discovered open port 389/tcp on 10.10.229.54
+Discovered open port 1040/tcp on 10.10.229.54
+Discovered open port 5922/tcp on 10.10.229.54
+Discovered open port 54328/tcp on 10.10.229.54
+Discovered open port 5907/tcp on 10.10.229.54
+Discovered open port 3517/tcp on 10.10.229.54
+Discovered open port 2008/tcp on 10.10.229.54
+Discovered open port 40193/tcp on 10.10.229.54
+Discovered open port 873/tcp on 10.10.229.54
+Discovered open port 1700/tcp on 10.10.229.54
+Discovered open port 873/tcp on 10.10.229.54
+Discovered open port 3390/tcp on 10.10.229.54
+Discovered open port 5440/tcp on 10.10.229.54
+Discovered open port 873/tcp on 10.10.229.54
+Discovered open port 14238/tcp on 10.10.229.54
+Discovered open port 19801/tcp on 10.10.229.54
+Discovered open port 4848/tcp on 10.10.229.54
+Discovered open port 3390/tcp on 10.10.229.54
+Discovered open port 366/tcp on 10.10.229.54
+Discovered open port 5280/tcp on 10.10.229.54
+Discovered open port 5405/tcp on 10.10.229.54
+Discovered open port 8011/tcp on 10.10.229.54
+Discovered open port 6004/tcp on 10.10.229.54
+Discovered open port 19350/tcp on 10.10.229.54
+Discovered open port 1095/tcp on 10.10.229.54
+Discovered open port 5850/tcp on 10.10.229.54
+Discovered open port 1082/tcp on 10.10.229.54
+Discovered open port 1199/tcp on 10.10.229.54
+Discovered open port 2021/tcp on 10.10.229.54
+Discovered open port 10243/tcp on 10.10.229.54
+Discovered open port 3827/tcp on 10.10.229.54
+Discovered open port 9100/tcp on 10.10.229.54
+Discovered open port 106/tcp on 10.10.229.54
+Discovered open port 2382/tcp on 10.10.229.54
+Discovered open port 19/tcp on 10.10.229.54
+Discovered open port 2111/tcp on 10.10.229.54
+Discovered open port 8383/tcp on 10.10.229.54
+Discovered open port 5631/tcp on 10.10.229.54
+Discovered open port 2170/tcp on 10.10.229.54
+Discovered open port 6699/tcp on 10.10.229.54
+Discovered open port 5915/tcp on 10.10.229.54
+Discovered open port 1782/tcp on 10.10.229.54
+Discovered open port 10024/tcp on 10.10.229.54
+Discovered open port 11111/tcp on 10.10.229.54
+Discovered open port 18040/tcp on 10.10.229.54
+Discovered open port 6839/tcp on 10.10.229.54
+Discovered open port 6106/tcp on 10.10.229.54
+Discovered open port 6106/tcp on 10.10.229.54
+Discovered open port 6106/tcp on 10.10.229.54
+Discovered open port 7937/tcp on 10.10.229.54
+Discovered open port 749/tcp on 10.10.229.54
+Discovered open port 749/tcp on 10.10.229.54
+Discovered open port 7937/tcp on 10.10.229.54
+Discovered open port 7937/tcp on 10.10.229.54
+Discovered open port 7937/tcp on 10.10.229.54
+Discovered open port 749/tcp on 10.10.229.54
+Discovered open port 6106/tcp on 10.10.229.54
+Discovered open port 749/tcp on 10.10.229.54
+Discovered open port 6106/tcp on 10.10.229.54
+Discovered open port 8084/tcp on 10.10.229.54
+Discovered open port 4045/tcp on 10.10.229.54
+Discovered open port 1141/tcp on 10.10.229.54
+Discovered open port 5050/tcp on 10.10.229.54
+Discovered open port 3221/tcp on 10.10.229.54
+Discovered open port 79/tcp on 10.10.229.54
+Discovered open port 64623/tcp on 10.10.229.54
+Discovered open port 1092/tcp on 10.10.229.54
+Discovered open port 10215/tcp on 10.10.229.54
+Discovered open port 1083/tcp on 10.10.229.54
+Discovered open port 7938/tcp on 10.10.229.54
+Discovered open port 50300/tcp on 10.10.229.54
+Discovered open port 5960/tcp on 10.10.229.54
+Discovered open port 2920/tcp on 10.10.229.54
+Discovered open port 6156/tcp on 10.10.229.54
+SYN Stealth Scan Timing: About 65.65% done; ETC: 11:05 (0:00:32 remaining)
+Discovered open port 3269/tcp on 10.10.229.54
+Discovered open port 2875/tcp on 10.10.229.54
+Discovered open port 8652/tcp on 10.10.229.54
+Discovered open port 20/tcp on 10.10.229.54
+Discovered open port 1035/tcp on 10.10.229.54
+Discovered open port 49167/tcp on 10.10.229.54
+Discovered open port 9111/tcp on 10.10.229.54
+Discovered open port 2144/tcp on 10.10.229.54
+Discovered open port 1186/tcp on 10.10.229.54
+Discovered open port 5998/tcp on 10.10.229.54
+Discovered open port 49159/tcp on 10.10.229.54
+Discovered open port 1108/tcp on 10.10.229.54
+Discovered open port 8899/tcp on 10.10.229.54
+Discovered open port 1556/tcp on 10.10.229.54
+Discovered open port 3211/tcp on 10.10.229.54
+Discovered open port 3703/tcp on 10.10.229.54
+Discovered open port 1079/tcp on 10.10.229.54
+Discovered open port 10566/tcp on 10.10.229.54
+Discovered open port 544/tcp on 10.10.229.54
+Discovered open port 3766/tcp on 10.10.229.54
+Discovered open port 2607/tcp on 10.10.229.54
+Discovered open port 1805/tcp on 10.10.229.54
+Discovered open port 3784/tcp on 10.10.229.54
+Discovered open port 5087/tcp on 10.10.229.54
+Discovered open port 1998/tcp on 10.10.229.54
+Discovered open port 880/tcp on 10.10.229.54
+Discovered open port 16000/tcp on 10.10.229.54
+Discovered open port 8194/tcp on 10.10.229.54
+Discovered open port 6789/tcp on 10.10.229.54
+Discovered open port 32780/tcp on 10.10.229.54
+Discovered open port 5802/tcp on 10.10.229.54
+Discovered open port 2393/tcp on 10.10.229.54
+Discovered open port 8292/tcp on 10.10.229.54
+Discovered open port 5221/tcp on 10.10.229.54
+Discovered open port 30951/tcp on 10.10.229.54
+Discovered open port 1721/tcp on 10.10.229.54
+Discovered open port 3580/tcp on 10.10.229.54
+Discovered open port 35500/tcp on 10.10.229.54
+Discovered open port 12174/tcp on 10.10.229.54
+Discovered open port 8290/tcp on 10.10.229.54
+Discovered open port 9878/tcp on 10.10.229.54
+Discovered open port 1719/tcp on 10.10.229.54
+Discovered open port 901/tcp on 10.10.229.54
+Discovered open port 1119/tcp on 10.10.229.54
+Discovered open port 636/tcp on 10.10.229.54
+Discovered open port 65000/tcp on 10.10.229.54
+Discovered open port 1761/tcp on 10.10.229.54
+Discovered open port 1183/tcp on 10.10.229.54
+Discovered open port 32774/tcp on 10.10.229.54
+Discovered open port 843/tcp on 10.10.229.54
+Discovered open port 1110/tcp on 10.10.229.54
+Discovered open port 8089/tcp on 10.10.229.54
+Discovered open port 50636/tcp on 10.10.229.54
+Discovered open port 5959/tcp on 10.10.229.54
+Discovered open port 26/tcp on 10.10.229.54
+Discovered open port 301/tcp on 10.10.229.54
+Discovered open port 7/tcp on 10.10.229.54
+Discovered open port 28201/tcp on 10.10.229.54
+Discovered open port 10002/tcp on 10.10.229.54
+Discovered open port 7777/tcp on 10.10.229.54
+Discovered open port 13456/tcp on 10.10.229.54
+Discovered open port 1105/tcp on 10.10.229.54
+Discovered open port 2399/tcp on 10.10.229.54
+Discovered open port 1028/tcp on 10.10.229.54
+Discovered open port 705/tcp on 10.10.229.54
+Discovered open port 3071/tcp on 10.10.229.54
+Discovered open port 9102/tcp on 10.10.229.54
+Discovered open port 51103/tcp on 10.10.229.54
+Discovered open port 7443/tcp on 10.10.229.54
+Discovered open port 5903/tcp on 10.10.229.54
+Discovered open port 1059/tcp on 10.10.229.54
+Discovered open port 64680/tcp on 10.10.229.54
+Discovered open port 1272/tcp on 10.10.229.54
+Discovered open port 1272/tcp on 10.10.229.54
+Discovered open port 16001/tcp on 10.10.229.54
+Discovered open port 1272/tcp on 10.10.229.54
+Discovered open port 1272/tcp on 10.10.229.54
+Discovered open port 16001/tcp on 10.10.229.54
+Discovered open port 16001/tcp on 10.10.229.54
+Discovered open port 1272/tcp on 10.10.229.54
+Discovered open port 16001/tcp on 10.10.229.54
+Discovered open port 16001/tcp on 10.10.229.54
+Discovered open port 1272/tcp on 10.10.229.54
+Discovered open port 1862/tcp on 10.10.229.54
+Discovered open port 5877/tcp on 10.10.229.54
+Discovered open port 3005/tcp on 10.10.229.54
+Discovered open port 90/tcp on 10.10.229.54
+Discovered open port 17/tcp on 10.10.229.54
+Discovered open port 7911/tcp on 10.10.229.54
+Discovered open port 2119/tcp on 10.10.229.54
+Discovered open port 2006/tcp on 10.10.229.54
+Discovered open port 1277/tcp on 10.10.229.54
+Discovered open port 8008/tcp on 10.10.229.54
+Discovered open port 32784/tcp on 10.10.229.54
+Discovered open port 9415/tcp on 10.10.229.54
+Discovered open port 4662/tcp on 10.10.229.54
+Discovered open port 1580/tcp on 10.10.229.54
+Discovered open port 50389/tcp on 10.10.229.54
+Discovered open port 2135/tcp on 10.10.229.54
+Discovered open port 48080/tcp on 10.10.229.54
+Discovered open port 5952/tcp on 10.10.229.54
+Discovered open port 27352/tcp on 10.10.229.54
+Discovered open port 2811/tcp on 10.10.229.54
+Discovered open port 30718/tcp on 10.10.229.54
+Discovered open port 2022/tcp on 10.10.229.54
+Discovered open port 9898/tcp on 10.10.229.54
+Discovered open port 13722/tcp on 10.10.229.54
+Discovered open port 3323/tcp on 10.10.229.54
+Discovered open port 3889/tcp on 10.10.229.54
+Discovered open port 13722/tcp on 10.10.229.54
+Discovered open port 7625/tcp on 10.10.229.54
+Discovered open port 3011/tcp on 10.10.229.54
+Discovered open port 1296/tcp on 10.10.229.54
+Discovered open port 10009/tcp on 10.10.229.54
+Discovered open port 5825/tcp on 10.10.229.54
+Discovered open port 6969/tcp on 10.10.229.54
+Discovered open port 2106/tcp on 10.10.229.54
+Discovered open port 7007/tcp on 10.10.229.54
+Discovered open port 2383/tcp on 10.10.229.54
+Discovered open port 2106/tcp on 10.10.229.54
+Discovered open port 6969/tcp on 10.10.229.54
+Discovered open port 543/tcp on 10.10.229.54
+Discovered open port 2608/tcp on 10.10.229.54
+Discovered open port 27355/tcp on 10.10.229.54
+Discovered open port 992/tcp on 10.10.229.54
+Discovered open port 2701/tcp on 10.10.229.54
+Discovered open port 2383/tcp on 10.10.229.54
+Discovered open port 5679/tcp on 10.10.229.54
+Discovered open port 1301/tcp on 10.10.229.54
+Discovered open port 49400/tcp on 10.10.229.54
+Discovered open port 497/tcp on 10.10.229.54
+Discovered open port 55600/tcp on 10.10.229.54
+Discovered open port 8100/tcp on 10.10.229.54
+Discovered open port 7200/tcp on 10.10.229.54
+Discovered open port 32779/tcp on 10.10.229.54
+Discovered open port 18101/tcp on 10.10.229.54
+Discovered open port 1503/tcp on 10.10.229.54
+Discovered open port 3493/tcp on 10.10.229.54
+Discovered open port 5101/tcp on 10.10.229.54
+Discovered open port 49158/tcp on 10.10.229.54
+Discovered open port 27353/tcp on 10.10.229.54
+Discovered open port 163/tcp on 10.10.229.54
+Discovered open port 667/tcp on 10.10.229.54
+Discovered open port 2522/tcp on 10.10.229.54
+Discovered open port 1121/tcp on 10.10.229.54
+Discovered open port 2909/tcp on 10.10.229.54
+Discovered open port 1068/tcp on 10.10.229.54
+Discovered open port 2004/tcp on 10.10.229.54
+Discovered open port 7002/tcp on 10.10.229.54
+Discovered open port 32770/tcp on 10.10.229.54
+Discovered open port 1717/tcp on 10.10.229.54
+Discovered open port 5801/tcp on 10.10.229.54
+Discovered open port 9594/tcp on 10.10.229.54
+Discovered open port 1060/tcp on 10.10.229.54
+Discovered open port 3851/tcp on 10.10.229.54
+Discovered open port 25735/tcp on 10.10.229.54
+Discovered open port 1247/tcp on 10.10.229.54
+Discovered open port 7103/tcp on 10.10.229.54
+Discovered open port 6510/tcp on 10.10.229.54
+Discovered open port 3828/tcp on 10.10.229.54
+Discovered open port 1033/tcp on 10.10.229.54
+Discovered open port 2009/tcp on 10.10.229.54
+Discovered open port 8093/tcp on 10.10.229.54
+Discovered open port 417/tcp on 10.10.229.54
+Discovered open port 2288/tcp on 10.10.229.54
+Discovered open port 8087/tcp on 10.10.229.54
+Discovered open port 2301/tcp on 10.10.229.54
+Discovered open port 7778/tcp on 10.10.229.54
+Discovered open port 5061/tcp on 10.10.229.54
+Discovered open port 1309/tcp on 10.10.229.54
+Discovered open port 1/tcp on 10.10.229.54
+Discovered open port 2381/tcp on 10.10.229.54
+Discovered open port 2191/tcp on 10.10.229.54
+Discovered open port 9099/tcp on 10.10.229.54
+Discovered open port 2800/tcp on 10.10.229.54
+Discovered open port 5987/tcp on 10.10.229.54
+Discovered open port 6389/tcp on 10.10.229.54
+Discovered open port 38292/tcp on 10.10.229.54
+Discovered open port 8649/tcp on 10.10.229.54
+Discovered open port 125/tcp on 10.10.229.54
+Discovered open port 4129/tcp on 10.10.229.54
+Discovered open port 2725/tcp on 10.10.229.54
+Discovered open port 56738/tcp on 10.10.229.54
+Discovered open port 5961/tcp on 10.10.229.54
+Discovered open port 254/tcp on 10.10.229.54
+Discovered open port 1233/tcp on 10.10.229.54
+Discovered open port 24444/tcp on 10.10.229.54
+Discovered open port 1218/tcp on 10.10.229.54
+Discovered open port 3371/tcp on 10.10.229.54
+Discovered open port 7512/tcp on 10.10.229.54
+Discovered open port 912/tcp on 10.10.229.54
+Discovered open port 1044/tcp on 10.10.229.54
+Discovered open port 65129/tcp on 10.10.229.54
+Discovered open port 1500/tcp on 10.10.229.54
+Discovered open port 9500/tcp on 10.10.229.54
+Discovered open port 1236/tcp on 10.10.229.54
+Discovered open port 1088/tcp on 10.10.229.54
+Discovered open port 9/tcp on 10.10.229.54
+Discovered open port 1002/tcp on 10.10.229.54
+Discovered open port 8031/tcp on 10.10.229.54
+Discovered open port 49160/tcp on 10.10.229.54
+Discovered open port 8042/tcp on 10.10.229.54
+Discovered open port 5500/tcp on 10.10.229.54
+Discovered open port 32768/tcp on 10.10.229.54
+Discovered open port 32768/tcp on 10.10.229.54
+Discovered open port 2003/tcp on 10.10.229.54
+Discovered open port 2003/tcp on 10.10.229.54
+Discovered open port 2003/tcp on 10.10.229.54
+Discovered open port 14442/tcp on 10.10.229.54
+Discovered open port 14442/tcp on 10.10.229.54
+Discovered open port 14442/tcp on 10.10.229.54
+Discovered open port 32768/tcp on 10.10.229.54
+Discovered open port 32768/tcp on 10.10.229.54
+Discovered open port 1783/tcp on 10.10.229.54
+Discovered open port 49155/tcp on 10.10.229.54
+Discovered open port 3261/tcp on 10.10.229.54
+Discovered open port 5298/tcp on 10.10.229.54
+Discovered open port 20000/tcp on 10.10.229.54
+Discovered open port 8090/tcp on 10.10.229.54
+Discovered open port 16012/tcp on 10.10.229.54
+Discovered open port 1154/tcp on 10.10.229.54
+Discovered open port 2103/tcp on 10.10.229.54
+Discovered open port 3006/tcp on 10.10.229.54
+Discovered open port 1494/tcp on 10.10.229.54
+Discovered open port 1053/tcp on 10.10.229.54
+Discovered open port 1501/tcp on 10.10.229.54
+Discovered open port 5560/tcp on 10.10.229.54
+Discovered open port 1071/tcp on 10.10.229.54
+Discovered open port 903/tcp on 10.10.229.54
+Discovered open port 5222/tcp on 10.10.229.54
+Discovered open port 1047/tcp on 10.10.229.54
+Discovered open port 1271/tcp on 10.10.229.54
+Discovered open port 20221/tcp on 10.10.229.54
+Discovered open port 2013/tcp on 10.10.229.54
+Discovered open port 2030/tcp on 10.10.229.54
+Discovered open port 1113/tcp on 10.10.229.54
+Discovered open port 9418/tcp on 10.10.229.54
+Discovered open port 13783/tcp on 10.10.229.54
+Discovered open port 34572/tcp on 10.10.229.54
+Discovered open port 27356/tcp on 10.10.229.54
+Discovered open port 1148/tcp on 10.10.229.54
+Discovered open port 714/tcp on 10.10.229.54
+Discovered open port 1287/tcp on 10.10.229.54
+Discovered open port 8873/tcp on 10.10.229.54
+Discovered open port 5815/tcp on 10.10.229.54
+Discovered open port 8701/tcp on 10.10.229.54
+Discovered open port 7627/tcp on 10.10.229.54
+Discovered open port 32769/tcp on 10.10.229.54
+Discovered open port 6001/tcp on 10.10.229.54
+Discovered open port 3030/tcp on 10.10.229.54
+Discovered open port 10001/tcp on 10.10.229.54
+Discovered open port 70/tcp on 10.10.229.54
+Discovered open port 5003/tcp on 10.10.229.54
+Discovered open port 711/tcp on 10.10.229.54
+Discovered open port 61532/tcp on 10.10.229.54
+Discovered open port 999/tcp on 10.10.229.54
+Discovered open port 19842/tcp on 10.10.229.54
+Discovered open port 15003/tcp on 10.10.229.54
+Discovered open port 2190/tcp on 10.10.229.54
+Discovered open port 37/tcp on 10.10.229.54
+Discovered open port 3404/tcp on 10.10.229.54
+Discovered open port 6009/tcp on 10.10.229.54
+Discovered open port 6009/tcp on 10.10.229.54
+Discovered open port 3404/tcp on 10.10.229.54
+Discovered open port 2005/tcp on 10.10.229.54
+Discovered open port 9917/tcp on 10.10.229.54
+Discovered open port 1007/tcp on 10.10.229.54
+Discovered open port 50002/tcp on 10.10.229.54
+Discovered open port 3369/tcp on 10.10.229.54
+Discovered open port 4003/tcp on 10.10.229.54
+Discovered open port 1213/tcp on 10.10.229.54
+Discovered open port 6059/tcp on 10.10.229.54
+Discovered open port 20005/tcp on 10.10.229.54
+Discovered open port 7000/tcp on 10.10.229.54
+Discovered open port 3800/tcp on 10.10.229.54
+Discovered open port 5800/tcp on 10.10.229.54
+Discovered open port 8022/tcp on 10.10.229.54
+Discovered open port 1049/tcp on 10.10.229.54
+Discovered open port 1192/tcp on 10.10.229.54
+Discovered open port 726/tcp on 10.10.229.54
+Discovered open port 10082/tcp on 10.10.229.54
+Discovered open port 6002/tcp on 10.10.229.54
+Discovered open port 5269/tcp on 10.10.229.54
+Discovered open port 3283/tcp on 10.10.229.54
+Discovered open port 3659/tcp on 10.10.229.54
+Discovered open port 5431/tcp on 10.10.229.54
+Discovered open port 12000/tcp on 10.10.229.54
+Discovered open port 89/tcp on 10.10.229.54
+Discovered open port 1248/tcp on 10.10.229.54
+Discovered open port 5925/tcp on 10.10.229.54
+Discovered open port 8099/tcp on 10.10.229.54
+Discovered open port 1688/tcp on 10.10.229.54
+Discovered open port 5054/tcp on 10.10.229.54
+Discovered open port 687/tcp on 10.10.229.54
+Discovered open port 9998/tcp on 10.10.229.54
+Discovered open port 687/tcp on 10.10.229.54
+Discovered open port 9998/tcp on 10.10.229.54
+Discovered open port 545/tcp on 10.10.229.54
+Discovered open port 10000/tcp on 10.10.229.54
+Discovered open port 6565/tcp on 10.10.229.54
+Discovered open port 1137/tcp on 10.10.229.54
+Discovered open port 7019/tcp on 10.10.229.54
+Discovered open port 1045/tcp on 10.10.229.54
+Discovered open port 4567/tcp on 10.10.229.54
+Discovered open port 5633/tcp on 10.10.229.54
+Discovered open port 27715/tcp on 10.10.229.54
+Discovered open port 1126/tcp on 10.10.229.54
+Discovered open port 5004/tcp on 10.10.229.54
+Discovered open port 17988/tcp on 10.10.229.54
+Discovered open port 10012/tcp on 10.10.229.54
+Discovered open port 1024/tcp on 10.10.229.54
+Discovered open port 1328/tcp on 10.10.229.54
+Discovered open port 2196/tcp on 10.10.229.54
+Discovered open port 3878/tcp on 10.10.229.54
+Discovered open port 27000/tcp on 10.10.229.54
+Discovered open port 33899/tcp on 10.10.229.54
+Discovered open port 2601/tcp on 10.10.229.54
+Discovered open port 4443/tcp on 10.10.229.54
+Discovered open port 1658/tcp on 10.10.229.54
+Discovered open port 5989/tcp on 10.10.229.54
+Discovered open port 32773/tcp on 10.10.229.54
+Discovered open port 5906/tcp on 10.10.229.54
+Discovered open port 1840/tcp on 10.10.229.54
+Discovered open port 9535/tcp on 10.10.229.54
+Discovered open port 1201/tcp on 10.10.229.54
+Discovered open port 2492/tcp on 10.10.229.54
+Discovered open port 1755/tcp on 10.10.229.54
+Discovered open port 65389/tcp on 10.10.229.54
+Discovered open port 666/tcp on 10.10.229.54
+Discovered open port 49154/tcp on 10.10.229.54
+Discovered open port 44501/tcp on 10.10.229.54
+Discovered open port 1069/tcp on 10.10.229.54
+Discovered open port 10616/tcp on 10.10.229.54
+Discovered open port 7001/tcp on 10.10.229.54
+Discovered open port 1052/tcp on 10.10.229.54
+Discovered open port 3689/tcp on 10.10.229.54
+Discovered open port 1533/tcp on 10.10.229.54
+Discovered open port 9666/tcp on 10.10.229.54
+Discovered open port 5988/tcp on 10.10.229.54
+Discovered open port 3300/tcp on 10.10.229.54
+Discovered open port 3690/tcp on 10.10.229.54
+Discovered open port 1081/tcp on 10.10.229.54
+Discovered open port 4005/tcp on 10.10.229.54
+Discovered open port 1443/tcp on 10.10.229.54
+Discovered open port 1334/tcp on 10.10.229.54
+Discovered open port 32781/tcp on 10.10.229.54
+Discovered open port 9002/tcp on 10.10.229.54
+Discovered open port 1234/tcp on 10.10.229.54
+Discovered open port 1114/tcp on 10.10.229.54
+Discovered open port 9002/tcp on 10.10.229.54
+Discovered open port 18988/tcp on 10.10.229.54
+Discovered open port 5414/tcp on 10.10.229.54
+Discovered open port 3918/tcp on 10.10.229.54
+Discovered open port 1984/tcp on 10.10.229.54
+Discovered open port 1051/tcp on 10.10.229.54
+Discovered open port 2809/tcp on 10.10.229.54
+Discovered open port 10003/tcp on 10.10.229.54
+Discovered open port 9943/tcp on 10.10.229.54
+Discovered open port 7106/tcp on 10.10.229.54
+Discovered open port 1145/tcp on 10.10.229.54
+Discovered open port 9110/tcp on 10.10.229.54
+Discovered open port 427/tcp on 10.10.229.54
+Discovered open port 900/tcp on 10.10.229.54
+Discovered open port 5000/tcp on 10.10.229.54
+Discovered open port 63331/tcp on 10.10.229.54
+Discovered open port 1098/tcp on 10.10.229.54
+Discovered open port 1021/tcp on 10.10.229.54
+Discovered open port 4900/tcp on 10.10.229.54
+Discovered open port 3871/tcp on 10.10.229.54
+Discovered open port 60020/tcp on 10.10.229.54
+Discovered open port 5544/tcp on 10.10.229.54
+Discovered open port 6669/tcp on 10.10.229.54
+Discovered open port 8010/tcp on 10.10.229.54
+Discovered open port 3260/tcp on 10.10.229.54
+Discovered open port 1111/tcp on 10.10.229.54
+Discovered open port 1043/tcp on 10.10.229.54
+Discovered open port 44176/tcp on 10.10.229.54
+Discovered open port 49163/tcp on 10.10.229.54
+Discovered open port 88/tcp on 10.10.229.54
+Discovered open port 88/tcp on 10.10.229.54
+Discovered open port 88/tcp on 10.10.229.54
+Completed SYN Stealth Scan at 11:05, 91.73s elapsed (1000 total ports)
+Initiating Service scan at 11:05
+Scanning 996 services on 10.10.229.54 (10.10.229.54)
+Service scan Timing: About 2.20% done; ETC: 11:29 (0:22:58 remaining)
+Service scan Timing: About 6.40% done; ETC: 11:21 (0:14:52 remaining)
+Service scan Timing: About 10.60% done; ETC: 11:20 (0:12:47 remaining)
+Service scan Timing: About 16.10% done; ETC: 11:18 (0:10:31 remaining)
+Service scan Timing: About 20.50% done; ETC: 11:18 (0:09:49 remaining)
+Service scan Timing: About 24.80% done; ETC: 11:18 (0:09:12 remaining)
+Service scan Timing: About 30.00% done; ETC: 11:17 (0:08:15 remaining)
+Service scan Timing: About 35.30% done; ETC: 11:17 (0:07:35 remaining)
+Service scan Timing: About 40.60% done; ETC: 11:17 (0:06:47 remaining)
+Service scan Timing: About 46.10% done; ETC: 11:17 (0:06:00 remaining)
+Service scan Timing: About 51.50% done; ETC: 11:16 (0:05:21 remaining)
+Service scan Timing: About 56.40% done; ETC: 11:16 (0:04:47 remaining)
+Service scan Timing: About 63.20% done; ETC: 11:16 (0:03:53 remaining)
+Service scan Timing: About 68.80% done; ETC: 11:16 (0:03:17 remaining)
+Service scan Timing: About 74.60% done; ETC: 11:16 (0:02:44 remaining)
+Service scan Timing: About 80.40% done; ETC: 11:16 (0:02:07 remaining)
+Service scan Timing: About 86.20% done; ETC: 11:16 (0:01:28 remaining)
+Service scan Timing: About 91.40% done; ETC: 11:16 (0:00:55 remaining)
+Completed Service scan at 11:16, 651.87s elapsed (1000 services on 1 host)
+NSE: Script scanning 10.10.229.54.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 11:16
+NSE Timing: About 98.64% done; ETC: 11:17 (0:00:00 remaining)
+NSE Timing: About 99.63% done; ETC: 11:17 (0:00:00 remaining)
+Completed NSE at 11:18, 73.03s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 11:18
+NSE Timing: About 91.55% done; ETC: 11:18 (0:00:03 remaining)
+Completed NSE at 11:18, 42.03s elapsed
+Nmap scan report for 10.10.229.54 (10.10.229.54)
+Host is up, received echo-reply ttl 60 (0.18s latency).
+Scanned at 2025-03-02 11:04:26 IST for 858s
+
+PORT      STATE SERVICE                REASON         VERSION
+1/tcp     open  tcpmux?                syn-ack ttl 60
+3/tcp     open  compressnet?           syn-ack ttl 60
+4/tcp     open  unknown                syn-ack ttl 60
+6/tcp     open  unknown                syn-ack ttl 60
+7/tcp     open  echo?                  syn-ack ttl 60
+9/tcp     open  discard?               syn-ack ttl 60
+13/tcp    open  daytime?               syn-ack ttl 60
+17/tcp    open  qotd?                  syn-ack ttl 60
+19/tcp    open  chargen?               syn-ack ttl 60
+20/tcp    open  ftp-data?              syn-ack ttl 60
+21/tcp    open  ftp?                   syn-ack ttl 60
+22/tcp    open  ssh                    syn-ack ttl 60 OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+23/tcp    open  telnet?                syn-ack ttl 60
+24/tcp    open  priv-mail?             syn-ack ttl 60
+25/tcp    open  smtp?                  syn-ack ttl 60
+26/tcp    open  rsftp?                 syn-ack ttl 60
+30/tcp    open  unknown                syn-ack ttl 60
+32/tcp    open  unknown                syn-ack ttl 60
+33/tcp    open  dsp?                   syn-ack ttl 60
+37/tcp    open  time?                  syn-ack ttl 60
+42/tcp    open  nameserver?            syn-ack ttl 60
+43/tcp    open  whois?                 syn-ack ttl 60
+49/tcp    open  tacacs?                syn-ack ttl 60
+53/tcp    open  domain?                syn-ack ttl 60
+70/tcp    open  http                   syn-ack ttl 60 IP_SHARER WEB lKy (Netgear NRNZRDo router http config)
+79/tcp    open  ftp                    syn-ack ttl 60
+80/tcp    open  http                   syn-ack ttl 60 Apache httpd 2.4.41 ((Ubuntu))
+81/tcp    open  hosts2-ns?             syn-ack ttl 60
+82/tcp    open  upnp                   syn-ack ttl 60 MiniDLNA Oyzww (Debian wuJkZqtl; DLNADOC veG; UPnP GZEbkxSdy)
+83/tcp    open  ftp                    syn-ack ttl 60 SpeedStream 5660 ADSL router (Runs ENI-ftpd/1 on VxWorks)
+84/tcp    open  http                   syn-ack ttl 60 Axway CFT http admin uDa-
+85/tcp    open  smtp-proxy             syn-ack ttl 60 GeNUGate firewall smtp relay
+88/tcp    open  http                   syn-ack ttl 60 Cherokee httpd -qB
+89/tcp    open  pop3                   syn-ack ttl 60 Courier pop3d
+90/tcp    open  ftp                    syn-ack ttl 60 Panasonic WJ-HD316 Digital Disk Recorder uzZEdiXHL
+99/tcp    open  http                   syn-ack ttl 60 VCS-VideoJet-Webserver httpd (Bosch VIP X1 video encoder http config)
+100/tcp   open  ftp                    syn-ack ttl 60 Kyocera LaserStation 1940 printer ftpd
+106/tcp   open  pop3pw?                syn-ack ttl 60
+109/tcp   open  pop2?                  syn-ack ttl 60
+110/tcp   open  acap                   syn-ack ttl 60 CommuniGate Pro ACAP server 3kU (for mail client preference sharing)
+111/tcp   open  imap                   syn-ack ttl 60 Microsoft Exchange Server 2003 imapd laC (Spanish)
+113/tcp   open  printer                syn-ack ttl 60 Panasonic mfpscdl.exe service
+119/tcp   open  nntp?                  syn-ack ttl 60
+125/tcp   open  locus-map?             syn-ack ttl 60
+135/tcp   open  http                   syn-ack ttl 60 InterNiche Technologies WebServer tqUaJ (Motorola Canopy WAP http config; MAC: r)
+139/tcp   open  telnet                 syn-ack ttl 60 APC PDU/UPS devices or Windows CE telnetd
+143/tcp   open  imap?                  syn-ack ttl 60
+144/tcp   open  ftp                    syn-ack ttl 60 Sun SunOS ftpd 5.
+146/tcp   open  telnet                 syn-ack ttl 60 Huawei telnetd
+161/tcp   open  http                   syn-ack ttl 60 Mongoose httpd
+163/tcp   open  cmip-man?              syn-ack ttl 60
+179/tcp   open  bgp?                   syn-ack ttl 60
+199/tcp   open  http                   syn-ack ttl 60 Ninja Blocks home automation httpd
+211/tcp   open  http                   syn-ack ttl 60 apt-cache/apt-proxy httpd
+212/tcp   open  ftp                    syn-ack ttl 60 THEOS Corona ftpd CP_
+222/tcp   open  ftp                    syn-ack ttl 60 NetBotz network monitor ftpd JsZAht
+254/tcp   open  unknown                syn-ack ttl 60
+255/tcp   open  http                   syn-ack ttl 60 USRobotics ADSL router http config
+256/tcp   open  fw1-secureremote?      syn-ack ttl 60
+259/tcp   open  ftp                    syn-ack ttl 60 Dreambox ftpd (PLi Jade image)
+264/tcp   open  sip                    syn-ack ttl 60 OpenSRr (Status: a)
+280/tcp   open  ftp                    syn-ack ttl 60 Quick 'n Easy ftpd
+301/tcp   open  telnet                 syn-ack ttl 60 BusyBox telnetd 1.00-pre7 - 1.14.0
+306/tcp   open  unknown                syn-ack ttl 60
+311/tcp   open  asip-webadmin?         syn-ack ttl 60
+340/tcp   open  http-proxy             syn-ack ttl 60 ScanSafe http proxy
+366/tcp   open  http                   syn-ack ttl 60 IDentifier NameTracer Pro httpd
+389/tcp   open  http                   syn-ack ttl 60 SurgeMail webmail (DNews based)
+406/tcp   open  http                   syn-ack ttl 60 Apple Personal Websharing httpd
+407/tcp   open  http                   syn-ack ttl 60 Maxtor Shared Storage Plus http config
+416/tcp   open  silverplatter?         syn-ack ttl 60
+417/tcp   open  onmux?                 syn-ack ttl 60
+425/tcp   open  icad-el?               syn-ack ttl 60
+427/tcp   open  telnet                 syn-ack ttl 60 HP ProLiant switch telnetd
+443/tcp   open  https?                 syn-ack ttl 60
+444/tcp   open  http                   syn-ack ttl 60 HP System Management httpd
+445/tcp   open  microsoft-ds?          syn-ack ttl 60
+458/tcp   open  appleqtc?              syn-ack ttl 60
+464/tcp   open  telnet                 syn-ack ttl 60 OpenVMS telnetd (OpenVMS dhlFB; Alpha)
+465/tcp   open  smtps?                 syn-ack ttl 60
+481/tcp   open  dvs?                   syn-ack ttl 60
+497/tcp   open  http                   syn-ack ttl 60 SensaTronics TempTrax Digital Thermometer
+500/tcp   open  ssh                    syn-ack ttl 60 (protocol 6388909)
+512/tcp   open  http                   syn-ack ttl 60 Evological Evocam http config
+513/tcp   open  login?                 syn-ack ttl 60
+514/tcp   open  http                   syn-ack ttl 60 Serviio media server http status (Restlet framework o)
+515/tcp   open  printer?               syn-ack ttl 60
+524/tcp   open  telnet                 syn-ack ttl 60 BusyBox telnetd 1.00-pre7 - 1.14.0
+541/tcp   open  http                   syn-ack ttl 60 Axis 5400 print server web config
+543/tcp   open  backdoor               syn-ack ttl 60 **BACKDOOR**
+544/tcp   open  kshell?                syn-ack ttl 60
+545/tcp   open  telnet                 syn-ack ttl 60 Sagem D-BOX2 telnetd (linux kernel rMFS)
+548/tcp   open  ssh                    syn-ack ttl 60 (protocol 163202233)
+554/tcp   open  rtsp?                  syn-ack ttl 60
+555/tcp   open  dsf?                   syn-ack ttl 60
+563/tcp   open  http                   syn-ack ttl 60 NetPort httpd riKsnM (Polycom VSX 8000 http config)
+587/tcp   open  smtp                   syn-ack ttl 60 Sendmail 1440 patch PWvLJbJpfL
+593/tcp   open  http-rpc-epmap?        syn-ack ttl 60
+616/tcp   open  http                   syn-ack ttl 60 Linksys RV082 VPN router http config
+617/tcp   open  http                   syn-ack ttl 60 SimpleShare WAP http config
+625/tcp   open  apple-xsrvr-admin?     syn-ack ttl 60
+631/tcp   open  RemoteMouse            syn-ack ttl 60 Remote Mouse
+636/tcp   open  http                   syn-ack ttl 60 micro_httpd (Deutsche Telekom wireless router http config)
+646/tcp   open  pop3-proxy             syn-ack ttl 60 DeleGate pop3 proxy 291218
+648/tcp   open  ftp                    syn-ack ttl 60 NetComm NS4000 Network Camera (ARM_BE XugIJ)
+666/tcp   open  http                   syn-ack ttl 60 Jetty 9.2.11 or older
+667/tcp   open  disclose?              syn-ack ttl 60
+668/tcp   open  mecomm?                syn-ack ttl 60
+683/tcp   open  ms-sql-s               syn-ack ttl 60 Microsoft SQL Server 2000 8.00.2039; SP4
+687/tcp   open  telnet                 syn-ack ttl 60 BusyBox telnetd
+691/tcp   open  resvc?                 syn-ack ttl 60
+700/tcp   open  epp?                   syn-ack ttl 60
+705/tcp   open  http                   syn-ack ttl 60 lighttpd
+711/tcp   open  cisco-tdp?             syn-ack ttl 60
+714/tcp   open  http                   syn-ack ttl 60 Searchlight Software Spinnaker httpd 5
+720/tcp   open  unknown                syn-ack ttl 60
+722/tcp   open  unknown                syn-ack ttl 60
+726/tcp   open  http                   syn-ack ttl 60 PowerSchool student information system httpd
+749/tcp   open  http                   syn-ack ttl 60 Snom 300 VoIP phone http config (secure connection required)
+765/tcp   open  http                   syn-ack ttl 60 Ipswitch WhatsUp Gold 8nZ
+777/tcp   open  multiling-http?        syn-ack ttl 60
+783/tcp   open  http-proxy             syn-ack ttl 60 Oops! http proxy (Authentication Required)
+787/tcp   open  pop3pw                 syn-ack ttl 60 CommuniGate Pro pop3 password change daemon 1K
+800/tcp   open  rtsp                   syn-ack ttl 60
+801/tcp   open  smtp-proxy             syn-ack ttl 60 UserGate smtp proxy
+808/tcp   open  ccproxy-http?          syn-ack ttl 60
+843/tcp   open  http                   syn-ack ttl 60 JVC V.Networks video httpd 3338443
+873/tcp   open  rsync?                 syn-ack ttl 60
+880/tcp   open  unknown                syn-ack ttl 60
+888/tcp   open  accessbuilder?         syn-ack ttl 60
+898/tcp   open  smtp                   syn-ack ttl 60 hMailServer smtpd 7925830
+900/tcp   open  upnp                   syn-ack ttl 60 Virata-EmWeb vU (Huawei SmartAX MT880 DSL modem UPnP; UPnP eyCNuCMg; Nucleus bsGq)
+901/tcp   open  http                   syn-ack ttl 60 PSIWBL 7rwV (D-Link http config)
+902/tcp   open  iss-realsecure?        syn-ack ttl 60
+903/tcp   open  http                   syn-ack ttl 60 Sandpiper Footprint http load balancer 3
+911/tcp   open  inspircd-spanning-tree syn-ack ttl 60 InspIRCd spanning tree
+912/tcp   open  ftp                    syn-ack ttl 60 APC AOS ftpd KqlvljbF (on APC mGEZOFU network management card)
+981/tcp   open  http                   syn-ack ttl 60 uTorrent WebUI
+987/tcp   open  http                   syn-ack ttl 60 D-Link DIR-q_B+gpN WAP http config Gns
+990/tcp   open  http                   syn-ack ttl 60 Teradici PCoIP remote management http config FpIL
+992/tcp   open  http-proxy             syn-ack ttl 60 DansGuardian HTTP proxy
+993/tcp   open  http                   syn-ack ttl 60 D-Link DWL-700AP router http config
+995/tcp   open  gkrellm                syn-ack ttl 60 GKrellM System Monitor
+999/tcp   open  smtp                   syn-ack ttl 60 qpsmtpd smtpd
+1000/tcp  open  http                   syn-ack ttl 60 Allegro RomPager 11572214 (APC http config)
+1001/tcp  open  webpush?               syn-ack ttl 60
+1002/tcp  open  telnet                 syn-ack ttl 60
+1007/tcp  open  http                   syn-ack ttl 60 Sun Java Management Extensions Reference Installation httpd 38929
+1009/tcp  open  unknown                syn-ack ttl 60
+1010/tcp  open  surf?                  syn-ack ttl 60
+1011/tcp  open  unknown                syn-ack ttl 60
+1021/tcp  open  smtp                   syn-ack ttl 60 Merak Mail Server smtpd 7354642
+1022/tcp  open  exp2?                  syn-ack ttl 60
+1023/tcp  open  http                   syn-ack ttl 60 PLT Scheme httpd
+1024/tcp  open  http                   syn-ack ttl 60 BusyBox httpd
+1025/tcp  open  ssh                    syn-ack ttl 60 (protocol 1.5)
+1026/tcp  open  LSA-or-nterm?          syn-ack ttl 60
+1027/tcp  open  telnet                 syn-ack ttl 60
+1028/tcp  open  ganglia                syn-ack ttl 60 Ganglia XML Grid monitor L.~ (Cluster name: .:...; Owner: .FQ..; Source: ..2/u(.)
+1029/tcp  open  ms-lsa?                syn-ack ttl 60
+1030/tcp  open  printer                syn-ack ttl 60 Microsoft lpd
+1031/tcp  open  telnet                 syn-ack ttl 60 BusyBox telnetd l (Bifferboard gaOWv)
+1032/tcp  open  http                   syn-ack ttl 60 Allegro RomPager 360779 (Netopia c router http config)
+1033/tcp  open  http                   syn-ack ttl 60 Cisco switch/router http config
+1034/tcp  open  http                   syn-ack ttl 60 RMC httpd 8009 (Dell Embedded Remote Access Card)
+1035/tcp  open  backdoor               syn-ack ttl 60 PsychoPhobia backdoor (**BACKDOOR**)
+1036/tcp  open  nsstp?                 syn-ack ttl 60
+1037/tcp  open  http                   syn-ack ttl 60 AEG Powersolutions UPS View http viewer
+1038/tcp  open  ssh                    syn-ack ttl 60 (protocol 3057)
+1039/tcp  open  sbl?                   syn-ack ttl 60
+1040/tcp  open  netsaint?              syn-ack ttl 60
+1041/tcp  open  ppp                    syn-ack ttl 60 pppd
+1042/tcp  open  afrog?                 syn-ack ttl 60
+1043/tcp  open  telnet                 syn-ack ttl 60 OpenText FirstClass webmail command-line interface
+1044/tcp  open  dcutility?             syn-ack ttl 60
+1045/tcp  open  http                   syn-ack ttl 60 Jetty 9.2.11 or older
+1046/tcp  open  wfremotertm?           syn-ack ttl 60
+1047/tcp  open  pop3                   syn-ack ttl 60 AppleMailServer pop3d iUBYmio
+1048/tcp  open  neod2?                 syn-ack ttl 60
+1049/tcp  open  pop3-proxy             syn-ack ttl 60 AVG pop3 proxy 1099220/69058
+1050/tcp  open  smtp                   syn-ack ttl 60 Canon printer smtp server
+1051/tcp  open  optima-vnet?           syn-ack ttl 60
+1052/tcp  open  http                   syn-ack ttl 60 Asterisk http config cCI+xQQ+
+1053/tcp  open  remote-as?             syn-ack ttl 60
+1054/tcp  open  imap                   syn-ack ttl 60 DeskNow imapd DgO
+1055/tcp  open  ftp                    syn-ack ttl 60 TopLayer/Alcatel ftpd
+1056/tcp  open  http                   syn-ack ttl 60 MacroMaker httpd
+1057/tcp  open  telnet                 syn-ack ttl 60 Brocade MLXe router telnetd
+1058/tcp  open  imap                   syn-ack ttl 60 Dovecot imapd 2.0.11
+1059/tcp  open  http                   syn-ack ttl 60 Sun Java System Application Server httpd
+1060/tcp  open  polestar?              syn-ack ttl 60
+1061/tcp  open  smtp                   syn-ack ttl 60 WorkgroupMail smtpd 970740
+1062/tcp  open  veracity?              syn-ack ttl 60
+1063/tcp  open  kyoceranetdev?         syn-ack ttl 60
+1064/tcp  open  smtp                   syn-ack ttl 60 MasqMail smtpd 2HWXBds
+1065/tcp  open  http                   syn-ack ttl 60 AXIS 540+/542+ print server http config 7
+1066/tcp  open  fpo-fns?               syn-ack ttl 60
+1067/tcp  open  http                   syn-ack ttl 60 Embedded HTTP Server oyp (D-Link nZbjPyUBz http config)
+1068/tcp  open  instl_bootc?           syn-ack ttl 60
+1069/tcp  open  cognex-insight?        syn-ack ttl 60
+1070/tcp  open  smtp                   syn-ack ttl 60 Lotus Notes Domino smtpd
+1071/tcp  open  telnet                 syn-ack ttl 60 HP switch telnetd
+1072/tcp  open  ppp                    syn-ack ttl 60
+1073/tcp  open  bridgecontrol?         syn-ack ttl 60
+1074/tcp  open  warmspotMgmt?          syn-ack ttl 60
+1075/tcp  open  warcraft               syn-ack ttl 60 World of Warcraft world server
+1076/tcp  open  http                   syn-ack ttl 60 Perforce P4Web httpd
+1077/tcp  open  imgames?               syn-ack ttl 60
+1078/tcp  open  ssh                    syn-ack ttl 60 FortiSSH (protocol 2.0)
+1079/tcp  open  sharp-twain            syn-ack ttl 60 Sharp printer network TWAIN
+1080/tcp  open  socks?                 syn-ack ttl 60
+1081/tcp  open  pvuniwien?             syn-ack ttl 60
+1082/tcp  open  nntp                   syn-ack ttl 60 INN nntpd (posting ok)
+1083/tcp  open  nntp                   syn-ack ttl 60 Synchronet NNTP Service 5VXV
+1084/tcp  open  ansoft-lm-2?           syn-ack ttl 60
+1085/tcp  open  webobjects?            syn-ack ttl 60
+1086/tcp  open  telnet                 syn-ack ttl 60 BusyBox telnetd 1.14.0 or later
+1087/tcp  open  http                   syn-ack ttl 60 svea_httpd YieJXA
+1088/tcp  open  cplscrambler-al?       syn-ack ttl 60
+1089/tcp  open  http                   syn-ack ttl 60 Wind River Web Server RJXDDY (Fujitsu-Siemens FibreCAT SX80 NAS device http config)
+1090/tcp  open  ff-fms?                syn-ack ttl 60
+1091/tcp  open  ff-sm?                 syn-ack ttl 60
+1092/tcp  open  http                   syn-ack ttl 60 CL-HTTPd 41 (LispWorks 25646692)
+1093/tcp  open  http                   syn-ack ttl 60 UI-View Automatic Packet Reporting System httpd r
+1094/tcp  open  http                   syn-ack ttl 60 TinyHTTPProxy 2602 (.j....)
+1095/tcp  open  nicelink?              syn-ack ttl 60
+1096/tcp  open  smtp                   syn-ack ttl 60 Exim smtpd (broken)
+1097/tcp  open  http                   syn-ack ttl 60 micro_httpd
+1098/tcp  open  rmiactivation?         syn-ack ttl 60
+1099/tcp  open  rmiregistry?           syn-ack ttl 60
+1100/tcp  open  mctp?                  syn-ack ttl 60
+1102/tcp  open  http                   syn-ack ttl 60 SafeNet Sentinel Protection Server 0
+1104/tcp  open  http                   syn-ack ttl 60 Askey httpd 3142 (Siemens Gigaset SE505 WAP http config)
+1105/tcp  open  ftranhc?               syn-ack ttl 60
+1106/tcp  open  http                   syn-ack ttl 60 AEWS t (Avocent Mergepoint KVM switch)
+1107/tcp  open  http                   syn-ack ttl 60 HP Web Jetadmin print server http config 3ImTqbud
+1108/tcp  open  http                   syn-ack ttl 60 Optenet httpd
+1110/tcp  open  nfsd-status?           syn-ack ttl 60
+1111/tcp  open  ftp                    syn-ack ttl 60 OKI BVfMzSs VoIP adapter ftpd mbvILIM
+1112/tcp  open  msql?                  syn-ack ttl 60
+1113/tcp  open  http                   syn-ack ttl 60 Virata-EmWeb 4
+1114/tcp  open  mini-sql?              syn-ack ttl 60
+1117/tcp  open  imap                   syn-ack ttl 60
+1119/tcp  open  ftp                    syn-ack ttl 60 Microsoft IIS ftpd (IP address rejected)
+1121/tcp  open  http                   syn-ack ttl 60 Oracle 9iAS J2EE httpd 8kdYgWe
+1122/tcp  open  http                   syn-ack ttl 60 tigershark httpd 0261179
+1123/tcp  open  ms-sql-s               syn-ack ttl 60 Microsoft SQL Server 2005 9.00.1406
+1124/tcp  open  ident                  syn-ack ttl 60 Trillian identd (Name PUth_FUp)
+1126/tcp  open  hpvmmdata?             syn-ack ttl 60
+1130/tcp  open  casp?                  syn-ack ttl 60
+1131/tcp  open  telnet                 syn-ack ttl 60 APC network management card telnetd
+1132/tcp  open  telnet                 syn-ack ttl 60 Nokia D-BOX2 telnetd 1.00-pre7 - 1.14.0 (Linux ub)
+1137/tcp  open  ftp                    syn-ack ttl 60 Kyocera Mita KM-qmHkHj printer ftpd
+1138/tcp  open  encrypted_admin?       syn-ack ttl 60
+1141/tcp  open  imap                   syn-ack ttl 60 Dovecot imapd
+1145/tcp  open  x9-icue?               syn-ack ttl 60
+1147/tcp  open  smtp-proxy             syn-ack ttl 60 AnalogX SMTP proxy 9eG
+1148/tcp  open  elfiq-repl?            syn-ack ttl 60
+1149/tcp  open  http                   syn-ack ttl 60 Norman Security Endpoint Protection httpd 919138911
+1151/tcp  open  unizensus?             syn-ack ttl 60
+1152/tcp  open  winpoplanmess?         syn-ack ttl 60
+1154/tcp  open  resacommunity?         syn-ack ttl 60
+1163/tcp  open  http                   syn-ack ttl 60 Ingrian i3xx health monitor httpd
+1164/tcp  open  http                   syn-ack ttl 60 BO2K built-in httpd kB_
+1165/tcp  open  http                   syn-ack ttl 60 Virata-EmWeb 9
+1166/tcp  open  qsm-remote?            syn-ack ttl 60
+1169/tcp  open  ftp                    syn-ack ttl 60 FreeFloat ftpd gpEbBOMDo
+1174/tcp  open  fnet-remote-ui?        syn-ack ttl 60
+1175/tcp  open  dossier?               syn-ack ttl 60
+1183/tcp  open  ident                  syn-ack ttl 60 Nullidentd 7xW (broken)
+1185/tcp  open  http                   syn-ack ttl 60 Mbedthis-Appweb Cgt (J-Web http config)
+1186/tcp  open  telnet                 syn-ack ttl 60 Huawei telnetd
+1187/tcp  open  http-proxy             syn-ack ttl 60 Proxy+ http proxy
+1192/tcp  open  caids-sensor?          syn-ack ttl 60
+1198/tcp  open  ftp                    syn-ack ttl 60 Tumbleweed SecureTransport ftpd 9DiM
+1199/tcp  open  ssl/pop3               syn-ack ttl 60 Cyrus pop3sd
+1201/tcp  open  imap                   syn-ack ttl 60 MailEnable Professional imapd
+1213/tcp  open  mpc-lifenet?           syn-ack ttl 60
+1216/tcp  open  ftp                    syn-ack ttl 60 ArGoSoft ftpd 35173
+1217/tcp  open  ssh                    syn-ack ttl 60 (protocol 2.0)
+1218/tcp  open  aeroflight-ads?        syn-ack ttl 60
+1233/tcp  open  smtp                   syn-ack ttl 60 Canon imageRUNNER C5185 smtpd
+1234/tcp  open  smtp                   syn-ack ttl 60 Microsoft Exchange smtpd 76584799
+1236/tcp  open  bvcontrol?             syn-ack ttl 60
+1244/tcp  open  telnet                 syn-ack ttl 60 ZyXEL TddHHyuFg broadband router telnetd
+1247/tcp  open  visionpyramid?         syn-ack ttl 60
+1248/tcp  open  http                   syn-ack ttl 60 Edimax PS-1206P print server
+1259/tcp  open  http                   syn-ack ttl 60 Virata-EmWeb IY (Netscreen administrative web server)
+1271/tcp  open  excw?                  syn-ack ttl 60
+1272/tcp  open  http                   syn-ack ttl 60 Vina Technologies eLink 200 http config
+1277/tcp  open  http                   syn-ack ttl 60 RapidLogic httpd 526 (Symbol Spectrum24 access point http config)
+1287/tcp  open  http                   syn-ack ttl 60 IBM AIX Storage Management 1003 http config a
+1296/tcp  open  smtp                   syn-ack ttl 60
+1300/tcp  open  telnet                 syn-ack ttl 60 Network Systems Group router telnetd
+1301/tcp  open  ci3-software-1?        syn-ack ttl 60
+1309/tcp  open  smtp-proxy             syn-ack ttl 60 PGP Universal smtp proxy (Proxied greeting: b)
+1310/tcp  open  husky?                 syn-ack ttl 60
+1311/tcp  open  http                   syn-ack ttl 60 ZoneAlarm Z100G firewall http config
+1322/tcp  open  ftp                    syn-ack ttl 60 Konica Minolta KMJLhNnOK ftpd 48289
+1328/tcp  open  pop3-proxy             syn-ack ttl 60 JanaServer pop3 proxy
+1334/tcp  open  telnet                 syn-ack ttl 60 HP LaserJet telnetd
+1352/tcp  open  http                   syn-ack ttl 60 Lexmark printer webadmin (Lexmark T)
+1417/tcp  open  timbuktu-srv1?         syn-ack ttl 60
+1433/tcp  open  lmtp                   syn-ack ttl 60 Cyrus Imap Daemon lmtpd 6841176 (on Red Hat)
+1434/tcp  open  ssl/ms-sql-m?          syn-ack ttl 60
+1443/tcp  open  http-proxy             syn-ack ttl 60 Eplicator http proxy 8616168
+1455/tcp  open  http                   syn-ack ttl 60 GoogleMini Search Appliance httpd
+1461/tcp  open  ibm_wrless_lan?        syn-ack ttl 60
+1494/tcp  open  http                   syn-ack ttl 60 WebFinger httpd
+1500/tcp  open  http                   syn-ack ttl 60 Icecast streaming media server
+1501/tcp  open  telnet                 syn-ack ttl 60 APC PDU/UPS devices or Windows CE telnetd
+1503/tcp  open  imtc-mcs?              syn-ack ttl 60
+1521/tcp  open  http                   syn-ack ttl 60 XMLD HTTPServer 723 (Citrix XML Service)
+1524/tcp  open  ingreslock?            syn-ack ttl 60
+1533/tcp  open  http                   syn-ack ttl 60 ADH-Web httpd (Dedicated Micros Digital Sprite 2 DVR http config)
+1556/tcp  open  http                   syn-ack ttl 60 Swann DVR8-2600 security camera system httpd
+1580/tcp  open  tn-tl-r1?              syn-ack ttl 60
+1583/tcp  open  rtsp                   syn-ack ttl 60 Apple QuickTime Streaming Server 66 [3]-Linux
+1594/tcp  open  sixtrak?               syn-ack ttl 60
+1600/tcp  open  http                   syn-ack ttl 60 Gemtek P560 WAP http config P560.GSI.8578879
+1641/tcp  open  invision?              syn-ack ttl 60
+1658/tcp  open  http                   syn-ack ttl 60 Google Search Appliance httpd
+1666/tcp  open  telnet                 syn-ack ttl 60 BusyBox telnetd 0.61 - 1.00-pre7
+1687/tcp  open  nsjtp-ctrl?            syn-ack ttl 60
+1688/tcp  open  nsjtp-data?            syn-ack ttl 60
+1700/tcp  open  mps-raft?              syn-ack ttl 60
+1717/tcp  open  telnet                 syn-ack ttl 60 Ingenic Linux telnetd
+1718/tcp  open  paromed                syn-ack ttl 60 Paromed milling machine rttEODyah
+1719/tcp  open  http                   syn-ack ttl 60 Allegro RomPager -qgIIx (Xerox Phaser 8560DN printer http config)
+1720/tcp  open  imap-proxy             syn-ack ttl 60 Mailfront imapfront imap proxy
+1721/tcp  open  http-proxy             syn-ack ttl 60 distributed.net personal key proxy httpd 95013462
+1723/tcp  open  http                   syn-ack ttl 60 ITW Embedded Web Server CPq-f_z (ITW WeatherGoose II environmental monitor http config)
+1755/tcp  open  http                   syn-ack ttl 60 Check Point UTM-1 Edge X firewall or Zonealarm Z100G WAP http config
+1761/tcp  open  telnet                 syn-ack ttl 60
+1782/tcp  open  telnet                 syn-ack ttl 60 Echelon i.LON web server telnetd
+1783/tcp  open  ftp                    syn-ack ttl 60 glFTPd 6B29FQ8
+1801/tcp  open  msmq?                  syn-ack ttl 60
+1805/tcp  open  enl-name?              syn-ack ttl 60
+1812/tcp  open  telnet                 syn-ack ttl 60 HP LaserJet telnetd
+1839/tcp  open  netopia-vo1?           syn-ack ttl 60
+1840/tcp  open  netopia-vo2?           syn-ack ttl 60
+1862/tcp  open  mysql-cm-agent?        syn-ack ttl 60
+1863/tcp  open  msnp?                  syn-ack ttl 60
+1864/tcp  open  telnet                 syn-ack ttl 60 LANCOM L-54g Wireless router telnetd
+1875/tcp  open  jsonrpc                syn-ack ttl 60 XBMC JSON-RPC ZtfWNqz
+1900/tcp  open  smtp-proxy             syn-ack ttl 60 AVG smtp proxy 85
+1914/tcp  open  http                   syn-ack ttl 60 apt-cache/apt-proxy httpd 623140
+1935/tcp  open  ftp                    syn-ack ttl 60
+1947/tcp  open  http                   syn-ack ttl 60 ALPHA-WebServer g
+1971/tcp  open  telnet                 syn-ack ttl 60
+1972/tcp  open  http                   syn-ack ttl 60 Mono-XSP .NET httpd 2658643
+1974/tcp  open  drp?                   syn-ack ttl 60
+1984/tcp  open  http                   syn-ack ttl 60 DVSS Herculese DVR http config 388241
+1998/tcp  open  minecraft              syn-ack ttl 60 Minecraft game server
+1999/tcp  open  http                   syn-ack ttl 60 Now SMS http config
+2000/tcp  open  digital-sprite-status  syn-ack ttl 60 Dedicated Micros Digital Sprite 2 camera
+2001/tcp  open  dc?                    syn-ack ttl 60
+2002/tcp  open  globe?                 syn-ack ttl 60
+2003/tcp  open  finger?                syn-ack ttl 60
+2004/tcp  open  ftp                    syn-ack ttl 60 Blue Coat ftp proxy
+2005/tcp  open  deslogin?              syn-ack ttl 60
+2006/tcp  open  http                   syn-ack ttl 60 Allegro RomPager 4AcEi (Extreme Networks switch http config)
+2007/tcp  open  http                   syn-ack ttl 60 Zild httpd S (M/Monit network monitor)
+2008/tcp  open  telnet                 syn-ack ttl 60
+2009/tcp  open  pop3                   syn-ack ttl 60 Hotmail Popper hotmail to pop3 gateway
+2010/tcp  open  telnet                 syn-ack ttl 60 Huawei telnetd
+2013/tcp  open  http                   syn-ack ttl 60 T-Com Speedport W 723V WAP http config
+2020/tcp  open  ssh                    syn-ack ttl 60 AudioCodes MP-124 SIP gateway sshd (protocol 363949)
+2021/tcp  open  ftp                    syn-ack ttl 60 FileZilla ftpd
+2022/tcp  open  down?                  syn-ack ttl 60
+2030/tcp  open  telnet                 syn-ack ttl 60 Tandem Himalaya K2000 telnetd
+2033/tcp  open  smtp                   syn-ack ttl 60
+2034/tcp  open  jsonrpc                syn-ack ttl 60 XBMC JSON-RPC a
+2035/tcp  open  icy                    syn-ack ttl 60 SHOUTcast server 87937579
+2038/tcp  open  ftp                    syn-ack ttl 60
+2040/tcp  open  http                   syn-ack ttl 60 Perl Dancer Ar
+2041/tcp  open  smtp                   syn-ack ttl 60 (Wanadoo blocks smtp - NOT A REAL smtpd!)
+2042/tcp  open  isis?                  syn-ack ttl 60
+2043/tcp  open  http                   syn-ack ttl 60 SafeNet Sentinel Keys License Monitor httpd xltGkSH (Java Console)
+2045/tcp  open  cdfunc?                syn-ack ttl 60
+2046/tcp  open  ftp                    syn-ack ttl 60 Comtrend FTP firmware update utility
+2047/tcp  open  http                   syn-ack ttl 60 Check Point firewall client authentication httpd
+2048/tcp  open  telnet                 syn-ack ttl 60
+2049/tcp  open  http                   syn-ack ttl 60 DrayTek Vigor 3300 router http config
+2065/tcp  open  dlsrpn?                syn-ack ttl 60
+2068/tcp  open  avocentkvm?            syn-ack ttl 60
+2099/tcp  open  ftp-proxy              syn-ack ttl 60 Webshield2 FTP proxy
+2100/tcp  open  amiganetfs?            syn-ack ttl 60
+2103/tcp  open  zephyr-clt?            syn-ack ttl 60
+2105/tcp  open  pop3                   syn-ack ttl 60 DavMail pop3d
+2106/tcp  open  pop3pw                 syn-ack ttl 60 CommuniGate Pro pop3 password change daemon 0AaeOZZusZ
+2107/tcp  open  msmq-mgmt?             syn-ack ttl 60
+2111/tcp  open  http                   syn-ack ttl 60 Allen-Bradley WWW httpd 02205 (Rockwell Automation Ethernet Processor http config)
+2119/tcp  open  ftp                    syn-ack ttl 60 Multicraft ftpd alF
+2121/tcp  open  http                   syn-ack ttl 60 vdradmin http config Y
+2126/tcp  open  afbackup               syn-ack ttl 60 afbackup 11045
+2135/tcp  open  gris?                  syn-ack ttl 60
+2144/tcp  open  lv-ffx?                syn-ack ttl 60
+2160/tcp  open  apc-2160?              syn-ack ttl 60
+2161/tcp  open  ftp                    syn-ack ttl 60 3Com ftpd zb_EHR
+2170/tcp  open  ftp                    syn-ack ttl 60 Bomara Tracker 2740 multipurpose server ftpd (local time: 66)
+2179/tcp  open  ftp                    syn-ack ttl 60 Cisco Wireless Control System ftpd
+2190/tcp  open  ftp                    syn-ack ttl 60 Check Point Firewall-1 ftpd
+2191/tcp  open  http                   syn-ack ttl 60 BusyBox httpd
+2196/tcp  open  ftp                    syn-ack ttl 60 Bulletproof ftp server
+2200/tcp  open  http                   syn-ack ttl 60 Allegro RomPager g-v (Xerox Phaser 8560DN printer http config)
+2222/tcp  open  http                   syn-ack ttl 60 SensaTronics TempTrax Digital Thermometer
+2251/tcp  open  dif-port?              syn-ack ttl 60
+2260/tcp  open  telnet                 syn-ack ttl 60 Carrier Access Adit 600 telnetd
+2288/tcp  open  http                   syn-ack ttl 60 Orion Java Application Server httpd 929559
+2301/tcp  open  compaqdiag?            syn-ack ttl 60
+2323/tcp  open  3d-nfsd?               syn-ack ttl 60
+2366/tcp  open  klogin                 syn-ack ttl 60 HP-UX kerberized rlogin
+2381/tcp  open  http                   syn-ack ttl 60 Secure Computing Sidewinder firewall http admin
+2382/tcp  open  ms-olap3?              syn-ack ttl 60
+2383/tcp  open  http                   syn-ack ttl 60 D-Link printer/webcam http config
+2393/tcp  open  ms-olap1?              syn-ack ttl 60
+2394/tcp  open  echo                   syn-ack ttl 60
+2399/tcp  open  ftp                    syn-ack ttl 60 Gestetner DSm622 copier ftpd 8224840
+2401/tcp  open  cvspserver?            syn-ack ttl 60
+2492/tcp  open  telnet                 syn-ack ttl 60
+2500/tcp  open  http                   syn-ack ttl 60 3Ware web interface 7AgEhs (RAID storage)
+2522/tcp  open  telnet                 syn-ack ttl 60 Siemens SLXqFh ADSL router telnetd nsIqBE
+2525/tcp  open  ms-v-worlds?           syn-ack ttl 60
+2557/tcp  open  http-proxy             syn-ack ttl 60 AnalogX web proxy (misconfigured)
+2601/tcp  open  zebra?                 syn-ack ttl 60
+2602/tcp  open  metatrader             syn-ack ttl 60 MetaTrader Data Center
+2604/tcp  open  ospfd?                 syn-ack ttl 60
+2605/tcp  open  upnp                   syn-ack ttl 60 MiniDLNA mG (Fedora T; DLNADOC U; UPnP E)
+2607/tcp  open  connection?            syn-ack ttl 60
+2608/tcp  open  telnet                 syn-ack ttl 60 InterSystems CTELNETD
+2638/tcp  open  http                   syn-ack ttl 60 GoAhead WebServer (Dell PowerConnect 3024 switch http config)
+2701/tcp  open  http                   syn-ack ttl 60 Novell eDirectory DHOST httpd 5ERs (HttpStk: 6kitr; used by iMonitor)
+2702/tcp  open  sms-xfer?              syn-ack ttl 60
+2710/tcp  open  sip                    syn-ack ttl 60 (SIP end point; Status: 504 Server time-out)
+2717/tcp  open  smtp-proxy             syn-ack ttl 60 GeNUGate firewall smtp relay
+2718/tcp  open  http                   syn-ack ttl 60 SLWebMail Supervisor http config
+2725/tcp  open  rtsp                   syn-ack ttl 60 Microsoft Windows Media Services tC (Portuguese)
+2800/tcp  open  http                   syn-ack ttl 60 BitTorrent Download Manager httpd
+2809/tcp  open  telnet                 syn-ack ttl 60 Dreambox DVB telnetd (Linux o)
+2811/tcp  open  http-proxy             syn-ack ttl 60 WWWOFFLE caching webproxy 0OBawdyZHP
+2869/tcp  open  http                   syn-ack ttl 60 NetApp http vFiler d
+2875/tcp  open  imap                   syn-ack ttl 60 Cisco VPN Concentrator 3000-series imapd
+2909/tcp  open  pop3                   syn-ack ttl 60 ArGoSoft freeware pop3d .-8...L
+2910/tcp  open  http                   syn-ack ttl 60 IneoQuest Video Diagnostic HTTP 9981876
+2920/tcp  open  http                   syn-ack ttl 60 bobax.worm.c httpd
+2967/tcp  open  symantec-av?           syn-ack ttl 60
+2968/tcp  open  enpp?                  syn-ack ttl 60
+2998/tcp  open  ms-sql-s               syn-ack ttl 60 Microsoft SQL Server 2000 8.00.2039; SP4
+3000/tcp  open  ssh                    syn-ack ttl 60 F-Secure sshd 1714948 (protocol 2)
+3001/tcp  open  nessus?                syn-ack ttl 60
+3003/tcp  open  cgms?                  syn-ack ttl 60
+3005/tcp  open  ftp                    syn-ack ttl 60 RaidenFTPd
+3006/tcp  open  http                   syn-ack ttl 60 FortiGate Endpoint Control httpd
+3011/tcp  open  irc-proxy              syn-ack ttl 60 muh irc proxy
+3017/tcp  open  realplayfavs           syn-ack ttl 60 RealPlayer Shared Favorites
+3030/tcp  open  pop3                   syn-ack ttl 60 Microsoft Exchange 2007 pop3d
+3031/tcp  open  imap                   syn-ack ttl 60 Microsoft Exchange Server imapd 915513 (French)
+3052/tcp  open  http                   syn-ack ttl 60 Eicon Diva ISDN card configuration server
+3071/tcp  open  http                   syn-ack ttl 60 Snowcrash WinAmp http control plugin 17136713
+3077/tcp  open  orbix-loc-ssl?         syn-ack ttl 60
+3128/tcp  open  http                   syn-ack ttl 60 GoAhead WebServer
+3168/tcp  open  telnet                 syn-ack ttl 60 InterNiche telnetd fHmDw
+3211/tcp  open  avsecuremgmt?          syn-ack ttl 60
+3221/tcp  open  ftp                    syn-ack ttl 60 Merak ftpd 145641661
+3260/tcp  open  http                   syn-ack ttl 60 Bentley SELECTserver license manager
+3261/tcp  open  ftp                    syn-ack ttl 60 ioFTPD IbaPmfig
+3268/tcp  open  imap                   syn-ack ttl 60 ArGoSoft Pro imapd 371
+3269/tcp  open  rtsp                   syn-ack ttl 60
+3283/tcp  open  http                   syn-ack ttl 60 Alepo Extent 694001974
+3300/tcp  open  http                   syn-ack ttl 60 vdradmin http config QOM-QWg-
+3301/tcp  open  tarantool?             syn-ack ttl 60
+3306/tcp  open  http                   syn-ack ttl 60 Monoprice MS NU62P11 or Sedna print server http config
+3322/tcp  open  http                   syn-ack ttl 60 Apple QTSS Admin Server 9hXdBWu (from QTSS 2cR)
+3323/tcp  open  http                   syn-ack ttl 60 BaseHTTPServer 50 (Roundup issue tracker; Python E)
+3324/tcp  open  active-net?            syn-ack ttl 60
+3325/tcp  open  http                   syn-ack ttl 60 WebFS httpd 9ZPuo
+3333/tcp  open  dec-notes?             syn-ack ttl 60
+3351/tcp  open  btrieve?               syn-ack ttl 60
+3367/tcp  open  satvid-datalnk?        syn-ack ttl 60
+3369/tcp  open  satvid-datalnk?        syn-ack ttl 60
+3370/tcp  open  satvid-datalnk?        syn-ack ttl 60
+3371/tcp  open  ftp                    syn-ack ttl 60 vsftpd b
+3372/tcp  open  telnet                 syn-ack ttl 60
+3389/tcp  open  ms-wbt-server?         syn-ack ttl 60
+3390/tcp  open  dsc?                   syn-ack ttl 60
+3404/tcp  open  finger                 syn-ack ttl 60 XMail fingerd
+3476/tcp  open  telnet                 syn-ack ttl 60 WebRamp 410i ISDN router telnetd
+3493/tcp  open  http                   syn-ack ttl 60 Kyocera Mita FS-1350DN printer http config
+3517/tcp  open  moneyworks             syn-ack ttl 60 MoneyWorks accounting software
+3527/tcp  open  pop3                   syn-ack ttl 60 Ocean Mail Server pop3d 05591872
+3546/tcp  open  g15daemon              syn-ack ttl 60 g15daemon (Logitech G15 keyboard control)
+3551/tcp  open  irc                    syn-ack ttl 60 UnrealIRCd (Admin email oLs_j@hu)
+3580/tcp  open  http                   syn-ack ttl 60 ENI-Web httpd _50_ (Speedstream DSL router http config)
+3659/tcp  open  apple-sasl?            syn-ack ttl 60
+3689/tcp  open  rendezvous?            syn-ack ttl 60
+3690/tcp  open  telnet                 syn-ack ttl 60 AcerTelecom LDK-300 PBX telnetd TLHLzs
+3703/tcp  open  http                   syn-ack ttl 60 xtide Tide prediction httpd
+3737/tcp  open  smtp                   syn-ack ttl 60 WebEasyMail smtpd 86
+3766/tcp  open  sitewatch-s?           syn-ack ttl 60
+3784/tcp  open  ssh                    syn-ack ttl 60 (protocol 19)
+3800/tcp  open  ftp                    syn-ack ttl 60 Treck Embedded ftpd
+3801/tcp  open  ibm-mgr?               syn-ack ttl 60
+3809/tcp  open  apocd?                 syn-ack ttl 60
+3814/tcp  open  smtp                   syn-ack ttl 60 Access Remote PC smtpd
+3826/tcp  open  wormux?                syn-ack ttl 60
+3827/tcp  open  rtsp                   syn-ack ttl 60
+3828/tcp  open  http                   syn-ack ttl 60 Dartware InterMapper httpd hVdW_EVih
+3851/tcp  open  ftp                    syn-ack ttl 60 Cisco Site Selector ftpd
+3869/tcp  open  pop3                   syn-ack ttl 60 cPanel Courier pop3d
+3871/tcp  open  http                   syn-ack ttl 60 Hauppauge DVB EPG http config devq
+3878/tcp  open  gopher                 syn-ack ttl 60 pygopherd
+3880/tcp  open  imap                   syn-ack ttl 60 SmarterMail imapd
+3889/tcp  open  git                    syn-ack ttl 60 Git (GitHub)
+3905/tcp  open  mupdate?               syn-ack ttl 60
+3914/tcp  open  listcrt-port-2?        syn-ack ttl 60
+3918/tcp  open  pktcablemmcops?        syn-ack ttl 60
+3920/tcp  open  exasoftport1?          syn-ack ttl 60
+3945/tcp  open  http                   syn-ack ttl 60 JVC V.Networks video httpd 1
+3971/tcp  open  http                   syn-ack ttl 60 Virata-EmWeb 18736
+3986/tcp  open  http                   syn-ack ttl 60 World Client WDaemon httpd 2 (Alt-N MDaemon webmail)
+3995/tcp  open  iss-mgmt-ssl?          syn-ack ttl 60
+3998/tcp  open  dnx?                   syn-ack ttl 60
+4000/tcp  open  telnet                 syn-ack ttl 60 HP LaserJet telnetd
+4001/tcp  open  telnet                 syn-ack ttl 60
+4002/tcp  open  http                   syn-ack ttl 60 lighttpd
+4003/tcp  open  imap                   syn-ack ttl 60 TeamXchange imapd
+4004/tcp  open  ftp                    syn-ack ttl 60 SpeedStream 5660 ADSL router (Runs ENI-ftpd/151 on VxWorks)
+4005/tcp  open  pxc-pin?               syn-ack ttl 60
+4006/tcp  open  pxc-spvr?              syn-ack ttl 60
+4045/tcp  open  lockd?                 syn-ack ttl 60
+4111/tcp  open  ftp                    syn-ack ttl 60 Motorola/Symbol WS2000 WAP ftpd
+4125/tcp  open  smtp                   syn-ack ttl 60 MDaemon smtpd 79832290
+4126/tcp  open  ddrepl?                syn-ack ttl 60
+4129/tcp  open  smtp                   syn-ack ttl 60 MailMax smtpd 2357707
+4224/tcp  open  http                   syn-ack ttl 60 OmikronHTTPOrigin httpd xKF
+4242/tcp  open  vrml-multi-use?        syn-ack ttl 60
+4279/tcp  open  telnet                 syn-ack ttl 60
+4321/tcp  open  telnet                 syn-ack ttl 60 Netgear FSMn router telnetd
+4343/tcp  open  ipp                    syn-ack ttl 60 Xerox WorkCentre IPP
+4443/tcp  open  smtp                   syn-ack ttl 60 SoftStack Free SMTP Server
+4444/tcp  open  http                   syn-ack ttl 60 Virata-EmWeb .520156
+4445/tcp  open  sip                    syn-ack ttl 60 (SIP end point; Status: 200 OK)
+4446/tcp  open  n1-fwp?                syn-ack ttl 60
+4449/tcp  open  http                   syn-ack ttl 60 Motorola Canopy WAP http config (MAC dP)
+4550/tcp  open  ingrian-xml            syn-ack ttl 60 Ingrian NAE XML daemon
+4567/tcp  open  http                   syn-ack ttl 60 APC SmartUPS http config
+4662/tcp  open  telnet                 syn-ack ttl 60 ZEM200 biometric device config telnetd (Linux XQRu)
+4848/tcp  open  appserv-http?          syn-ack ttl 60
+4899/tcp  open  http                   syn-ack ttl 60 Mono-HTTPAPI TUim (OpenSimulator http config)
+4900/tcp  open  telnet                 syn-ack ttl 60 HP Integrated Lights Out telnetd
+4998/tcp  open  ms-sql-s               syn-ack ttl 60 Microsoft SQL Server 2005 9.00.3054; SP2+
+5000/tcp  open  upnp?                  syn-ack ttl 60
+5001/tcp  open  telnet                 syn-ack ttl 60
+5002/tcp  open  nntp                   syn-ack ttl 60 Microsoft NNTP Service ml
+5003/tcp  open  filemaker?             syn-ack ttl 60
+5004/tcp  open  http                   syn-ack ttl 60 Konica Minolta printer http config PmH_S
+5009/tcp  open  http-proxy             syn-ack ttl 60 ezProxy http proxy
+5030/tcp  open  powerchute             syn-ack ttl 60 APC PowerChute Agent 6.x|7.x
+5033/tcp  open  http                   syn-ack ttl 60 SafeNet Sentinel Keys License Monitor httpd ocko (Java Console)
+5050/tcp  open  http                   syn-ack ttl 60 RapidLogic httpd 9 (Netgear WAG102 WAP http config)
+5051/tcp  open  telnet                 syn-ack ttl 60 Floosietek FTgate telnetd UEEfCp
+5054/tcp  open  ftp-proxy              syn-ack ttl 60 WinProxy FTP proxy On..."a2`
+5060/tcp  open  http-proxy             syn-ack ttl 60 BlueCoat ProxyAV appliance http proxy
+5061/tcp  open  telnet                 syn-ack ttl 60
+5080/tcp  open  onscreen?              syn-ack ttl 60
+5087/tcp  open  http                   syn-ack ttl 60 GNUMP3d streaming server 7j
+5100/tcp  open  irc                    syn-ack ttl 60 Dancer ircd
+5101/tcp  open  ms-wbt-server-proxy    syn-ack ttl 60 nmproxy NetMeeting proxy
+5102/tcp  open  admeng?                syn-ack ttl 60
+5120/tcp  open  vmware-auth            syn-ack ttl 60 VMware Authentication Daemon 3LoyYmhaJd
+5190/tcp  open  aol?                   syn-ack ttl 60
+5200/tcp  open  soap                   syn-ack ttl 60 gSOAP 649118049
+5214/tcp  open  ftp                    syn-ack ttl 60 CrushFTP
+5221/tcp  open  3exmp?                 syn-ack ttl 60
+5222/tcp  open  http                   syn-ack ttl 60 Apache httpd
+5225/tcp  open  http                   syn-ack ttl 60 Apt-cacher-ng httpd (misconfigured)
+5226/tcp  open  smux                   syn-ack ttl 60 Linux SNMP multiplexer
+5269/tcp  open  http                   syn-ack ttl 60 BaseHTTPServer 7 (Roundup issue tracker; Python c)
+5280/tcp  open  xmpp-bosh?             syn-ack ttl 60
+5298/tcp  open  printer                syn-ack ttl 60 lpd
+5357/tcp  open  pop3                   syn-ack ttl 60 Microsoft Exchange 2003 pop3d 993119680 (French)
+5405/tcp  open  http-proxy             syn-ack ttl 60 Telkonet Communications http proxy
+5414/tcp  open  sieve                  syn-ack ttl 60 Dovecot timsieved
+5431/tcp  open  irc                    syn-ack ttl 60 ircu ircd inter-server port
+5432/tcp  open  pjlink                 syn-ack ttl 60 PJLink projector control
+5440/tcp  open  unknown                syn-ack ttl 60
+5500/tcp  open  telnet                 syn-ack ttl 60 BusyBox telnetd 1.00-pre7 - 1.14.0
+5510/tcp  open  rtsp                   syn-ack ttl 60 Microsoft Windows Media Services rIKOlN (Portuguese)
+5544/tcp  open  http                   syn-ack ttl 60 micro_httpd
+5550/tcp  open  sdadmind?              syn-ack ttl 60
+5555/tcp  open  pop3                   syn-ack ttl 60 Microsoft Exchange 2003 pop3d 8 (Korean)
+5560/tcp  open  rtsp                   syn-ack ttl 60 Boxee rtspd
+5566/tcp  open  smtp                   syn-ack ttl 60 FirstClass SMTP server 1eec
+5631/tcp  open  ftp                    syn-ack ttl 60 DrayTek Vigor 2820 ADSL router ftpd (access denied)
+5633/tcp  open  beorl?                 syn-ack ttl 60
+5666/tcp  open  nrpe?                  syn-ack ttl 60
+5678/tcp  open  smtp                   syn-ack ttl 60 Symantec Messaging Gateway smtpd
+5679/tcp  open  activesync?            syn-ack ttl 60
+5718/tcp  open  autosys                syn-ack ttl 60 CA AutoSys RCS Listener isELOuQ_ (not authorized)
+5730/tcp  open  http                   syn-ack ttl 60 Evological Evocam http config
+5800/tcp  open  http                   syn-ack ttl 60 Allegro RomPager 716093 (Cayman KJuSJJThm DSL router)
+5801/tcp  open  ftp                    syn-ack ttl 60 Serv-U ftpd (Server temporarily unavailable)
+5802/tcp  open  http                   syn-ack ttl 60 Tor directory
+5810/tcp  open  ssh                    syn-ack ttl 60 meow SSH ROOTKIT (protocol 371)
+5811/tcp  open  unknown                syn-ack ttl 60
+5815/tcp  open  http                   syn-ack ttl 60 wg_httpd GmirfwM (WebGateInc WebEye webcam http config; based on Boa SVmP)
+5822/tcp  open  telnet                 syn-ack ttl 60 Actiontec GT704-WGB WAP telnetd
+5825/tcp  open  http                   syn-ack ttl 60 TiVo Calypso Desktop
+5850/tcp  open  unknown                syn-ack ttl 60
+5859/tcp  open  wherehoo?              syn-ack ttl 60
+5862/tcp  open  pop3                   syn-ack ttl 60 Spearmail pop3d
+5877/tcp  open  http                   syn-ack ttl 60 SimpleHTTPServer 5404233 (Python 5)
+5900/tcp  open  ftp                    syn-ack ttl 60 NetWare NWFTPD
+5901/tcp  open  pop3                   syn-ack ttl 60 Dovecot DirectAdmin pop3d
+5902/tcp  open  http                   syn-ack ttl 60 LuCI Lua http config
+5903/tcp  open  ssh                    syn-ack ttl 60 EdmzSshDaemon om_Y (sshlib UL; protocol 1596)
+5904/tcp  open  telnet                 syn-ack ttl 60 Actiontec DSL router
+5906/tcp  open  http                   syn-ack ttl 60 Avira SMC Internet Update Manager
+5907/tcp  open  smtp                   syn-ack ttl 60 ArGoSoft Pro smtpd RvOPsiSo
+5910/tcp  open  cm?                    syn-ack ttl 60
+5911/tcp  open  smtp                   syn-ack ttl 60
+5915/tcp  open  smtp                   syn-ack ttl 60 SpearMail smtpd
+5922/tcp  open  pop3                   syn-ack ttl 60 Solid pop3d
+5925/tcp  open  telnet                 syn-ack ttl 60 Huawei telnetd
+5950/tcp  open  unknown                syn-ack ttl 60
+5952/tcp  open  http                   syn-ack ttl 60 Samba SWAT administration server (broken)
+5959/tcp  open  http                   syn-ack ttl 60 Indy httpd So (Avaya VoIP phone upgrade service)
+5960/tcp  open  smtp                   syn-ack ttl 60 Lotus Domino smtpd 1LMqhG
+5961/tcp  open  monopd                 syn-ack ttl 60 monopd 44694
+5962/tcp  open  avk                    syn-ack ttl 60 G Data AVK anti-virus
+5963/tcp  open  telnet                 syn-ack ttl 60 Motorola Canopy cluster management module telnetd
+5985/tcp  open  wsman?                 syn-ack ttl 60
+5986/tcp  open  wsmans?                syn-ack ttl 60
+5987/tcp  open  http                   syn-ack ttl 60 Sun GlassFish Open Source Edition lGp
+5988/tcp  open  http                   syn-ack ttl 60 Sandpiper Footprint http load balancer 53
+5989/tcp  open  wbem-https?            syn-ack ttl 60
+5998/tcp  open  http                   syn-ack ttl 60 peercast.org
+5999/tcp  open  smtp                   syn-ack ttl 60 Kerio MailServer 3DAI
+6000/tcp  open  http-proxy             syn-ack ttl 60 awarrenhttp http proxy OcRqBq
+6001/tcp  open  telnet                 syn-ack ttl 60 Bintec X2301 ADSL modem telnetd Ufg (Name -RqPbgP)
+6002/tcp  open  http                   syn-ack ttl 60 PSIWBL 6QNcqhyjr (D-Link http config)
+6003/tcp  open  X11:3?                 syn-ack ttl 60
+6004/tcp  open  sip                    syn-ack ttl 60 (SIP end point; Status: 503 Remote end of tunnel is not connected)
+6005/tcp  open  http                   syn-ack ttl 60 Digital Loggers Web Power Switch II http config
+6006/tcp  open  sip                    syn-ack ttl 60 Sphericall/AdKJRd Build/6r (Status: e)
+6007/tcp  open  X11:7?                 syn-ack ttl 60
+6009/tcp  open  X11:9?                 syn-ack ttl 60
+6025/tcp  open  x11?                   syn-ack ttl 60
+6059/tcp  open  X11:59?                syn-ack ttl 60
+6100/tcp  open  synchronet-db?         syn-ack ttl 60
+6101/tcp  open  AndroMouse             syn-ack ttl 60 AndroMouse Android remote mouse server
+6106/tcp  open  ssh                    syn-ack ttl 60 Sun StorEdge 3511 sshd (protocol 08; IFT SSH)
+6112/tcp  open  smtp                   syn-ack ttl 60
+6123/tcp  open  http                   syn-ack ttl 60 Agranat-EmWeb 69064 (HP p-Class GbE2 switch http config)
+6129/tcp  open  pop3                   syn-ack ttl 60 Microsoft Exchange 2007 pop3d
+6156/tcp  open  unknown                syn-ack ttl 60
+6346/tcp  open  gnutella?              syn-ack ttl 60
+6389/tcp  open  clariion-evr01?        syn-ack ttl 60
+6502/tcp  open  smtp                   syn-ack ttl 60 SonicWALL Email Security smtpd 9685485
+6510/tcp  open  mcer-port?             syn-ack ttl 60
+6543/tcp  open  ssh                    syn-ack ttl 60 (protocol 83063969)
+6547/tcp  open  http                   syn-ack ttl 60 uTorrent WebUI
+6565/tcp  open  smtp-proxy             syn-ack ttl 60 AVG smtp proxy 162
+6566/tcp  open  ftp                    syn-ack ttl 60 Dreambox ftpd (PLi Jade image)
+6567/tcp  open  telnet                 syn-ack ttl 60 Optimcom DSLink 260E ADSL router telnetd
+6580/tcp  open  ftp                    syn-ack ttl 60 Ricoh Aficio MP C2500 printer ftpd 1
+6646/tcp  open  telnet                 syn-ack ttl 60 Olicom CrossFire 8720 switch telnetd
+6666/tcp  open  irc?                   syn-ack ttl 60
+6667/tcp  open  buildservice           syn-ack ttl 60 BuildForge Agent DhuQ
+6668/tcp  open  http                   syn-ack ttl 60 Microsoft ISA httpd (Spanish)
+6669/tcp  open  http                   syn-ack ttl 60 OmniSecure httpd PnkYzegGb
+6689/tcp  open  tsa?                   syn-ack ttl 60
+6692/tcp  open  unknown                syn-ack ttl 60
+6699/tcp  open  smtp                   syn-ack ttl 60 Symantec Messaging Gateway smtpd
+6779/tcp  open  unknown                syn-ack ttl 60
+6788/tcp  open  telnet                 syn-ack ttl 60 MMC MW-3000AP telnetd (-Q)
+6789/tcp  open  ftp-proxy              syn-ack ttl 60 Sidewinder FTP proxy
+6792/tcp  open  unknown                syn-ack ttl 60
+6839/tcp  open  smtp                   syn-ack ttl 60 Cisco IOS NetWorks smtp server
+6881/tcp  open  telnet                 syn-ack ttl 60 Synology DiskStation 1512+ NAS telnetd
+6901/tcp  open  telnet                 syn-ack ttl 60 Allied Telesis x900-series switch telnetd
+6969/tcp  open  telnet                 syn-ack ttl 60 Marconi ES-1000
+7000/tcp  open  http                   syn-ack ttl 60 micro_httpd (Thomson Cable Modem Web Diagnostics)
+7001/tcp  open  http                   syn-ack ttl 60 Lacie BigDisk NAS http config
+7002/tcp  open  ftp                    syn-ack ttl 60 Homer ftpd
+7004/tcp  open  afs3-kaserver?         syn-ack ttl 60
+7007/tcp  open  zebedee                syn-ack ttl 60 Zebedee encrypted tunnel
+7019/tcp  open  gnutella               syn-ack ttl 60 LimeWire Gnutella P2P client r
+7025/tcp  open  vmsvc-2?               syn-ack ttl 60
+7070/tcp  open  http                   syn-ack ttl 60 Dell 1815dn printer http config
+7100/tcp  open  font-service?          syn-ack ttl 60
+7103/tcp  open  telnet                 syn-ack ttl 60 BusyBox telnetd GgJVNvsT (open; OpenWrt)
+7106/tcp  open  unknown                syn-ack ttl 60
+7200/tcp  open  http                   syn-ack ttl 60 Linksys WRT=..$... router http config
+7201/tcp  open  http-proxy             syn-ack ttl 60 BlueCoat ProxyAV appliance http proxy
+7402/tcp  open  sip                    syn-ack ttl 60 (SIP end point; Status: 200 OK)
+7435/tcp  open  http-proxy             syn-ack ttl 60 IBM-PROXY-WTE-US web proxy 9
+7443/tcp  open  oracleas-https?        syn-ack ttl 60
+7496/tcp  open  unknown                syn-ack ttl 60
+7512/tcp  open  unknown                syn-ack ttl 60
+7625/tcp  open  imsp                   syn-ack ttl 60
+7627/tcp  open  ftp                    syn-ack ttl 60 Cerberus FTP Server (Personal Edition; Unregistered)
+7676/tcp  open  telnet                 syn-ack ttl 60 foobar2000 remote control telnetd 211
+7741/tcp  open  http                   syn-ack ttl 60 ADH-Web httpd (Dedicated Micros Digital Sprite 2 DVR http config)
+7777/tcp  open  cbt?                   syn-ack ttl 60
+7778/tcp  open  http                   syn-ack ttl 60 Check Point SVN foundation httpd
+7800/tcp  open  ms-sql-s               syn-ack ttl 60 Microsoft SQL Server 2000 8.00.194; RTM
+7911/tcp  open  xmpp-transport         syn-ack ttl 60 Spectrum XMPP file transfer
+7920/tcp  open  ftp                    syn-ack ttl 60 NET+ARM ftpd 186270119
+7921/tcp  open  unknown                syn-ack ttl 60
+7937/tcp  open  ftp                    syn-ack ttl 60 ZyXEL ZXDSL LBnmmnO ADSL modem ftpd O
+7938/tcp  open  lgtomapper?            syn-ack ttl 60
+7999/tcp  open  irdmi2?                syn-ack ttl 60
+8000/tcp  open  telnet                 syn-ack ttl 60 Cisco Catalyst switch telnetd (no password set)
+8001/tcp  open  ftp                    syn-ack ttl 60
+8002/tcp  open  teradataordbms?        syn-ack ttl 60
+8007/tcp  open  ajp12?                 syn-ack ttl 60
+8008/tcp  open  http?                  syn-ack ttl 60
+8009/tcp  open  http                   syn-ack ttl 60 Citrix Access Gateway firewall http config
+8010/tcp  open  imap                   syn-ack ttl 60 Alt-N MDaemon imapd 0njI (Spanish)
+8011/tcp  open  webcache               syn-ack ttl 60 webcache
+8021/tcp  open  http                   syn-ack ttl 60 Cisco VPN Concentrator http config
+8022/tcp  open  oa-system?             syn-ack ttl 60
+8031/tcp  open  unknown                syn-ack ttl 60
+8042/tcp  open  antivir                syn-ack ttl 60 Symantec AntiVirus Scan Engine
+8045/tcp  open  finger                 syn-ack ttl 60 Dell KlWkNivN laser printer fingerd (Status: k)
+8080/tcp  open  http-proxy?            syn-ack ttl 60
+8081/tcp  open  blackice-icecap?       syn-ack ttl 60
+8082/tcp  open  blackice-alerts?       syn-ack ttl 60
+8083/tcp  open  us-srv?                syn-ack ttl 60
+8084/tcp  open  ssh                    syn-ack ttl 60 Seagate GoFlex NAS device sshd CB_EFxNfQ (protocol 366)
+8085/tcp  open  smtp-proxy             syn-ack ttl 60 GeNUGate firewall smtp relay
+8086/tcp  open  http                   syn-ack ttl 60 DirecTV satellite receiver http interface
+8087/tcp  open  telnet                 syn-ack ttl 60 Brocade SilkWorm switch telnetd (Fabric OS q)
+8088/tcp  open  rtsp                   syn-ack ttl 60 Lotus Domino Sametime RTSP
+8089/tcp  open  unknown                syn-ack ttl 60
+8090/tcp  open  opsmessaging?          syn-ack ttl 60
+8093/tcp  open  telnet                 syn-ack ttl 60
+8099/tcp  open  http                   syn-ack ttl 60 Allnet/Cameo/D-Link switch http config (..@4.Xo.; MAC apQZ)
+8100/tcp  open  smtp                   syn-ack ttl 60 OpenSMTPD
+8180/tcp  open  unknown                syn-ack ttl 60 DavMail Gateway vjJQWewu
+8181/tcp  open  telnet                 syn-ack ttl 60 Huawei STC router telnetd
+8192/tcp  open  sophos?                syn-ack ttl 60
+8193/tcp  open  sip                    syn-ack ttl 60 (SIP end point; Status: 200 OK)
+8194/tcp  open  nagios-nsca            syn-ack ttl 60 Nagios NSCA
+8200/tcp  open  http                   syn-ack ttl 60 Motion-httpd 5619291
+8222/tcp  open  http                   syn-ack ttl 60 Citrix Access Gateway firewall http config
+8254/tcp  open  unknown                syn-ack ttl 60
+8290/tcp  open  telnet                 syn-ack ttl 60 UTT Hiper 2610 router telnetd
+8291/tcp  open  unknown                syn-ack ttl 60
+8292/tcp  open  http                   syn-ack ttl 60 PoolServerJ http config
+8300/tcp  open  tmi?                   syn-ack ttl 60
+8333/tcp  open  telnet                 syn-ack ttl 60 Interpeak AB embedded security device telnetd (OSE 65396)
+8383/tcp  open  m2mservices?           syn-ack ttl 60
+8400/tcp  open  pop3                   syn-ack ttl 60 Lotus Domino POP3 server rsDMIiEd (CN=.U...;Org=:.6..;...)
+8402/tcp  open  abarsd?                syn-ack ttl 60
+8443/tcp  open  http                   syn-ack ttl 60 Indy httpd 88867 (NetStatus Professional)
+8500/tcp  open  telnet                 syn-ack ttl 60
+8600/tcp  open  ntop-http              syn-ack ttl 60 Ntop web interface 8dLgv (Dsu)
+8649/tcp  open  unknown                syn-ack ttl 60
+8651/tcp  open  http                   syn-ack ttl 60 Netgear ProSafe FVS338 VPN firewall http config
+8652/tcp  open  http                   syn-ack ttl 60 D-Link DVG-2032S VoIP gateway http config
+8654/tcp  open  unknown                syn-ack ttl 60
+8701/tcp  open  unknown                syn-ack ttl 60
+8800/tcp  open  irc                    syn-ack ttl 60 Dancer ircd
+8873/tcp  open  ftp                    syn-ack ttl 60 FreeFTPd 069613
+8888/tcp  open  sun-answerbook?        syn-ack ttl 60
+8899/tcp  open  http                   syn-ack ttl 60 Black Box LGB2008A switch http config
+8994/tcp  open  unknown                syn-ack ttl 60
+9000/tcp  open  http                   syn-ack ttl 60 Axigen webadmin httpd
+9001/tcp  open  tor-orport?            syn-ack ttl 60
+9002/tcp  open  http                   syn-ack ttl 60 Cisco DSL router webadmin
+9003/tcp  open  telnet                 syn-ack ttl 60 CyberSwitching Dualcom power device rabbit 2000 embedded telnetd
+9009/tcp  open  irc                    syn-ack ttl 60 Dancer ircd
+9010/tcp  open  http                   syn-ack ttl 60 Apache httpd (PHP Uxdf)
+9011/tcp  open  d-star?                syn-ack ttl 60
+9040/tcp  open  tor-trans?             syn-ack ttl 60
+9050/tcp  open  tor-socks?             syn-ack ttl 60
+9071/tcp  open  unknown                syn-ack ttl 60
+9080/tcp  open  telnet                 syn-ack ttl 60 AXIS webcam telnetd 97798317 (Linux zSVmCQHcq)
+9081/tcp  open  cisco-aqos?            syn-ack ttl 60
+9090/tcp  open  telnet                 syn-ack ttl 60 Cisco Catalyst switch telnetd
+9091/tcp  open  xmltec-xmlmail?        syn-ack ttl 60
+9099/tcp  open  ftp                    syn-ack ttl 60 CompuMaster WT-6500 ThinClient ftpd 4984677
+9100/tcp  open  jetdirect?             syn-ack ttl 60
+9101/tcp  open  jetdirect?             syn-ack ttl 60
+9102/tcp  open  jetdirect?             syn-ack ttl 60
+9103/tcp  open  jetdirect?             syn-ack ttl 60
+9110/tcp  open  unknown                syn-ack ttl 60
+9111/tcp  open  http                   syn-ack ttl 60 Cisco Secure ACS login
+9200/tcp  open  http                   syn-ack ttl 60 SoftPerfect Bandwidth Manager httpd
+9207/tcp  open  pop3                   syn-ack ttl 60 LSMTP pop3d uGQtmnSW
+9220/tcp  open  unknown                syn-ack ttl 60
+9290/tcp  open  ms-sql-s               syn-ack ttl 60 Microsoft SQL Server 2005 9.00.3080; SP2+ MS09-062
+9415/tcp  open  unknown                syn-ack ttl 60
+9418/tcp  open  telnet                 syn-ack ttl 60 HP MPE/iX telnetd
+9485/tcp  open  mu-game                syn-ack ttl 60 Webzen MU Online role-playing game server
+9500/tcp  open  ismserver?             syn-ack ttl 60
+9502/tcp  open  nntp                   syn-ack ttl 60 Freenet Message System nntpd
+9503/tcp  open  http                   syn-ack ttl 60 Overland Storage Ultamus RAID manager
+9535/tcp  open  telnet                 syn-ack ttl 60 GlobespanVirata telnetd jpjbaJ
+9575/tcp  open  unknown                syn-ack ttl 60
+9593/tcp  open  ftp                    syn-ack ttl 60
+9594/tcp  open  http-proxy             syn-ack ttl 60 Apache JMeter http proxy
+9595/tcp  open  pds?                   syn-ack ttl 60
+9618/tcp  open  condor?                syn-ack ttl 60
+9666/tcp  open  ssh                    syn-ack ttl 60 (protocol 917)
+9876/tcp  open  sd?                    syn-ack ttl 60
+9877/tcp  open  x510?                  syn-ack ttl 60
+9878/tcp  open  telnet                 syn-ack ttl 60 D-Link 524, DIR-300, or WBR-1310 WAP telnetd
+9898/tcp  open  monkeycom?             syn-ack ttl 60
+9900/tcp  open  iua?                   syn-ack ttl 60
+9917/tcp  open  rtsp                   syn-ack ttl 60
+9929/tcp  open  smtp                   syn-ack ttl 60 Oracle smtpd 83204
+9943/tcp  open  telnet                 syn-ack ttl 60 Broadcom BCMTOjKEiC DSL router telnetd
+9944/tcp  open  unknown                syn-ack ttl 60
+9968/tcp  open  unknown                syn-ack ttl 60
+9998/tcp  open  ftp                    syn-ack ttl 60 FreeFTPd 64276
+9999/tcp  open  abyss?                 syn-ack ttl 60
+10000/tcp open  pop3                   syn-ack ttl 60 IA MailServer pop3d
+10001/tcp open  scp-config?            syn-ack ttl 60
+10002/tcp open  documentum?            syn-ack ttl 60
+10003/tcp open  smtp                   syn-ack ttl 60 Lotus Domino smtpd
+10004/tcp open  http                   syn-ack ttl 60 tigershark httpd 210556855
+10009/tcp open  http                   syn-ack ttl 60 IP_SHARER WEB AKNnAmP (SpeedStream router http config)
+10010/tcp open  http                   syn-ack ttl 60 JC-HTTPD 1561 (Sharp AR-M550N printer http config)
+10012/tcp open  http                   syn-ack ttl 60 BusyBox httpd
+10024/tcp open  http                   syn-ack ttl 60 Yello Strom Sparzaehler electricity meter httpd
+10025/tcp open  klogin                 syn-ack ttl 60 Solaris kerberized rlogin
+10082/tcp open  telnet                 syn-ack ttl 60 Lingo VoIP config telnetd
+10180/tcp open  gpsd                   syn-ack ttl 60 gpsd S (Serial port nDI)
+10215/tcp open  http                   syn-ack ttl 60 Tenda N60 WAP http admin
+10243/tcp open  unknown                syn-ack ttl 60
+10566/tcp open  smtp                   syn-ack ttl 60 Xserve smtpd
+10616/tcp open  unknown                syn-ack ttl 60
+10617/tcp open  finger                 syn-ack ttl 60 Dell KQG laser printer fingerd (Status: g)
+10621/tcp open  sieve                  syn-ack ttl 60 Cyrus timsieved Murder yKPKXC
+10626/tcp open  http                   syn-ack ttl 60 LaCie Network Space NAS http config
+10628/tcp open  unknown                syn-ack ttl 60
+10629/tcp open  http                   syn-ack ttl 60 Embedded HTTP Server UoXQkD (USRobotics router http config; name ..e.)
+10778/tcp open  http                   syn-ack ttl 60 Indy httpd VpH
+11110/tcp open  telnet                 syn-ack ttl 60 HP JetDirect telnetd
+11111/tcp open  vce?                   syn-ack ttl 60
+11967/tcp open  http                   syn-ack ttl 60 GoAhead WebServer (D-Link DCM-202 Docsis Cable Modem http config)
+12000/tcp open  pop3                   syn-ack ttl 60
+12174/tcp open  telnet                 syn-ack ttl 60 Arris tm602g cable modem telnetd (console in use)
+12265/tcp open  ftp                    syn-ack ttl 60 Panasonic WV-NP1000 webcam ftpd 89230354
+12345/tcp open  netbus?                syn-ack ttl 60
+13456/tcp open  http                   syn-ack ttl 60 VMware Server http config
+13722/tcp open  ssh                    syn-ack ttl 60 DrayTek Vigor 2820 ADSL router sshd UlOu (protocol 32)
+13782/tcp open  telnet                 syn-ack ttl 60 E-tech VPAD01 telnetd 666841988
+13783/tcp open  http                   syn-ack ttl 60 PrintSir WEBPORT 94988 (Hawking HP1SU Printserver http config; default password "1234")
+14000/tcp open  smtp                   syn-ack ttl 60 Sendmail 2729381 (on A/UX 79675)
+14238/tcp open  http                   syn-ack ttl 60 Embedded HTTP Server lMaps (SMC wireless router http config)
+14441/tcp open  http                   syn-ack ttl 60 BQTWWW CkgnKgw
+14442/tcp open  http                   syn-ack ttl 60 AddPac AP200B VoIP gateway http config
+15000/tcp open  http                   syn-ack ttl 60 Oracle XDB httpd 641484
+15002/tcp open  upnp                   syn-ack ttl 60 MiniUPnP pDHliIX (OpenWrt Kamikaze; UPnP m)
+15003/tcp open  unknown                syn-ack ttl 60
+15004/tcp open  unknown                syn-ack ttl 60
+15660/tcp open  bex-xr?                syn-ack ttl 60
+15742/tcp open  ftp                    syn-ack ttl 60 BulletProof ftpd (Banned)
+16000/tcp open  telnet                 syn-ack ttl 60
+16001/tcp open  telnet                 syn-ack ttl 60 AMX DXLink HDMI receiver telnetd e
+16012/tcp open  unknown                syn-ack ttl 60
+16016/tcp open  check_mk               syn-ack ttl 60 check_mk extension for Nagios ZmcCsz
+16018/tcp open  pop3                   syn-ack ttl 60 Cyrus pop3d iZNrhGQa (OS X Server O_vCFjEym)
+16080/tcp open  osxwebadmin?           syn-ack ttl 60
+16113/tcp open  unknown                syn-ack ttl 60
+16992/tcp open  http                   syn-ack ttl 60 Allot NetEnforcer bandwidth management http config
+16993/tcp open  amt-soap-https?        syn-ack ttl 60
+17877/tcp open  ftp                    syn-ack ttl 60 Aastra A150 VoIP phone ftpd
+17988/tcp open  http                   syn-ack ttl 60 GoAhead WebServer (Supermicro IPMI/Paradox Alarm http config)
+18040/tcp open  backdoor               syn-ack ttl 60 **BACKDOOR**
+18101/tcp open  textui                 syn-ack ttl 60 TeamSpeak 3 ServerQuery
+18988/tcp open  upnp                   syn-ack ttl 60 TVersity Media Server UPnP uKtcbyxB (UPnP dRlWu_Y)
+19101/tcp open  pop3                   syn-ack ttl 60 Courier pop3d
+19283/tcp open  keysrvr?               syn-ack ttl 60
+19315/tcp open  pop3                   syn-ack ttl 60 PMDF pop3d FlNlcBFJK
+19350/tcp open  http                   syn-ack ttl 60 Dahlia httpd 4694 (Sony Storestation http interface)
+19780/tcp open  unknown                syn-ack ttl 60
+19801/tcp open  unknown                syn-ack ttl 60
+19842/tcp open  http                   syn-ack ttl 60 Siemens Gigaset C450 IP VoIP phone http config
+20000/tcp open  ftp                    syn-ack ttl 60 Riedel Artist intercom system ftpd
+20005/tcp open  http                   syn-ack ttl 60 VMware VirtualCenter Web service
+20031/tcp open  ftp                    syn-ack ttl 60 Cisco 3000 series VPN ftpd
+20221/tcp open  http                   syn-ack ttl 60 Axigen webadmin httpd
+20222/tcp open  http                   syn-ack ttl 60 3M Filtrete 3M-50 thermostat http config
+20828/tcp open  http                   syn-ack ttl 60 Cisco ASA 5510 firewall http config
+21571/tcp open  unknown                syn-ack ttl 60
+22939/tcp open  unknown                syn-ack ttl 60
+23502/tcp open  http                   syn-ack ttl 60 Zimbra http config
+24444/tcp open  http                   syn-ack ttl 60 Apache Tomcat 6nnsnWR
+24800/tcp open  directconnect          syn-ack ttl 60 Direct Connect P2P 9581
+25734/tcp open  http                   syn-ack ttl 60 Acme.Serve Zza (APC PowerChute)
+25735/tcp open  g15daemon              syn-ack ttl 60 g15daemon (Logitech G15 keyboard control)
+26214/tcp open  ftp                    syn-ack ttl 60 Serv-U ftpd (Server temporarily unavailable)
+27000/tcp open  flexlm0?               syn-ack ttl 60
+27352/tcp open  sip                    syn-ack ttl 60 (SIP end point; Status: --------)
+27353/tcp open  unknown                syn-ack ttl 60
+27355/tcp open  unknown                syn-ack ttl 60
+27356/tcp open  http                   syn-ack ttl 60 Netgear ProSafe FVX538 VPN firewall http config
+27715/tcp open  sip                    syn-ack ttl 60 Zoiper rev.5r (Status: 200 OK)
+28201/tcp open  solproxy               syn-ack ttl 60 Dell Serial Over LAN proxy
+30000/tcp open  http                   syn-ack ttl 60 Virata-EmWeb 1987 (HP Color LaserJet 2840 http config)
+30718/tcp open  http                   syn-ack ttl 60 Xrelayd SSL engine httpd (OpenWrt)
+30951/tcp open  unknown                syn-ack ttl 60
+31038/tcp open  telnet                 syn-ack ttl 60 HP LaserJet telnetd
+31337/tcp open  Elite?                 syn-ack ttl 60
+32768/tcp open  http                   syn-ack ttl 60 Metasploit multi/browser/mozilla_compareto exploit
+32769/tcp open  ftp                    syn-ack ttl 60 Indy FTP server (German)
+32770/tcp open  upnp                   syn-ack ttl 60 Virata-EmWeb 81083 (Billion 741GE ADSL router UPnP; UPnP 4)
+32771/tcp open  telnet                 syn-ack ttl 60
+32772/tcp open  sometimes-rpc7?        syn-ack ttl 60
+32773/tcp open  ftp                    syn-ack ttl 60 IBM OS/2 ftpd 5:6145
+32774/tcp open  sometimes-rpc11?       syn-ack ttl 60
+32775/tcp open  sometimes-rpc13?       syn-ack ttl 60
+32776/tcp open  http                   syn-ack ttl 60 Dave Solin's Web Daemon 8437032 (BMC HTTP service)
+32777/tcp open  sometimes-rpc17?       syn-ack ttl 60
+32778/tcp open  ftp                    syn-ack ttl 60 Canon iPF6100 printer ftpd
+32779/tcp open  tmail                  syn-ack ttl 60 T-Mail z
+32780/tcp open  http                   syn-ack ttl 60 Virata-EmWeb 29950345 (HP Officejet Pro L7680 http config)
+32781/tcp open  unknown                syn-ack ttl 60
+32782/tcp open  vdr                    syn-ack ttl 60 VDR 8f."6$@tT*
+32783/tcp open  telnet                 syn-ack ttl 60
+32784/tcp open  unknown                syn-ack ttl 60
+32785/tcp open  http                   syn-ack ttl 60 NetSupport Gateway httpd 9679897
+33354/tcp open  http                   syn-ack ttl 60 RapidLogic httpd MW (3Com OfficeConnect WAP http config)
+33899/tcp open  telnet                 syn-ack ttl 60 Brocade SilkWorm switch telnetd (Fabric OS PzTkcC)
+34571/tcp open  sip                    syn-ack ttl 60 PolycomSoundStationIP-SSIP_9UA/3824_dr (Status: 200 OK)
+34572/tcp open  ftp                    syn-ack ttl 60 BulletProof FTPd
+34573/tcp open  unknown                syn-ack ttl 60
+35500/tcp open  http                   syn-ack ttl 60 IBM nweb
+38292/tcp open  landesk-cba?           syn-ack ttl 60
+40193/tcp open  unknown                syn-ack ttl 60
+40911/tcp open  unknown                syn-ack ttl 60
+41511/tcp open  sieve                  syn-ack ttl 60 Cyrus timsieved Murder x
+42510/tcp open  http                   syn-ack ttl 60 WindWeb 3lgQ (Home Gateway router http config)
+44176/tcp open  ftp                    syn-ack ttl 60 ProFTPD zWvKpMgS
+44442/tcp open  coldfusion-auth?       syn-ack ttl 60
+44443/tcp open  http                   syn-ack ttl 60 Mac OS X Server Admin http config
+44501/tcp open  unknown                syn-ack ttl 60
+45100/tcp open  ftp                    syn-ack ttl 60 WinGate ftpd
+48080/tcp open  unknown                syn-ack ttl 60
+49152/tcp open  telnet                 syn-ack ttl 60 Sun Remote System Control telnetd 9406145
+49153/tcp open  http-proxy             syn-ack ttl 60 LastFMProxy HTTP-to-last.fm proxy yhWXVj
+49154/tcp open  http                   syn-ack ttl 60 cPanel httpd (unauthorized)
+49155/tcp open  unknown                syn-ack ttl 60
+49156/tcp open  metatrader             syn-ack ttl 60 MetaTrader Data Center
+49157/tcp open  http                   syn-ack ttl 60 Yamaha M7CL sound board http config Udett
+49158/tcp open  ftp                    syn-ack ttl 60
+49159/tcp open  telnet                 syn-ack ttl 60
+49160/tcp open  daytime                syn-ack ttl 60 American Dynamics EDVR security camera daytime
+49161/tcp open  telnet                 syn-ack ttl 60 Cisco telnetd
+49163/tcp open  imap                   syn-ack ttl 60 Axigen imapd HzQn
+49165/tcp open  ftp                    syn-ack ttl 60
+49167/tcp open  unknown                syn-ack ttl 60
+49175/tcp open  unknown                syn-ack ttl 60
+49176/tcp open  unknown                syn-ack ttl 60
+49400/tcp open  compaqdiag?            syn-ack ttl 60
+49999/tcp open  http                   syn-ack ttl 60 SPiN web chat system 3mQBIJoBK
+50000/tcp open  smtp-proxy             syn-ack ttl 60 UserGate smtp proxy
+50001/tcp open  telnet                 syn-ack ttl 60 Cisco LocalDirector telnetd
+50002/tcp open  http                   syn-ack ttl 60 sfcHttpd
+50003/tcp open  unknown                syn-ack ttl 60
+50006/tcp open  unknown                syn-ack ttl 60
+50300/tcp open  unknown                syn-ack ttl 60
+50389/tcp open  unknown                syn-ack ttl 60
+50500/tcp open  smtp                   syn-ack ttl 60
+50636/tcp open  smtp                   syn-ack ttl 60 Postfix smtpd
+50800/tcp open  unknown                syn-ack ttl 60
+51103/tcp open  telnet                 syn-ack ttl 60 LG Aria LDK-300 PBX telnetd
+51493/tcp open  http-proxy             syn-ack ttl 60 LastFMProxy HTTP-to-last.fm proxy ZEaRctz
+52673/tcp open  unknown                syn-ack ttl 60
+52822/tcp open  unknown                syn-ack ttl 60
+52848/tcp open  cvspserver             syn-ack ttl 60 CVS pserver (broken)
+52869/tcp open  smtp                   syn-ack ttl 60 Panasonic DP-3500 smtpd
+54045/tcp open  unknown                syn-ack ttl 60
+54328/tcp open  http                   syn-ack ttl 60 Cherokee httpd ZPOUHxnQl (OpenSUSE)
+55055/tcp open  nagios-nsca            syn-ack ttl 60 Nagios NSCA
+55056/tcp open  james-admin            syn-ack ttl 60 JAMES Remote Admin 30
+55555/tcp open  unknown                syn-ack ttl 60
+55600/tcp open  pop3-proxy             syn-ack ttl 60 O3SIS UMA pop3 proxy uqDg
+56737/tcp open  ftp                    syn-ack ttl 60 Symantec Raptor Firewall ftpd
+56738/tcp open  telnet                 syn-ack ttl 60 Coresma Phazer Docsis USB cable modem telnetd
+57294/tcp open  oem-agent              syn-ack ttl 60 Oracle Enterprise Manager Agent httpd 85
+57797/tcp open  ftp                    syn-ack ttl 60 OpenBSD ftpd S+ (Linux port RCB)
+58080/tcp open  smtp                   syn-ack ttl 60 Mercury/32 smtpd 3JEUGwRal
+60020/tcp open  ftp                    syn-ack ttl 60 zFTPServer oylVaxSh build 67
+60443/tcp open  unknown                syn-ack ttl 60
+61532/tcp open  ftp                    syn-ack ttl 60 ProFTPD
+61900/tcp open  smtp                   syn-ack ttl 60 Hornbill Supportworks smtpd GBSOoeiDX
+62078/tcp open  telnet                 syn-ack ttl 60
+63331/tcp open  http-proxy             syn-ack ttl 60 Microsoft ISA Server Web Proxy (Spanish; Proxy auth required)
+64623/tcp open  telnet                 syn-ack ttl 60 LANCOM L-54g Wireless router telnetd
+64680/tcp open  http                   syn-ack ttl 60 ISPManager billing system httpd
+65000/tcp open  smtp-proxy             syn-ack ttl 60 CCProxy smtp proxy 15590752 (Unregistered)
+65129/tcp open  unknown                syn-ack ttl 60
+65389/tcp open  ftp                    syn-ack ttl 60 Stupid-FTPd
+9 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1-TCP:V=7.95%I=7%D=3/2%Time=67C3EE3E%P=x86_64-pc-linux-gnu%r(NULL,4
+SF:1,"550\x2012345\x200000000000000000000000000000000000000000000000000000
+SF:000")%r(GetRequest,41,"550\x2012345\x2000000000000000000000000000000000
+SF:00000000000000000000000")%r(Help,41,"550\x2012345\x20000000000000000000
+SF:0000000000000000000000000000000000000")%r(GenericLines,41,"550\x2012345
+SF:\x200000000000000000000000000000000000000000000000000000000")%r(HTTPOpt
+SF:ions,41,"550\x2012345\x200000000000000000000000000000000000000000000000
+SF:000000000")%r(RTSPRequest,41,"550\x2012345\x200000000000000000000000000
+SF:000000000000000000000000000000")%r(RPCCheck,41,"550\x2012345\x200000000
+SF:000000000000000000000000000000000000000000000000")%r(DNSVersionBindReqT
+SF:CP,41,"550\x2012345\x20000000000000000000000000000000000000000000000000
+SF:0000000")%r(DNSStatusRequestTCP,41,"550\x2012345\x200000000000000000000
+SF:000000000000000000000000000000000000")%r(SSLSessionReq,41,"550\x2012345
+SF:\x200000000000000000000000000000000000000000000000000000000")%r(Termina
+SF:lServerCookie,41,"550\x2012345\x200000000000000000000000000000000000000
+SF:000000000000000000")%r(TLSSessionReq,41,"550\x2012345\x2000000000000000
+SF:00000000000000000000000000000000000000000")%r(Kerberos,41,"550\x2012345
+SF:\x200000000000000000000000000000000000000000000000000000000")%r(SMBProg
+SF:Neg,41,"550\x2012345\x2000000000000000000000000000000000000000000000000
+SF:00000000")%r(X11Probe,41,"550\x2012345\x2000000000000000000000000000000
+SF:00000000000000000000000000")%r(FourOhFourRequest,41,"550\x2012345\x2000
+SF:00000000000000000000000000000000000000000000000000000")%r(LPDString,41,
+SF:"550\x2012345\x20000000000000000000000000000000000000000000000000000000
+SF:0")%r(LDAPSearchReq,41,"550\x2012345\x200000000000000000000000000000000
+SF:000000000000000000000000")%r(LDAPBindReq,41,"550\x2012345\x200000000000
+SF:000000000000000000000000000000000000000000000")%r(SIPOptions,41,"550\x2
+SF:012345\x200000000000000000000000000000000000000000000000000000000")%r(L
+SF:ANDesk-RC,41,"550\x2012345\x2000000000000000000000000000000000000000000
+SF:00000000000000")%r(TerminalServer,41,"550\x2012345\x2000000000000000000
+SF:00000000000000000000000000000000000000");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port3-TCP:V=7.95%I=7%D=3/2%Time=67C3EE3E%P=x86_64-pc-linux-gnu%r(NULL,4
+SF:1,"550\x2012345\x200000000000000000000000000000000000000000000000000000
+SF:000")%r(GenericLines,41,"550\x2012345\x20000000000000000000000000000000
+SF:0000000000000000000000000")%r(GetRequest,41,"550\x2012345\x200000000000
+SF:000000000000000000000000000000000000000000000")%r(HTTPOptions,41,"550\x
+SF:2012345\x200000000000000000000000000000000000000000000000000000000")%r(
+SF:RTSPRequest,41,"550\x2012345\x20000000000000000000000000000000000000000
+SF:0000000000000000")%r(RPCCheck,41,"550\x2012345\x20000000000000000000000
+SF:0000000000000000000000000000000000")%r(DNSVersionBindReqTCP,41,"550\x20
+SF:12345\x200000000000000000000000000000000000000000000000000000000")%r(DN
+SF:SStatusRequestTCP,41,"550\x2012345\x20000000000000000000000000000000000
+SF:0000000000000000000000")%r(Help,41,"550\x2012345\x200000000000000000000
+SF:000000000000000000000000000000000000")%r(SSLSessionReq,41,"550\x2012345
+SF:\x200000000000000000000000000000000000000000000000000000000")%r(Termina
+SF:lServerCookie,41,"550\x2012345\x200000000000000000000000000000000000000
+SF:000000000000000000")%r(TLSSessionReq,41,"550\x2012345\x2000000000000000
+SF:00000000000000000000000000000000000000000")%r(Kerberos,41,"550\x2012345
+SF:\x200000000000000000000000000000000000000000000000000000000")%r(SMBProg
+SF:Neg,41,"550\x2012345\x2000000000000000000000000000000000000000000000000
+SF:00000000")%r(X11Probe,41,"550\x2012345\x2000000000000000000000000000000
+SF:00000000000000000000000000")%r(FourOhFourRequest,41,"550\x2012345\x2000
+SF:00000000000000000000000000000000000000000000000000000")%r(LPDString,41,
+SF:"550\x2012345\x20000000000000000000000000000000000000000000000000000000
+SF:0")%r(LDAPSearchReq,41,"550\x2012345\x200000000000000000000000000000000
+SF:000000000000000000000000")%r(LDAPBindReq,41,"550\x2012345\x200000000000
+SF:000000000000000000000000000000000000000000000")%r(SIPOptions,41,"550\x2
+SF:012345\x200000000000000000000000000000000000000000000000000000000")%r(L
+SF:ANDesk-RC,41,"550\x2012345\x2000000000000000000000000000000000000000000
+SF:00000000000000")%r(TerminalServer,41,"550\x2012345\x2000000000000000000
+SF:00000000000000000000000000000000000000");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port4-TCP:V=7.95%I=7%D=3/2%Time=67C3EE3E%P=x86_64-pc-linux-gnu%r(NULL,4
+SF:1,"550\x2012345\x200000000000000000000000000000000000000000000000000000
+SF:000")%r(GenericLines,41,"550\x2012345\x20000000000000000000000000000000
+SF:0000000000000000000000000")%r(GetRequest,41,"550\x2012345\x200000000000
+SF:000000000000000000000000000000000000000000000")%r(HTTPOptions,41,"550\x
+SF:2012345\x200000000000000000000000000000000000000000000000000000000")%r(
+SF:RTSPRequest,41,"550\x2012345\x20000000000000000000000000000000000000000
+SF:0000000000000000")%r(RPCCheck,41,"550\x2012345\x20000000000000000000000
+SF:0000000000000000000000000000000000")%r(DNSVersionBindReqTCP,41,"550\x20
+SF:12345\x200000000000000000000000000000000000000000000000000000000")%r(DN
+SF:SStatusRequestTCP,41,"550\x2012345\x20000000000000000000000000000000000
+SF:0000000000000000000000")%r(Help,41,"550\x2012345\x200000000000000000000
+SF:000000000000000000000000000000000000")%r(SSLSessionReq,41,"550\x2012345
+SF:\x200000000000000000000000000000000000000000000000000000000")%r(Termina
+SF:lServerCookie,41,"550\x2012345\x200000000000000000000000000000000000000
+SF:000000000000000000")%r(TLSSessionReq,41,"550\x2012345\x2000000000000000
+SF:00000000000000000000000000000000000000000")%r(Kerberos,41,"550\x2012345
+SF:\x200000000000000000000000000000000000000000000000000000000")%r(SMBProg
+SF:Neg,41,"550\x2012345\x2000000000000000000000000000000000000000000000000
+SF:00000000")%r(X11Probe,41,"550\x2012345\x2000000000000000000000000000000
+SF:00000000000000000000000000")%r(FourOhFourRequest,41,"550\x2012345\x2000
+SF:00000000000000000000000000000000000000000000000000000")%r(LPDString,41,
+SF:"550\x2012345\x20000000000000000000000000000000000000000000000000000000
+SF:0")%r(LDAPSearchReq,41,"550\x2012345\x200000000000000000000000000000000
+SF:000000000000000000000000")%r(LDAPBindReq,41,"550\x2012345\x200000000000
+SF:000000000000000000000000000000000000000000000")%r(SIPOptions,41,"550\x2
+SF:012345\x200000000000000000000000000000000000000000000000000000000")%r(L
+SF:ANDesk-RC,41,"550\x2012345\x2000000000000000000000000000000000000000000
+SF:00000000000000")%r(TerminalServer,41,"550\x2012345\x2000000000000000000
+SF:00000000000000000000000000000000000000");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port6-TCP:V=7.95%I=7%D=3/2%Time=67C3EE3E%P=x86_64-pc-linux-gnu%r(NULL,4
+SF:1,"550\x2012345\x200fffffffffffffffffffffffffffffffffffffffffffffffffff
+SF:f00")%r(GenericLines,41,"550\x2012345\x200fffffffffffffffffffffffffffff
+SF:fffffffffffffffffffffff00")%r(GetRequest,41,"550\x2012345\x200fffffffff
+SF:fffffffffffffffffffffffffffffffffffffffffff00")%r(HTTPOptions,41,"550\x
+SF:2012345\x200ffffffffffffffffffffffffffffffffffffffffffffffffffff00")%r(
+SF:RTSPRequest,41,"550\x2012345\x200ffffffffffffffffffffffffffffffffffffff
+SF:ffffffffffffff00")%r(RPCCheck,41,"550\x2012345\x200ffffffffffffffffffff
+SF:ffffffffffffffffffffffffffffffff00")%r(DNSVersionBindReqTCP,41,"550\x20
+SF:12345\x200ffffffffffffffffffffffffffffffffffffffffffffffffffff00")%r(DN
+SF:SStatusRequestTCP,41,"550\x2012345\x200ffffffffffffffffffffffffffffffff
+SF:ffffffffffffffffffff00")%r(Help,41,"550\x2012345\x200ffffffffffffffffff
+SF:ffffffffffffffffffffffffffffffffff00")%r(SSLSessionReq,41,"550\x2012345
+SF:\x200ffffffffffffffffffffffffffffffffffffffffffffffffffff00")%r(Termina
+SF:lServerCookie,41,"550\x2012345\x200ffffffffffffffffffffffffffffffffffff
+SF:ffffffffffffffff00")%r(TLSSessionReq,41,"550\x2012345\x200fffffffffffff
+SF:fffffffffffffffffffffffffffffffffffffff00")%r(Kerberos,41,"550\x2012345
+SF:\x200ffffffffffffffffffffffffffffffffffffffffffffffffffff00")%r(SMBProg
+SF:Neg,41,"550\x2012345\x200ffffffffffffffffffffffffffffffffffffffffffffff
+SF:ffffff00")%r(X11Probe,41,"550\x2012345\x200ffffffffffffffffffffffffffff
+SF:ffffffffffffffffffffffff00")%r(FourOhFourRequest,41,"550\x2012345\x200f
+SF:fffffffffffffffffffffffffffffffffffffffffffffffffff00")%r(LPDString,41,
+SF:"550\x2012345\x200ffffffffffffffffffffffffffffffffffffffffffffffffffff0
+SF:0")%r(LDAPSearchReq,41,"550\x2012345\x200ffffffffffffffffffffffffffffff
+SF:ffffffffffffffffffffff00")%r(LDAPBindReq,41,"550\x2012345\x200fffffffff
+SF:fffffffffffffffffffffffffffffffffffffffffff00")%r(SIPOptions,41,"550\x2
+SF:012345\x200ffffffffffffffffffffffffffffffffffffffffffffffffffff00")%r(L
+SF:ANDesk-RC,41,"550\x2012345\x200ffffffffffffffffffffffffffffffffffffffff
+SF:ffffffffffff00")%r(TerminalServer,41,"550\x2012345\x200ffffffffffffffff
+SF:ffffffffffffffffffffffffffffffffffff00");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port7-TCP:V=7.95%I=7%D=3/2%Time=67C3EE3E%P=x86_64-pc-linux-gnu%r(NULL,4
+SF:1,"550\x2012345\x200fffffffffffff777778887777777777cfffffffffffffffffff
+SF:f00")%r(Help,41,"550\x2012345\x200fffffffffffff777778887777777777cfffff
+SF:fffffffffffffff00")%r(GenericLines,41,"550\x2012345\x200fffffffffffff77
+SF:7778887777777777cffffffffffffffffffff00")%r(GetRequest,41,"550\x2012345
+SF:\x200fffffffffffff777778887777777777cffffffffffffffffffff00")%r(HTTPOpt
+SF:ions,41,"550\x2012345\x200fffffffffffff777778887777777777cfffffffffffff
+SF:fffffff00")%r(RTSPRequest,41,"550\x2012345\x200fffffffffffff77777888777
+SF:7777777cffffffffffffffffffff00")%r(RPCCheck,41,"550\x2012345\x200ffffff
+SF:fffffff777778887777777777cffffffffffffffffffff00")%r(DNSVersionBindReqT
+SF:CP,41,"550\x2012345\x200fffffffffffff777778887777777777cfffffffffffffff
+SF:fffff00")%r(DNSStatusRequestTCP,41,"550\x2012345\x200fffffffffffff77777
+SF:8887777777777cffffffffffffffffffff00")%r(SSLSessionReq,41,"550\x2012345
+SF:\x200fffffffffffff777778887777777777cffffffffffffffffffff00")%r(Termina
+SF:lServerCookie,41,"550\x2012345\x200fffffffffffff777778887777777777cffff
+SF:ffffffffffffffff00")%r(TLSSessionReq,41,"550\x2012345\x200fffffffffffff
+SF:777778887777777777cffffffffffffffffffff00")%r(Kerberos,41,"550\x2012345
+SF:\x200fffffffffffff777778887777777777cffffffffffffffffffff00")%r(SMBProg
+SF:Neg,41,"550\x2012345\x200fffffffffffff777778887777777777cffffffffffffff
+SF:ffffff00")%r(X11Probe,41,"550\x2012345\x200fffffffffffff777778887777777
+SF:777cffffffffffffffffffff00")%r(FourOhFourRequest,41,"550\x2012345\x200f
+SF:ffffffffffff777778887777777777cffffffffffffffffffff00")%r(LPDString,41,
+SF:"550\x2012345\x200fffffffffffff777778887777777777cffffffffffffffffffff0
+SF:0")%r(LDAPSearchReq,41,"550\x2012345\x200fffffffffffff77777888777777777
+SF:7cffffffffffffffffffff00")%r(LDAPBindReq,41,"550\x2012345\x200fffffffff
+SF:ffff777778887777777777cffffffffffffffffffff00")%r(SIPOptions,41,"550\x2
+SF:012345\x200fffffffffffff777778887777777777cffffffffffffffffffff00")%r(L
+SF:ANDesk-RC,41,"550\x2012345\x200fffffffffffff777778887777777777cffffffff
+SF:ffffffffffff00")%r(TerminalServer,41,"550\x2012345\x200fffffffffffff777
+SF:778887777777777cffffffffffffffffffff00");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port9-TCP:V=7.95%I=7%D=3/2%Time=67C3EE3E%P=x86_64-pc-linux-gnu%r(NULL,4
+SF:1,"550\x2012345\x200ffffffffff80000088808000000888800000008887fffffffff
+SF:f00")%r(GenericLines,41,"550\x2012345\x200ffffffffff8000008880800000088
+SF:8800000008887ffffffffff00")%r(GetRequest,41,"550\x2012345\x200fffffffff
+SF:f80000088808000000888800000008887ffffffffff00")%r(HTTPOptions,41,"550\x
+SF:2012345\x200ffffffffff80000088808000000888800000008887ffffffffff00")%r(
+SF:RTSPRequest,41,"550\x2012345\x200ffffffffff8000008880800000088880000000
+SF:8887ffffffffff00")%r(RPCCheck,41,"550\x2012345\x200ffffffffff8000008880
+SF:8000000888800000008887ffffffffff00")%r(DNSVersionBindReqTCP,41,"550\x20
+SF:12345\x200ffffffffff80000088808000000888800000008887ffffffffff00")%r(DN
+SF:SStatusRequestTCP,41,"550\x2012345\x200ffffffffff8000008880800000088880
+SF:0000008887ffffffffff00")%r(Help,41,"550\x2012345\x200ffffffffff80000088
+SF:808000000888800000008887ffffffffff00")%r(SSLSessionReq,41,"550\x2012345
+SF:\x200ffffffffff80000088808000000888800000008887ffffffffff00")%r(Termina
+SF:lServerCookie,41,"550\x2012345\x200ffffffffff80000088808000000888800000
+SF:008887ffffffffff00")%r(TLSSessionReq,41,"550\x2012345\x200ffffffffff800
+SF:00088808000000888800000008887ffffffffff00")%r(Kerberos,41,"550\x2012345
+SF:\x200ffffffffff80000088808000000888800000008887ffffffffff00")%r(SMBProg
+SF:Neg,41,"550\x2012345\x200ffffffffff80000088808000000888800000008887ffff
+SF:ffffff00")%r(X11Probe,41,"550\x2012345\x200ffffffffff800000888080000008
+SF:88800000008887ffffffffff00")%r(FourOhFourRequest,41,"550\x2012345\x200f
+SF:fffffffff80000088808000000888800000008887ffffffffff00")%r(LPDString,41,
+SF:"550\x2012345\x200ffffffffff80000088808000000888800000008887ffffffffff0
+SF:0")%r(LDAPSearchReq,41,"550\x2012345\x200ffffffffff80000088808000000888
+SF:800000008887ffffffffff00")%r(LDAPBindReq,41,"550\x2012345\x200fffffffff
+SF:f80000088808000000888800000008887ffffffffff00")%r(SIPOptions,41,"550\x2
+SF:012345\x200ffffffffff80000088808000000888800000008887ffffffffff00")%r(L
+SF:ANDesk-RC,41,"550\x2012345\x200ffffffffff800000888080000008888000000088
+SF:87ffffffffff00")%r(TerminalServer,41,"550\x2012345\x200ffffffffff800000
+SF:88808000000888800000008887ffffffffff00");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port13-TCP:V=7.95%I=7%D=3/2%Time=67C3EE3E%P=x86_64-pc-linux-gnu%r(NULL,
+SF:41,"550\x2012345\x200ffffffff000000888000000000800000080000008800007fff
+SF:ff00")%r(GenericLines,41,"550\x2012345\x200ffffffff00000088800000000080
+SF:0000080000008800007fffff00")%r(GetRequest,41,"550\x2012345\x200ffffffff
+SF:000000888000000000800000080000008800007fffff00")%r(HTTPOptions,41,"550\
+SF:x2012345\x200ffffffff000000888000000000800000080000008800007fffff00")%r
+SF:(RTSPRequest,41,"550\x2012345\x200ffffffff00000088800000000080000008000
+SF:0008800007fffff00")%r(RPCCheck,41,"550\x2012345\x200ffffffff00000088800
+SF:0000000800000080000008800007fffff00")%r(DNSVersionBindReqTCP,41,"550\x2
+SF:012345\x200ffffffff000000888000000000800000080000008800007fffff00")%r(D
+SF:NSStatusRequestTCP,41,"550\x2012345\x200ffffffff00000088800000000080000
+SF:0080000008800007fffff00")%r(Help,41,"550\x2012345\x200ffffffff000000888
+SF:000000000800000080000008800007fffff00")%r(SSLSessionReq,41,"550\x201234
+SF:5\x200ffffffff000000888000000000800000080000008800007fffff00")%r(Termin
+SF:alServerCookie,41,"550\x2012345\x200ffffffff000000888000000000800000080
+SF:000008800007fffff00")%r(TLSSessionReq,41,"550\x2012345\x200ffffffff0000
+SF:00888000000000800000080000008800007fffff00")%r(Kerberos,41,"550\x201234
+SF:5\x200ffffffff000000888000000000800000080000008800007fffff00")%r(SMBPro
+SF:gNeg,41,"550\x2012345\x200ffffffff0000008880000000008000000800000088000
+SF:07fffff00")%r(X11Probe,41,"550\x2012345\x200ffffffff0000008880000000008
+SF:00000080000008800007fffff00")%r(FourOhFourRequest,41,"550\x2012345\x200
+SF:ffffffff000000888000000000800000080000008800007fffff00")%r(LPDString,41
+SF:,"550\x2012345\x200ffffffff000000888000000000800000080000008800007fffff
+SF:00")%r(LDAPSearchReq,41,"550\x2012345\x200ffffffff000000888000000000800
+SF:000080000008800007fffff00")%r(LDAPBindReq,41,"550\x2012345\x200ffffffff
+SF:000000888000000000800000080000008800007fffff00")%r(SIPOptions,41,"550\x
+SF:2012345\x200ffffffff000000888000000000800000080000008800007fffff00")%r(
+SF:LANDesk-RC,41,"550\x2012345\x200ffffffff0000008880000000008000000800000
+SF:08800007fffff00")%r(TerminalServer,41,"550\x2012345\x200ffffffff0000008
+SF:88000000000800000080000008800007fffff00");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port17-TCP:V=7.95%I=7%D=3/2%Time=67C3EE3E%P=x86_64-pc-linux-gnu%r(NULL,
+SF:41,"550\x2012345\x200fffff7880000780f7cffff7800f8000008fffffff80808807f
+SF:ff00")%r(GenericLines,41,"550\x2012345\x200fffff7880000780f7cffff7800f8
+SF:000008fffffff80808807fff00")%r(GetRequest,41,"550\x2012345\x200fffff788
+SF:0000780f7cffff7800f8000008fffffff80808807fff00")%r(HTTPOptions,41,"550\
+SF:x2012345\x200fffff7880000780f7cffff7800f8000008fffffff80808807fff00")%r
+SF:(RTSPRequest,41,"550\x2012345\x200fffff7880000780f7cffff7800f8000008fff
+SF:ffff80808807fff00")%r(RPCCheck,41,"550\x2012345\x200fffff7880000780f7cf
+SF:fff7800f8000008fffffff80808807fff00")%r(DNSVersionBindReqTCP,41,"550\x2
+SF:012345\x200fffff7880000780f7cffff7800f8000008fffffff80808807fff00")%r(D
+SF:NSStatusRequestTCP,41,"550\x2012345\x200fffff7880000780f7cffff7800f8000
+SF:008fffffff80808807fff00")%r(Help,41,"550\x2012345\x200fffff7880000780f7
+SF:cffff7800f8000008fffffff80808807fff00")%r(SSLSessionReq,41,"550\x201234
+SF:5\x200fffff7880000780f7cffff7800f8000008fffffff80808807fff00")%r(Termin
+SF:alServerCookie,41,"550\x2012345\x200fffff7880000780f7cffff7800f8000008f
+SF:ffffff80808807fff00")%r(TLSSessionReq,41,"550\x2012345\x200fffff7880000
+SF:780f7cffff7800f8000008fffffff80808807fff00")%r(Kerberos,41,"550\x201234
+SF:5\x200fffff7880000780f7cffff7800f8000008fffffff80808807fff00")%r(SMBPro
+SF:gNeg,41,"550\x2012345\x200fffff7880000780f7cffff7800f8000008fffffff8080
+SF:8807fff00")%r(X11Probe,41,"550\x2012345\x200fffff7880000780f7cffff7800f
+SF:8000008fffffff80808807fff00")%r(FourOhFourRequest,41,"550\x2012345\x200
+SF:fffff7880000780f7cffff7800f8000008fffffff80808807fff00")%r(LPDString,41
+SF:,"550\x2012345\x200fffff7880000780f7cffff7800f8000008fffffff80808807fff
+SF:00")%r(LDAPSearchReq,41,"550\x2012345\x200fffff7880000780f7cffff7800f80
+SF:00008fffffff80808807fff00")%r(LDAPBindReq,41,"550\x2012345\x200fffff788
+SF:0000780f7cffff7800f8000008fffffff80808807fff00")%r(SIPOptions,41,"550\x
+SF:2012345\x200fffff7880000780f7cffff7800f8000008fffffff80808807fff00")%r(
+SF:LANDesk-RC,41,"550\x2012345\x200fffff7880000780f7cffff7800f8000008fffff
+SF:ff80808807fff00")%r(TerminalServer,41,"550\x2012345\x200fffff7880000780
+SF:f7cffff7800f8000008fffffff80808807fff00");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port19-TCP:V=7.95%I=7%D=3/2%Time=67C3EE3E%P=x86_64-pc-linux-gnu%r(NULL,
+SF:41,"550\x2012345\x200ff70008fc77f7000000f80008f8000007f0000000000000888
+SF:ff00")%r(GenericLines,41,"550\x2012345\x200ff70008fc77f7000000f80008f80
+SF:00007f0000000000000888ff00")%r(GetRequest,41,"550\x2012345\x200ff70008f
+SF:c77f7000000f80008f8000007f0000000000000888ff00")%r(HTTPOptions,41,"550\
+SF:x2012345\x200ff70008fc77f7000000f80008f8000007f0000000000000888ff00")%r
+SF:(RTSPRequest,41,"550\x2012345\x200ff70008fc77f7000000f80008f8000007f000
+SF:0000000000888ff00")%r(RPCCheck,41,"550\x2012345\x200ff70008fc77f7000000
+SF:f80008f8000007f0000000000000888ff00")%r(DNSVersionBindReqTCP,41,"550\x2
+SF:012345\x200ff70008fc77f7000000f80008f8000007f0000000000000888ff00")%r(D
+SF:NSStatusRequestTCP,41,"550\x2012345\x200ff70008fc77f7000000f80008f80000
+SF:07f0000000000000888ff00")%r(Help,41,"550\x2012345\x200ff70008fc77f70000
+SF:00f80008f8000007f0000000000000888ff00")%r(SSLSessionReq,41,"550\x201234
+SF:5\x200ff70008fc77f7000000f80008f8000007f0000000000000888ff00")%r(Termin
+SF:alServerCookie,41,"550\x2012345\x200ff70008fc77f7000000f80008f8000007f0
+SF:000000000000888ff00")%r(TLSSessionReq,41,"550\x2012345\x200ff70008fc77f
+SF:7000000f80008f8000007f0000000000000888ff00")%r(Kerberos,41,"550\x201234
+SF:5\x200ff70008fc77f7000000f80008f8000007f0000000000000888ff00")%r(SMBPro
+SF:gNeg,41,"550\x2012345\x200ff70008fc77f7000000f80008f8000007f00000000000
+SF:00888ff00")%r(X11Probe,41,"550\x2012345\x200ff70008fc77f7000000f80008f8
+SF:000007f0000000000000888ff00")%r(FourOhFourRequest,41,"550\x2012345\x200
+SF:ff70008fc77f7000000f80008f8000007f0000000000000888ff00")%r(LPDString,41
+SF:,"550\x2012345\x200ff70008fc77f7000000f80008f8000007f0000000000000888ff
+SF:00")%r(LDAPSearchReq,41,"550\x2012345\x200ff70008fc77f7000000f80008f800
+SF:0007f0000000000000888ff00")%r(LDAPBindReq,41,"550\x2012345\x200ff70008f
+SF:c77f7000000f80008f8000007f0000000000000888ff00")%r(SIPOptions,41,"550\x
+SF:2012345\x200ff70008fc77f7000000f80008f8000007f0000000000000888ff00")%r(
+SF:LANDesk-RC,41,"550\x2012345\x200ff70008fc77f7000000f80008f8000007f00000
+SF:00000000888ff00")%r(TerminalServer,41,"550\x2012345\x200ff70008fc77f700
+SF:0000f80008f8000007f0000000000000888ff00");
+Service Info: Hosts: aZBYr, iBOOHbES, _qvf, FEvh, cokp; OSs: Linux, VxWorks, Unix, Windows, Solaris; Devices: router, firewall, media device, webcam, printer; CPE: cpe:/o:linux:linux_kernel, cpe:/h:netgear:nrnzrdo, cpe:/o:windriver:vxworks, cpe:/h:panasonic:wj-hd316, cpe:/h:kyocera:laserstation_1940
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 860.10 seconds
+           Raw packets sent: 1145 (50.356KB) | Rcvd: 3520 (186.307KB)

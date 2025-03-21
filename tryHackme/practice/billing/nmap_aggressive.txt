@@ -1,0 +1,108 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-11 20:35 IST
+NSE: Loaded 157 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 20:35
+Completed NSE at 20:35, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 20:35
+Completed NSE at 20:35, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 20:35
+Completed NSE at 20:35, 0.00s elapsed
+Initiating Ping Scan at 20:35
+Scanning 10.10.186.60 [4 ports]
+Completed Ping Scan at 20:35, 0.17s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 20:35
+Completed Parallel DNS resolution of 1 host. at 20:35, 0.13s elapsed
+Initiating SYN Stealth Scan at 20:35
+Scanning 10.10.186.60 [3 ports]
+Discovered open port 3306/tcp on 10.10.186.60
+Discovered open port 80/tcp on 10.10.186.60
+Discovered open port 22/tcp on 10.10.186.60
+Completed SYN Stealth Scan at 20:35, 0.29s elapsed (3 total ports)
+Initiating Service scan at 20:35
+Scanning 3 services on 10.10.186.60
+Completed Service scan at 20:35, 6.36s elapsed (3 services on 1 host)
+Initiating OS detection (try #1) against 10.10.186.60
+Retrying OS detection (try #2) against 10.10.186.60
+WARNING: OS didn't match until try #2
+Initiating Traceroute at 20:35
+Completed Traceroute at 20:35, 3.01s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 20:35
+Completed Parallel DNS resolution of 2 hosts. at 20:35, 0.23s elapsed
+NSE: Script scanning 10.10.186.60.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 20:35
+Completed NSE at 20:36, 7.48s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 20:36
+Completed NSE at 20:36, 1.07s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 20:36
+Completed NSE at 20:36, 0.00s elapsed
+Nmap scan report for 10.10.186.60
+Host is up, received reset ttl 60 (0.21s latency).
+Scanned at 2025-03-11 20:35:43 IST for 25s
+
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 60 OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 79:ba:5d:23:35:b2:f0:25:d7:53:5e:c5:b9:af:c0:cc (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCukT/TLi8Po4V6OZVI6yhgSlTaANGLErWG2Hqz9UOxX3XXMFvRe0uivnYlcvBwvSe09IcHjC6qczRgRjdqQOxF2XHUIFBgPjNOR3mb1kfWg5jKAGun6+J9atS8z+5d6CZuv0YWH6jGJTQ1YS9vGNuFvE3coJKSBYtNbpJgBApX67tCQ4YKenrG/AQddi3zZz3mMHN6QldivMC+NCFp+PozjjoJgD4WULCElDwW4IgWjq64bL3Y/+Ii/PnPfLufZwaJNy67TjKv1KKzW0ag2UxqgTjc85feWAxvdWKVoX5FIhCrYwi6Q23BpTDqLSXoJ3irVCdVAqHfyqR72emcEgoWaxseXn2R68SptxxrUcpoMYUXtO1/0MZszBJ5tv3FBfY3NmCeGNwA98JXnJEb+3A1FU/LLN+Ah/Rl40NhrYGRqJcvz/UPreE73G/wjY8LAUnvamR/ybAPDkO+OP47OjPnQwwbmAW6g6BInnx9Ls5XBwULmn0ubMPi6dNWtQDZ0/U=
+|   256 4e:c3:34:af:00:b7:35:bc:9f:f5:b0:d2:aa:35:ae:34 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBVI/7v4DHnwY/FkhLBQ71076mt5xG/9agRtb+vldezX9vOC2UgKnU6N+ySrhLEx2snCFNJGG0dukytLDxxKIcw=
+|   256 26:aa:17:e0:c8:2a:c9:d9:98:17:e4:8f:87:73:78:4d (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII6ogE6DWtLYKAJo+wx+orTODOdYM23iJgDGE2l79ZBN
+80/tcp   open  http    syn-ack ttl 60 Apache httpd 2.4.56 ((Debian))
+| http-title:             MagnusBilling        
+|_Requested resource was http://10.10.186.60/mbilling/
+|_http-server-header: Apache/2.4.56 (Debian)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/mbilling/
+3306/tcp open  mysql   syn-ack ttl 60 MariaDB 10.3.23 or earlier (unauthorized)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 4.X
+OS CPE: cpe:/o:linux:linux_kernel:4.15
+OS details: Linux 4.15
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=3/11%OT=22%CT=%CU=34524%PV=Y%DS=5%DC=T%G=N%TM=67D05160
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=106%TI=Z%CI=Z%II=I%TS=A)SEQ(
+OS:SP=FD%GCD=1%ISR=104%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M508ST11NW7%O2=M508ST11NW
+OS:7%O3=M508NNT11NW7%O4=M508ST11NW7%O5=M508ST11NW7%O6=M508ST11)WIN(W1=F4B3%
+OS:W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W=F507%O=M508N
+OS:NSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=
+OS:Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=4
+OS:0%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=
+OS:G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 33.704 days (since Thu Feb  6 03:41:51 2025)
+Network Distance: 5 hops
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   38.14 ms  10.17.0.1
+2   ... 4
+5   158.75 ms 10.10.186.60
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 20:36
+Completed NSE at 20:36, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 20:36
+Completed NSE at 20:36, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 20:36
+Completed NSE at 20:36, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 25.52 seconds
+           Raw packets sent: 68 (4.520KB) | Rcvd: 41 (3.072KB)

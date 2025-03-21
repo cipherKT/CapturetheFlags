@@ -1,0 +1,38 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-11 20:33 IST
+NSE: Loaded 47 scripts for scanning.
+Initiating Ping Scan at 20:33
+Scanning 10.10.186.60 [4 ports]
+Completed Ping Scan at 20:33, 0.28s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 20:33
+Completed Parallel DNS resolution of 1 host. at 20:33, 0.11s elapsed
+Initiating SYN Stealth Scan at 20:33
+Scanning 10.10.186.60 [1000 ports]
+Discovered open port 80/tcp on 10.10.186.60
+Discovered open port 22/tcp on 10.10.186.60
+Discovered open port 3306/tcp on 10.10.186.60
+Increasing send delay for 10.10.186.60 from 0 to 5 due to 309 out of 1028 dropped probes since last increase.
+Completed SYN Stealth Scan at 20:34, 8.42s elapsed (1000 total ports)
+Initiating Service scan at 20:34
+Scanning 3 services on 10.10.186.60
+Completed Service scan at 20:34, 6.41s elapsed (3 services on 1 host)
+NSE: Script scanning 10.10.186.60.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 20:34
+Completed NSE at 20:34, 0.84s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 20:34
+Completed NSE at 20:34, 0.60s elapsed
+Nmap scan report for 10.10.186.60
+Host is up, received echo-reply ttl 60 (0.23s latency).
+Scanned at 2025-03-11 20:33:57 IST for 16s
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 60 OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp   open  http    syn-ack ttl 60 Apache httpd 2.4.56 ((Debian))
+3306/tcp open  mysql   syn-ack ttl 60 MariaDB 10.3.23 or earlier (unauthorized)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.07 seconds
+           Raw packets sent: 1362 (59.904KB) | Rcvd: 6603 (264.120KB)

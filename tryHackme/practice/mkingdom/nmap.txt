@@ -1,0 +1,12 @@
+# Nmap 7.95 scan initiated Fri Mar 21 19:51:48 2025 as: /usr/lib/nmap/nmap --privileged -p- -sVC -T4 -oN nmap.txt 10.10.248.66
+Warning: 10.10.248.66 giving up on port because retransmission cap hit (6).
+Nmap scan report for 10.10.248.66 (10.10.248.66)
+Host is up (0.14s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+85/tcp open  http    Apache httpd 2.4.7 ((Ubuntu))
+|_http-title: 0H N0! PWN3D 4G4IN
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Mar 21 20:09:28 2025 -- 1 IP address (1 host up) scanned in 1059.60 seconds

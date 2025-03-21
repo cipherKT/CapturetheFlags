@@ -1,0 +1,2 @@
+Metasploit tip: Tired of setting RHOSTS for modules? Try globally setting it 
+with setg RHOSTS x.x.x.x
